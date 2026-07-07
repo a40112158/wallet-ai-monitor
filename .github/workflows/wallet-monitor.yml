@@ -1,0 +1,334 @@
+name: wallet-ai-monitor-ai-control
+run-name: wallet monitor + ai control (${{ inputs.trigger_source || 'manual' }})
+
+on:
+  workflow_dispatch:
+    inputs:
+      trigger_source:
+        description: '触发来源（Cloudflare Cron 会自动填写）'
+        required: false
+        default: 'github-manual'
+        type: string
+      force_optimizer:
+        description: '是否强制运行 AI 自优化：true/false'
+        required: false
+        default: 'false'
+        type: string
+      force_param_optimizer:
+        description: '是否强制运行 AI 参数优化：true/false'
+        required: false
+        default: 'false'
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: wallet-ai-control-state
+  cancel-in-progress: false
+
+jobs:
+  monitor-and-self-optimize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Restore monitor state
+        uses: actions/cache/restore@v4
+        with:
+          path: .state
+          key: wallet-monitor-state-${{ github.run_id }}
+          restore-keys: |
+            wallet-monitor-state-
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run tests before monitor
+        run: python -m pytest -q
+
+      - name: Run wallet monitor
+        env:
+          POE_API_KEY: ${{ secrets.POE_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ENABLED: ${{ vars.TELEGRAM_ENABLED || 'false' }}
+          POE_MODEL_SIGNAL: ${{ vars.POE_MODEL_SIGNAL || 'gpt-5.4-mini' }}
+          POE_MODEL_CODE: ${{ vars.POE_MODEL_CODE || 'Claude-Sonnet-4.6' }}
+          AI_ENABLED: ${{ vars.AI_ENABLED || 'true' }}
+          AI_PARAM_OVERRIDES_ENABLED: ${{ vars.AI_PARAM_OVERRIDES_ENABLED || 'true' }}
+          HL_CONCURRENCY: ${{ vars.HL_CONCURRENCY || '3' }}
+          MIN_DELTA_NOTIONAL_USD: ${{ vars.MIN_DELTA_NOTIONAL_USD || '100000' }}
+          MIN_SINGLE_WHALE_DELTA_USD: ${{ vars.MIN_SINGLE_WHALE_DELTA_USD || '250000' }}
+          MIN_WALLET_COUNT: ${{ vars.MIN_WALLET_COUNT || '3' }}
+          MAX_WALLETS_PER_RUN: ${{ vars.MAX_WALLETS_PER_RUN || '999999' }}
+          AUTO_SHARD_ROTATION: ${{ vars.AUTO_SHARD_ROTATION || 'false' }}
+          WARMUP_MISSING_WALLETS: ${{ vars.WARMUP_MISSING_WALLETS || 'true' }}
+          AI_CACHE_TTL_MINUTES: ${{ vars.AI_CACHE_TTL_MINUTES || '90' }}
+          AI_MIN_TOTAL_DELTA_NOTIONAL: ${{ vars.AI_MIN_TOTAL_DELTA_NOTIONAL || '150000' }}
+          AI_MIN_WALLET_COUNT_FOR_CALL: ${{ vars.AI_MIN_WALLET_COUNT_FOR_CALL || '2' }}
+          TOP_SIGNALS_FOR_AI: ${{ vars.TOP_SIGNALS_FOR_AI || '8' }}
+          AI_BUDGET_ADAPTIVE: ${{ vars.AI_BUDGET_ADAPTIVE || 'true' }}
+          AI_DAILY_TARGET_POINTS: ${{ vars.AI_DAILY_TARGET_POINTS || '33333' }}
+          AI_POINTS_PER_USD: ${{ vars.AI_POINTS_PER_USD || '33333' }}
+          AI_SIGNAL_INPUT_COST_PER_MILLION_USD: ${{ vars.AI_SIGNAL_INPUT_COST_PER_MILLION_USD || '0.68' }}
+          AI_SIGNAL_OUTPUT_COST_PER_MILLION_USD: ${{ vars.AI_SIGNAL_OUTPUT_COST_PER_MILLION_USD || '4.09' }}
+          SIGNAL_COOLDOWN_MINUTES: ${{ vars.SIGNAL_COOLDOWN_MINUTES || '360' }}
+          SIGNAL_REALERT_MULTIPLIER: ${{ vars.SIGNAL_REALERT_MULTIPLIER || '2.0' }}
+          SIGNAL_EXIT_DECAY_RATIO: ${{ vars.SIGNAL_EXIT_DECAY_RATIO || '0.5' }}
+          MARKET_CANDLES_ENABLED: ${{ vars.MARKET_CANDLES_ENABLED || 'true' }}
+          MARKET_CANDLE_INTERVALS: ${{ vars.MARKET_CANDLE_INTERVALS || '5m,15m,1h' }}
+          MARKET_CANDLE_LOOKBACK_MINUTES: ${{ vars.MARKET_CANDLE_LOOKBACK_MINUTES || '180' }}
+          MARKET_CANDLE_CONCURRENCY: ${{ vars.MARKET_CANDLE_CONCURRENCY || '4' }}
+          MARKET_MAX_CANDLE_COINS: ${{ vars.MARKET_MAX_CANDLE_COINS || '12' }}
+          STATE_BACKUP_ENABLED: ${{ vars.STATE_BACKUP_ENABLED || 'true' }}
+          STATE_BACKUP_KEEP: ${{ vars.STATE_BACKUP_KEEP || '8' }}
+          VIRTUAL_TRADING_ENABLED: ${{ vars.VIRTUAL_TRADING_ENABLED || 'true' }}
+          VIRTUAL_ACCOUNT_CAPITAL_USD: ${{ vars.VIRTUAL_ACCOUNT_CAPITAL_USD || '10000' }}
+          VIRTUAL_TRADE_NOTIONAL_USD: ${{ vars.VIRTUAL_TRADE_NOTIONAL_USD || '0' }}
+          VIRTUAL_MAX_OPEN_TRADES: ${{ vars.VIRTUAL_MAX_OPEN_TRADES || '6' }}
+          VIRTUAL_MIN_AI_CONFIDENCE: ${{ vars.VIRTUAL_MIN_AI_CONFIDENCE || '70' }}
+          VIRTUAL_TAKE_PROFIT_PCT: ${{ vars.VIRTUAL_TAKE_PROFIT_PCT || '8' }}
+          VIRTUAL_STOP_LOSS_PCT: ${{ vars.VIRTUAL_STOP_LOSS_PCT || '3' }}
+          VIRTUAL_MAX_HOLD_HOURS: ${{ vars.VIRTUAL_MAX_HOLD_HOURS || '168' }}
+          AI_TRADE_MANAGEMENT_ENABLED: ${{ vars.AI_TRADE_MANAGEMENT_ENABLED || 'true' }}
+          AI_POSITION_SIZING_ENABLED: ${{ vars.AI_POSITION_SIZING_ENABLED || 'true' }}
+          AI_MIN_LEVERAGE: ${{ vars.AI_MIN_LEVERAGE || '1' }}
+          AI_MAX_LEVERAGE: ${{ vars.AI_MAX_LEVERAGE || '10' }}
+          AI_MIN_MARGIN_PCT_PER_TRADE: ${{ vars.AI_MIN_MARGIN_PCT_PER_TRADE || '0.5' }}
+          AI_MAX_MARGIN_PCT_PER_TRADE: ${{ vars.AI_MAX_MARGIN_PCT_PER_TRADE || '8' }}
+          AI_MAX_TOTAL_MARGIN_PCT: ${{ vars.AI_MAX_TOTAL_MARGIN_PCT || '35' }}
+          AI_CLOSE_MIN_CONFIDENCE: ${{ vars.AI_CLOSE_MIN_CONFIDENCE || '65' }}
+          AI_TRADE_DECISION_MAX_TOKENS: ${{ vars.AI_TRADE_DECISION_MAX_TOKENS || '1800' }}
+          AI_SCORING_ENABLED: ${{ vars.AI_SCORING_ENABLED || 'true' }}
+          AI_MIN_FINAL_SCORE_FOR_OPEN: ${{ vars.AI_MIN_FINAL_SCORE_FOR_OPEN || '65' }}
+          AI_SCORE_WEIGHT: ${{ vars.AI_SCORE_WEIGHT || '0.60' }}
+          AI_RULE_SCORE_WEIGHT: ${{ vars.AI_RULE_SCORE_WEIGHT || '0.25' }}
+          AI_CONFIDENCE_SCORE_WEIGHT: ${{ vars.AI_CONFIDENCE_SCORE_WEIGHT || '0.15' }}
+          VIRTUAL_CLOSE_WARNING_ENABLED: ${{ vars.VIRTUAL_CLOSE_WARNING_ENABLED || 'true' }}
+          VIRTUAL_AI_PRE_CLOSE_MIN_CONFIDENCE: ${{ vars.VIRTUAL_AI_PRE_CLOSE_MIN_CONFIDENCE || '50' }}
+          VIRTUAL_CLOSE_WARNING_TP_RATIO: ${{ vars.VIRTUAL_CLOSE_WARNING_TP_RATIO || '0.75' }}
+          VIRTUAL_CLOSE_WARNING_SL_RATIO: ${{ vars.VIRTUAL_CLOSE_WARNING_SL_RATIO || '0.75' }}
+          VIRTUAL_CLOSE_WARNING_MAX_HOLD_RATIO: ${{ vars.VIRTUAL_CLOSE_WARNING_MAX_HOLD_RATIO || '0.80' }}
+          SWING_MODE_ENABLED: ${{ vars.SWING_MODE_ENABLED || 'true' }}
+          SWING_WINDOWS_HOURS: ${{ vars.SWING_WINDOWS_HOURS || '2,6,24,72,168' }}
+          SWING_MIN_SCORE_FOR_AI: ${{ vars.SWING_MIN_SCORE_FOR_AI || '60' }}
+          SWING_WATCH_SCORE: ${{ vars.SWING_WATCH_SCORE || '65' }}
+          SWING_STRONG_SCORE: ${{ vars.SWING_STRONG_SCORE || '80' }}
+          SWING_HORIZON_DAYS: ${{ vars.SWING_HORIZON_DAYS || '3-14' }}
+          WALLET_PERFORMANCE_ENABLED: ${{ vars.WALLET_PERFORMANCE_ENABLED || 'true' }}
+          WALLET_PERF_HORIZONS_HOURS: ${{ vars.WALLET_PERF_HORIZONS_HOURS || '24,72,168' }}
+          WALLET_PERF_MIN_SAMPLE_SIZE: ${{ vars.WALLET_PERF_MIN_SAMPLE_SIZE || '5' }}
+          WALLET_PERF_WEIGHT_IN_SIGNAL: ${{ vars.WALLET_PERF_WEIGHT_IN_SIGNAL || '0.25' }}
+          WALLET_PERF_DECAY_DAYS: ${{ vars.WALLET_PERF_DECAY_DAYS || '30' }}
+          WALLET_PERF_MIN_DELTA_NOTIONAL: ${{ vars.WALLET_PERF_MIN_DELTA_NOTIONAL || '50000' }}
+        run: python -m wallet_ai_monitor.main
+
+      - name: Decide AI parameter optimization
+        id: param_gate
+        shell: bash
+        env:
+          FORCE_PARAM_OPTIMIZER: ${{ inputs.force_param_optimizer }}
+          AI_PARAM_OPTIMIZER_ENABLED: ${{ vars.AI_PARAM_OPTIMIZER_ENABLED || 'true' }}
+          AI_PARAM_OPTIMIZER_EVERY_N_RUNS: ${{ vars.AI_PARAM_OPTIMIZER_EVERY_N_RUNS || '2' }}
+        run: |
+          set -euo pipefail
+          should_run="false"
+          reason="disabled"
+          if [[ "${FORCE_PARAM_OPTIMIZER}" == "true" ]]; then
+            should_run="true"
+            reason="manual-force"
+          elif [[ "${AI_PARAM_OPTIMIZER_ENABLED}" == "true" ]]; then
+            n="${AI_PARAM_OPTIMIZER_EVERY_N_RUNS}"
+            if ! [[ "$n" =~ ^[0-9]+$ ]] || [[ "$n" -lt 1 ]]; then
+              n=2
+            fi
+            if (( GITHUB_RUN_NUMBER % n == 0 )); then
+              should_run="true"
+              reason="every-${n}-runs"
+            else
+              reason="skip-run-number-${GITHUB_RUN_NUMBER}-mod-${n}"
+            fi
+          fi
+          echo "should_run=${should_run}" >> "$GITHUB_OUTPUT"
+          echo "reason=${reason}" >> "$GITHUB_OUTPUT"
+          echo "AI parameter optimizer decision: ${should_run} (${reason})"
+
+      - name: Run AI parameter optimizer
+        id: param_optimizer
+        if: steps.param_gate.outputs.should_run == 'true'
+        continue-on-error: true
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          POE_API_KEY: ${{ secrets.POE_API_KEY }}
+          POE_MODEL_PARAM: ${{ vars.POE_MODEL_PARAM || vars.POE_MODEL_CODE || 'Claude-Sonnet-4.6' }}
+          POE_MODEL_CODE: ${{ vars.POE_MODEL_CODE || 'Claude-Sonnet-4.6' }}
+          POE_BASE_URL: ${{ vars.POE_BASE_URL || 'https://api.poe.com/v1' }}
+          AI_PARAM_OPTIMIZER_ENABLED: ${{ vars.AI_PARAM_OPTIMIZER_ENABLED || 'true' }}
+          AI_PARAM_OPTIMIZER_MAX_TOKENS: ${{ vars.AI_PARAM_OPTIMIZER_MAX_TOKENS || '2500' }}
+          AI_CODE_INPUT_COST_PER_MILLION_USD: ${{ vars.AI_CODE_INPUT_COST_PER_MILLION_USD || '2.58' }}
+          AI_CODE_OUTPUT_COST_PER_MILLION_USD: ${{ vars.AI_CODE_OUTPUT_COST_PER_MILLION_USD || '12.88' }}
+          AI_POINTS_PER_USD: ${{ vars.AI_POINTS_PER_USD || '33333' }}
+        run: python tools/ai_param_optimizer.py
+
+      - name: Commit AI parameter overrides
+        if: steps.param_gate.outputs.should_run == 'true' && steps.param_optimizer.outcome == 'success'
+        shell: bash
+        env:
+          AI_PARAM_DIRECT_PUSH: ${{ vars.AI_PARAM_DIRECT_PUSH || 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "wallet-param-ai-bot"
+          git config user.email "wallet-param-ai-bot@users.noreply.github.com"
+
+          git add config/ai_param_overrides.env
+          if git diff --cached --quiet; then
+            echo "No AI parameter changes to commit."
+            exit 0
+          fi
+
+          echo "AI parameter files:"
+          git diff --cached --name-only
+
+          if [[ "${AI_PARAM_DIRECT_PUSH}" != "true" ]]; then
+            echo "AI_PARAM_DIRECT_PUSH is not true; discard parameter overrides and keep report files only."
+            git restore --staged config/ai_param_overrides.env || true
+            git restore config/ai_param_overrides.env || true
+            exit 0
+          fi
+
+          python -m pytest -q
+          git commit -m "ai: tune signal parameters [skip ci]"
+          git push origin HEAD:${GITHUB_REF_NAME}
+
+      - name: Decide AI self-optimization
+        id: ai_gate
+        shell: bash
+        env:
+          FORCE_OPTIMIZER: ${{ inputs.force_optimizer }}
+          AI_SELF_OPTIMIZE: ${{ vars.AI_SELF_OPTIMIZE || 'true' }}
+          AI_OPTIMIZER_EVERY_N_RUNS: ${{ vars.AI_OPTIMIZER_EVERY_N_RUNS || '4' }}
+        run: |
+          set -euo pipefail
+          should_run="false"
+          reason="disabled"
+          if [[ "${FORCE_OPTIMIZER}" == "true" ]]; then
+            should_run="true"
+            reason="manual-force"
+          elif [[ "${AI_SELF_OPTIMIZE}" == "true" ]]; then
+            n="${AI_OPTIMIZER_EVERY_N_RUNS}"
+            if ! [[ "$n" =~ ^[0-9]+$ ]] || [[ "$n" -lt 1 ]]; then
+              n=4
+            fi
+            if (( GITHUB_RUN_NUMBER % n == 0 )); then
+              should_run="true"
+              reason="every-${n}-runs"
+            else
+              reason="skip-run-number-${GITHUB_RUN_NUMBER}-mod-${n}"
+            fi
+          fi
+          echo "should_run=${should_run}" >> "$GITHUB_OUTPUT"
+          echo "reason=${reason}" >> "$GITHUB_OUTPUT"
+          echo "AI optimizer decision: ${should_run} (${reason})"
+
+      - name: Run AI self-optimizer
+        id: ai_optimizer
+        if: steps.ai_gate.outputs.should_run == 'true'
+        continue-on-error: true
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          POE_API_KEY: ${{ secrets.POE_API_KEY }}
+          POE_MODEL_CODE: ${{ vars.POE_MODEL_CODE || 'Claude-Sonnet-4.6' }}
+          POE_BASE_URL: ${{ vars.POE_BASE_URL || 'https://api.poe.com/v1' }}
+          AI_OPTIMIZER_AGGRESSIVE: ${{ vars.AI_OPTIMIZER_AGGRESSIVE || '1' }}
+          AI_OPTIMIZER_MAX_TOKENS: ${{ vars.AI_OPTIMIZER_MAX_TOKENS || '5000' }}
+          AI_CODE_INPUT_COST_PER_MILLION_USD: ${{ vars.AI_CODE_INPUT_COST_PER_MILLION_USD || '2.58' }}
+          AI_CODE_OUTPUT_COST_PER_MILLION_USD: ${{ vars.AI_CODE_OUTPUT_COST_PER_MILLION_USD || '12.88' }}
+          AI_POINTS_PER_USD: ${{ vars.AI_POINTS_PER_USD || '33333' }}
+          ALLOW_AUTO_PATCH: '1'
+        run: python tools/ai_optimizer.py
+
+      - name: Commit AI changes to same branch
+        if: steps.ai_gate.outputs.should_run == 'true' && steps.ai_optimizer.outcome == 'success'
+        shell: bash
+        env:
+          AI_DIRECT_PUSH: ${{ vars.AI_DIRECT_PUSH || 'true' }}
+        run: |
+          set -euo pipefail
+          git status --short
+          git config user.name "wallet-ai-control-bot"
+          git config user.email "wallet-ai-control-bot@users.noreply.github.com"
+
+          # The optimizer writes debug artifacts under .state/optimizer/.
+          # This step only stages whitelisted project files; report files are committed in the next step.
+          git add wallet_ai_monitor tests tools .env.example .github/workflows/wallet-monitor.yml
+          if git diff --cached --quiet; then
+            echo "No whitelisted AI code/config changes to commit."
+            exit 0
+          fi
+
+          echo "AI staged files:"
+          git diff --cached --name-only
+
+          if [[ "${AI_DIRECT_PUSH}" != "true" ]]; then
+            echo "AI_DIRECT_PUSH is not true; discard AI code/config edits and only keep reports."
+            git restore --staged wallet_ai_monitor tests tools .env.example .github/workflows/wallet-monitor.yml || true
+            git restore wallet_ai_monitor tests tools .env.example .github/workflows/wallet-monitor.yml || true
+            exit 0
+          fi
+
+          python -m pytest -q
+          git commit -m "ai: self-optimize wallet monitor [skip ci]"
+          git push origin HEAD:${GITHUB_REF_NAME}
+
+
+      - name: Commit reports to repository
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "wallet-report-bot"
+          git config user.email "wallet-report-bot@users.noreply.github.com"
+
+          if [[ ! -d reports ]]; then
+            echo "No reports directory found; skip committing reports."
+            exit 0
+          fi
+
+          # Commit only report files. Runtime DB/state remains in cache/artifacts, not the repository.
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+            exit 0
+          fi
+
+          git commit -m "reports: update wallet monitor reports [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin HEAD:"${GITHUB_REF_NAME}"
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wallet-monitor-reports
+          path: |
+            reports/
+            .state/*.sqlite3
+            .state/backups/*.sqlite3
+
+      - name: Save monitor state
+        uses: actions/cache/save@v4
+        if: always() && hashFiles('.state/**') != ''
+        with:
+          path: .state
+          key: wallet-monitor-state-${{ github.run_id }}
