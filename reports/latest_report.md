@@ -1,22 +1,22 @@
 # 钱包合约信号报告
 
-Time: **2026-07-07 23:30:31 UTC**
+Time: **2026-07-08 00:00:32 UTC**
 
 ## 运行状态
 
 - 钱包：总数 2421，本轮扫描 2421，offset=0，next=0
 - 请求：成功 2421，失败 0（失败钱包保留旧基线）
-- 基线钱包：1228，本轮 warmup 钱包：1193，变动事件：1230
-- AI 输入信号：0，虚拟开仓：0，动态评分钱包：129
-- 钱包胜率层：enabled=True，新记录=69，本轮评估=0，窗口=24,72,168h
-- AI预算：mode=over_spending，今日估算 47897/33333 points，阈值倍率=1.35，AI阈值=$67,500
-- 市场确认：K线币数 6，生命周期事件 5，冷却合并 4
-- 信号状态：NEW=0，RE_ALERT=0，REPEAT=0，追踪状态=4
-- 中长期模式：True，窗口=2,6,24,72,168h，强候选=0，观察候选=0
+- 基线钱包：1225，本轮 warmup 钱包：1196，变动事件：1408
+- AI 输入信号：1，虚拟开仓：0，动态评分钱包：131
+- 钱包胜率层：enabled=True，新记录=183，本轮评估=0，窗口=24,72,168h
+- AI预算：mode=under_spending_expand，今日估算 0/33333 points，阈值倍率=0.55，AI阈值=$27,500
+- 市场确认：K线币数 5，生命周期事件 10，冷却合并 6
+- 信号状态：NEW=0，RE_ALERT=0，REPEAT=1，追踪状态=7
+- 中长期模式：True，窗口=2,6,24,72,168h，强候选=1，观察候选=0
 
 ### 24h运行健康
 
-- runs=31，signals=56，avg_duration=195.1s，AI calls=41，AI estimated points=47897
+- runs=32，signals=56，avg_duration=195.6s，AI calls=42，AI estimated points=47897
 
 ### 钱包分类/胜率
 
@@ -24,42 +24,70 @@ Time: **2026-07-07 23:30:31 UTC**
 
 | wallet | group | grade | score | trades | win72 | avg72 | win7d | avg7d |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| 0xbf732e...575d58 | money_printer | NEW | 2.08 | 1 | - | - | - | - |
-| 0xb2f737...1baf9f | money_printer | NEW | 2.07 | 1 | - | - | - | - |
-| 0xbb8285...59e19f | smart_money | NEW | 2.07 | 1 | - | - | - | - |
-| 0x592838...54d5f9 | smart_money | NEW | 2.06 | 1 | - | - | - | - |
-| 0xfe7ce0...6ab7ae | money_printer | NEW | 1.88 | 1 | - | - | - | - |
-| 0x35af6c...b31428 | smart_money | NEW | 1.78 | 1 | - | - | - | - |
-| 0xb83de0...7d6e36 | money_printer | NEW | 1.73 | 1 | - | - | - | - |
-| 0x0b1ace...f27741 | smart_money | NEW | 1.72 | 1 | - | - | - | - |
-| 0xa33a4a...081ff8 | money_printer | NEW | 1.72 | 1 | - | - | - | - |
-| 0x16c952...e1a282 | smart_money | NEW | 1.72 | 1 | - | - | - | - |
+| 0xb2f737...1baf9f | money_printer | NEW | 2.19 | 1 | - | - | - | - |
+| 0xbb8285...59e19f | smart_money | NEW | 2.19 | 1 | - | - | - | - |
+| 0x592838...54d5f9 | smart_money | NEW | 2.18 | 1 | - | - | - | - |
+| 0xbf732e...575d58 | money_printer | NEW | 2.00 | 1 | - | - | - | - |
+| 0xfe7ce0...6ab7ae | money_printer | NEW | 1.93 | 1 | - | - | - | - |
+| 0x35af6c...b31428 | smart_money | NEW | 1.88 | 1 | - | - | - | - |
+| 0x16c952...e1a282 | smart_money | NEW | 1.82 | 1 | - | - | - | - |
+| 0xfe72c2...5241ce | smart_money | NEW | 1.82 | 1 | - | - | - | - |
+| 0xb83de0...7d6e36 | money_printer | NEW | 1.79 | 1 | - | - | - | - |
+| 0x0b1ace...f27741 | smart_money | NEW | 1.78 | 1 | - | - | - | - |
 
 ## AI 状态
 
-No significant signal met AI trigger
+Error code: 401 - {'error': {'message': 'Incorrect API key provided. You can find your API key at https://poe.com/api/keys.', 'type': 'authentication_error', 'code': 'invalid_api_key'}}
+
+## 中长期合约开单候选池
+
+### 开多强候选
+
+- **SOL LONG** [ACTIVE_REPEAT / 第8轮 / 持续14.8小时 / 冷却剩余7.0小时 / 金额变化1.50x] swing=88.0 AI=- conf=- AI分=None 综合=88.0 delta=$1,078,314 wallets=4 q=50/100 高质=1 样本=4 horizon=3-14
 
 ## 本轮开仓/加仓信号
 
-本轮没有达到阈值的开多/开空信号。
+### 1. SOL OPEN_LONG / Swing 88.0 / AI评分 None / 综合 88.0 / AI置信度 -
+
+- 钱包数：4，分组：{'smart_money': 2, 'money_printer': 2}，事件：{'INCREASE_POSITION': 3, 'FLIP_POSITION': 1}，中长期桶：STRONG_CANDIDATE
+- 新增/加仓名义金额：$1,078,314，最大单钱包：$429,289
+- 标记价：80.5705，均价：80.636525，权重分：25.3861，净偏向分：6.3465
+- AI独立评分：None，规则评分：88.0，综合开仓评分：88.0，评分来源：rule_fallback
+- 信号状态：ACTIVE_REPEAT / 第8轮 / 持续14.8小时 / 冷却剩余7.0小时 / 金额变化1.50x
+- 钱包质量：50/100 高质=1 样本=4，高质量钱包=1，低质量钱包=1，72h胜率=-，7d胜率=-
+- 多空冲突：HIGH，反向金额=$1,122,703，冲突比=1.0412
+- 市场：funding=-1.9934e-06，OI=5495269.500000001，oracle=80.62，15m=-0.5928% ，1h=-0.5928% ，volRatio=0.9423
+- 中长期评分：88.0 / 桶=STRONG_CANDIDATE / 周期=3-14天
+- 钱包净流：2h=$1,078,314，6h=$1,078,314，24h=$3,659,460
+- 评分拆解：{'wallet_resonance': 23.0, 'wallet_quality': 5.0, 'multi_window_accumulation': 25.0, 'money_printer_weight': 12.0, 'price_position_health': 13.0, 'oi_funding_health': 10.0, 'low_direction_conflict': 0.0}
+- 风险标签：direction_conflict, high_long_short_conflict, money_printer_confirmed, multi_round_accumulation, swing_strong
+- Top wallets：
+  - 0x72cb918356c4f6d3f1b2e532928110ba6995f139 money_printer INCREASE_POSITION $429,289 score=0.65 grade=NEW win72=- avg72=-
+  - 0x5323b92268b4e140ac2133c677e991cd9ad1b23c smart_money INCREASE_POSITION $307,522 score=1.02 grade=B win72=- avg72=-
+  - 0x39475d17bcd20adc540e647dae6781b153fbf3b1 money_printer FLIP_POSITION $171,539 score=1.12 grade=NEW win72=- avg72=-
 
 ## 减仓/平仓风险信号
 
-- **BTC EXIT_SHORT** wallets=8 amount=$3,628,733 score=57.8412 groups={'money_printer': 8}
-- **ETH EXIT_SHORT** wallets=4 amount=$1,103,715 score=32.0555 groups={'money_printer': 4}
-- **BTC EXIT_LONG** wallets=3 amount=$3,917,082 score=22.4463 groups={'smart_money': 1, 'money_printer': 2}
-- **HYPE EXIT_LONG** wallets=2 amount=$597,581 score=12.5148 groups={'smart_money': 1, 'money_printer': 1}
-- **SOL EXIT_SHORT** wallets=1 amount=$117,437 score=7.408 groups={'money_printer': 1}
-- **ZEC EXIT_SHORT** wallets=1 amount=$158,894 score=6.9746 groups={'money_printer': 1}
-- **LIT EXIT_SHORT** wallets=1 amount=$135,735 score=6.8828 groups={'money_printer': 1}
+- **BTC EXIT_SHORT** wallets=12 amount=$5,465,077 score=81.7203 groups={'smart_money': 2, 'money_printer': 10}
+- **SOL EXIT_SHORT** wallets=4 amount=$1,659,668 score=28.5435 groups={'money_printer': 3, 'smart_money': 1}
+- **ETH EXIT_SHORT** wallets=2 amount=$25,005,533 score=15.6638 groups={'money_printer': 2}
+- **HYPE EXIT_SHORT** wallets=2 amount=$1,043,530 score=13.8493 groups={'smart_money': 1, 'money_printer': 1}
+- **ZEC EXIT_SHORT** wallets=2 amount=$386,298 score=12.4402 groups={'smart_money': 1, 'money_printer': 1}
+- **HYPE EXIT_LONG** wallets=2 amount=$976,517 score=12.1129 groups={'smart_money': 2}
+- **ETH EXIT_LONG** wallets=2 amount=$554,442 score=11.1382 groups={'smart_money': 2}
 
 ## 信号生命周期/冷却
 
-- **COOLDOWN_MERGED** BTC SHORT 第24轮 amount=$3,599,245 prev=58 exit_ratio=- amount_ratio=0.42x age=60.0m cooldown_left=7.0小时
-- **COOLDOWN_MERGED** ETH SHORT 第19轮 amount=$3,560,500 prev=50 exit_ratio=- amount_ratio=1.00x age=270.1m cooldown_left=5.5小时
-- **COOLDOWN_MERGED** HYPE SHORT 第9轮 amount=$566,825 prev=53 exit_ratio=- amount_ratio=0.91x age=240.0m cooldown_left=3.0小时
-- **COOLDOWN_MERGED** BTC LONG 第17轮 amount=$263,036 prev=55 exit_ratio=- amount_ratio=0.14x age=119.9m cooldown_left=6.5小时
-- **ACTIVE_SIGNAL_DECAY** BTC SHORT 第24轮 amount=$3,628,733 prev=58 exit_ratio=0.8345 amount_ratio=0.42x age=-m cooldown_left=7.0小时
+- **COOLDOWN_MERGED** ETH SHORT 第20轮 amount=$14,634,009 prev=50 exit_ratio=- amount_ratio=4.11x age=300.1m cooldown_left=7.0小时
+- **COOLDOWN_MERGED** BTC LONG 第18轮 amount=$3,899,584 prev=55 exit_ratio=- amount_ratio=14.83x age=149.9m cooldown_left=6.0小时
+- **COOLDOWN_MERGED** HYPE LONG 第10轮 amount=$762,314 prev=49 exit_ratio=- amount_ratio=2.20x age=300.1m cooldown_left=7.0小时
+- **COOLDOWN_MERGED** HYPE SHORT 第10轮 amount=$1,020,794 prev=53 exit_ratio=- amount_ratio=1.80x age=270.0m cooldown_left=2.5小时
+- **COOLDOWN_MERGED** SOL SHORT 第14轮 amount=$1,122,703 prev=47 exit_ratio=- amount_ratio=1.62x age=390.0m cooldown_left=7.0小时
+- **COOLDOWN_MERGED** BTC SHORT 第25轮 amount=$999,077 prev=58 exit_ratio=- amount_ratio=0.28x age=90.0m cooldown_left=7.0小时
+- **ACTIVE_SIGNAL_DECAY** BTC SHORT 第25轮 amount=$5,465,077 prev=58 exit_ratio=1.2567 amount_ratio=0.28x age=-m cooldown_left=7.0小时
+- **ACTIVE_SIGNAL_DECAY** ETH SHORT 第20轮 amount=$25,005,533 prev=50 exit_ratio=1.5997 amount_ratio=4.11x age=-m cooldown_left=7.0小时
+- **ACTIVE_SIGNAL_DECAY** HYPE LONG 第10轮 amount=$976,517 prev=49 exit_ratio=0.638 amount_ratio=2.20x age=-m cooldown_left=7.0小时
+- **ACTIVE_SIGNAL_DECAY** SOL SHORT 第14轮 amount=$1,659,668 prev=47 exit_ratio=0.7167 amount_ratio=1.62x age=-m cooldown_left=7.0小时
 
 ## 虚拟跟单账户（总本金模式）
 
@@ -74,42 +102,42 @@ No significant signal met AI trigger
 
 > 这部分只是追踪历史信号方向对不对，不占用虚拟本金，也不是实际开仓盈亏。模拟账户表现请看上面的“虚拟跟单账户”。
 
-- 追踪信号：58 条，方向正确 25，方向错误 33，平均方向收益 0.05%，最好 5.29%，最差 -5.29%
+- 追踪信号：59 条，方向正确 27，方向错误 32，平均方向收益 0.18%，最好 6.45%，最差 -5.33%
 
 <details>
 <summary>展开查看最近/波动最大的信号方向追踪明细</summary>
 
 | signal_id | coin | side | entry | current | pnl% | 保守pnl% | MFE% | MAE% |
 |---:|---|---|---:|---:|---:|---:|---:|---:|
-| 21 | ZEC | LONG | 463.135 | 487.615 | 5.29 | 5.16 | 10.16 | -1.19 |
-| 19 | ZEC | SHORT | 463.135 | 487.615 | -5.29 | -5.42 | 1.19 | -10.16 |
-| 18 | LIT | SHORT | 2.63175 | 2.4948 | 5.20 | 5.07 | 6.21 | -2.05 |
-| 6 | LIT | SHORT | 2.6279 | 2.4948 | 5.06 | 4.93 | 6.07 | -2.20 |
-| 34 | JTO | LONG | 0.77639 | 0.73958 | -4.74 | -4.87 | 0.55 | -6.78 |
-| 45 | MON | LONG | 0.025817 | 0.024661 | -4.48 | -4.61 | 0.89 | -7.78 |
-| 44 | VVV | SHORT | 11.1805 | 10.693 | 4.36 | 4.23 | 5.94 | 0.00 |
-| 33 | ZEC | SHORT | 469.59 | 487.615 | -3.84 | -3.97 | 0.00 | -8.65 |
-| 13 | GRAM | SHORT | 1.6858 | 1.63095 | 3.25 | 3.12 | 3.89 | -0.52 |
-| 31 | NEAR | LONG | 2.05555 | 1.98875 | -3.25 | -3.38 | 1.11 | -3.63 |
-| 41 | HYPE | SHORT | 71.902 | 69.8415 | 2.87 | 2.74 | 3.94 | -0.38 |
-| 16 | HYPE | LONG | 71.6085 | 69.8415 | -2.47 | -2.60 | 1.59 | -3.54 |
-| 28 | HYPE | SHORT | 71.49 | 69.8415 | 2.31 | 2.18 | 3.38 | -1.76 |
-| 47 | SOL | SHORT | 82.5535 | 81.0785 | 1.79 | 1.66 | 2.27 | -0.08 |
-| 8 | NEAR | SHORT | 2.0234 | 1.98875 | 1.71 | 1.58 | 2.10 | -2.72 |
-| 4 | HYPE | SHORT | 71.0475 | 69.8415 | 1.70 | 1.57 | 2.78 | -2.39 |
-| 37 | ZEC | LONG | 495.815 | 487.615 | -1.65 | -1.78 | 2.90 | -3.70 |
-| 7 | XRP | SHORT | 1.13285 | 1.11665 | 1.43 | 1.30 | 1.94 | 0.00 |
-| 42 | ETH | SHORT | 1803.55 | 1780.25 | 1.29 | 1.16 | 1.76 | -0.39 |
-| 46 | ETH | LONG | 1801.95 | 1780.25 | -1.20 | -1.33 | 0.48 | -1.68 |
-| 51 | ZEC | LONG | 493.435 | 487.615 | -1.18 | -1.31 | 0.83 | -3.24 |
-| 40 | SOL | LONG | 82.0335 | 81.0785 | -1.16 | -1.29 | 0.71 | -1.65 |
-| 26 | BTC | SHORT | 62945.5 | 63658.5 | -1.13 | -1.26 | 0.00 | -1.93 |
-| 39 | XRP | SHORT | 1.12915 | 1.11665 | 1.11 | 0.98 | 1.62 | -0.20 |
-| 48 | BNB | SHORT | 584.295 | 578.785 | 0.94 | 0.81 | 1.14 | 0.00 |
-| 38 | ETH | LONG | 1797.05 | 1780.25 | -0.93 | -1.06 | 0.75 | -1.41 |
-| 36 | ETH | SHORT | 1797.05 | 1780.25 | 0.93 | 0.80 | 1.41 | -0.75 |
-| 14 | kPEPE | LONG | 0.002705 | 0.002682 | -0.85 | -0.98 | 1.44 | -1.52 |
-| 1 | BTC | SHORT | 63136.5 | 63658.5 | -0.83 | -0.96 | 0.30 | -1.62 |
-| 25 | BTC | LONG | 63172.5 | 63658.5 | 0.77 | 0.64 | 1.56 | -0.36 |
+| 18 | LIT | SHORT | 2.63175 | 2.46205 | 6.45 | 6.32 | 6.45 | -2.05 |
+| 6 | LIT | SHORT | 2.6279 | 2.46205 | 6.31 | 6.18 | 6.31 | -2.20 |
+| 44 | VVV | SHORT | 11.1805 | 10.545 | 5.68 | 5.55 | 5.94 | 0.00 |
+| 45 | MON | LONG | 0.025817 | 0.024441 | -5.33 | -5.46 | 0.89 | -7.78 |
+| 34 | JTO | LONG | 0.77639 | 0.738875 | -4.83 | -4.96 | 0.55 | -6.78 |
+| 21 | ZEC | LONG | 463.135 | 483.955 | 4.50 | 4.37 | 10.16 | -1.19 |
+| 19 | ZEC | SHORT | 463.135 | 483.955 | -4.50 | -4.63 | 1.19 | -10.16 |
+| 41 | HYPE | SHORT | 71.902 | 69.1595 | 3.81 | 3.68 | 3.94 | -0.38 |
+| 13 | GRAM | SHORT | 1.6858 | 1.622 | 3.78 | 3.65 | 3.89 | -0.52 |
+| 31 | NEAR | LONG | 2.05555 | 1.97785 | -3.78 | -3.91 | 1.11 | -3.78 |
+| 16 | HYPE | LONG | 71.6085 | 69.1595 | -3.42 | -3.55 | 1.59 | -3.54 |
+| 28 | HYPE | SHORT | 71.49 | 69.1595 | 3.26 | 3.13 | 3.38 | -1.76 |
+| 33 | ZEC | SHORT | 469.59 | 483.955 | -3.06 | -3.19 | 0.00 | -8.65 |
+| 4 | HYPE | SHORT | 71.0475 | 69.1595 | 2.66 | 2.53 | 2.78 | -2.39 |
+| 47 | SOL | SHORT | 82.5535 | 80.5705 | 2.40 | 2.27 | 2.40 | -0.08 |
+| 37 | ZEC | LONG | 495.815 | 483.955 | -2.39 | -2.52 | 2.90 | -3.70 |
+| 8 | NEAR | SHORT | 2.0234 | 1.97785 | 2.25 | 2.12 | 2.25 | -2.72 |
+| 51 | ZEC | LONG | 493.435 | 483.955 | -1.92 | -2.05 | 0.83 | -3.24 |
+| 56 | LIT | SHORT | 2.50975 | 2.46205 | 1.90 | 1.77 | 1.90 | 0.00 |
+| 7 | XRP | SHORT | 1.13285 | 1.11185 | 1.85 | 1.72 | 1.94 | 0.00 |
+| 40 | SOL | LONG | 82.0335 | 80.5705 | -1.78 | -1.91 | 0.71 | -1.78 |
+| 42 | ETH | SHORT | 1803.55 | 1772.05 | 1.75 | 1.62 | 1.76 | -0.39 |
+| 46 | ETH | LONG | 1801.95 | 1772.05 | -1.66 | -1.79 | 0.48 | -1.68 |
+| 39 | XRP | SHORT | 1.12915 | 1.11185 | 1.53 | 1.40 | 1.62 | -0.20 |
+| 14 | kPEPE | LONG | 0.002705 | 0.002665 | -1.48 | -1.61 | 1.44 | -1.52 |
+| 49 | HYPE | LONG | 70.1565 | 69.1595 | -1.42 | -1.55 | 0.23 | -1.55 |
+| 38 | ETH | LONG | 1797.05 | 1772.05 | -1.39 | -1.52 | 0.75 | -1.41 |
+| 36 | ETH | SHORT | 1797.05 | 1772.05 | 1.39 | 1.26 | 1.41 | -0.75 |
+| 48 | BNB | SHORT | 584.295 | 576.665 | 1.31 | 1.18 | 1.31 | 0.00 |
+| 5 | SOL | SHORT | 81.6175 | 80.5705 | 1.28 | 1.15 | 1.28 | -1.23 |
 
 </details>
