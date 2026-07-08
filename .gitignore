@@ -1,55 +1,6 @@
-.env
-.state/
-__pycache__/
+﻿__pycache__/
 *.pyc
-.pytest_cache/
-.DS_Store
-
-# reports are committed to the repository for direct viewing
-!reports/
-!reports/**
-# Local archives / deployment packages - never commit ZIP artifacts
-*.zip
-*.7z
-*.rar
-*.tar
-*.tar.gz
-*.tgz
-
-# Local logs and temporary outputs
-*.log
-*.tmp
-tmp/
-temp/
-
-# Local virtual environments and package caches
 .venv/
 venv/
-node_modules/
-.pnpm-store/
-
-# Large local data/cache files
-*.sqlite
-*.sqlite3
-*.db
-*.parquet
-*.feather
-*.pkl
-*.pickle
-
-# Keep runtime reports viewable, but avoid accidentally committing huge report dumps
-reports/**/*.zip
-reports/**/*.7z
-reports/**/*.rar
-reports/**/*.tar
-reports/**/*.tar.gz
-reports/**/*.tgz
-reports/**/*.db
-reports/**/*.sqlite
-reports/**/*.sqlite3
-reports/**/*.parquet
-reports/**/*.pkl
-reports/**/*.pickle
-
-# Cloudflare Worker is deployed from Dashboard, not kept in this repo
-cloudflare-worker/
+.env
+*.zip

@@ -1,0 +1,60 @@
+name: whale-monitor
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: whale-monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Run monitor
+        env:
+          HL_API_URL: ${{ vars.HL_API_URL }}
+          # 全扫模式：每次扫描 wallets/ 下全部唯一地址，不分片轮扫。
+          MAX_WALLETS_PER_RUN: "999999"
+          AUTO_SHARD_ROTATION: "false"
+          HL_REQUEST_DELAY: "0.12"
+          HL_MIN_SUCCESS_RATE: ${{ vars.HL_MIN_SUCCESS_RATE }}
+          MIN_DELTA_NOTIONAL_USD: ${{ vars.MIN_DELTA_NOTIONAL_USD }}
+          MIN_SINGLE_WHALE_DELTA_USD: ${{ vars.MIN_SINGLE_WHALE_DELTA_USD }}
+          MIN_WALLET_COUNT: ${{ vars.MIN_WALLET_COUNT }}
+          TOP_SIGNALS_FOR_AI: ${{ vars.TOP_SIGNALS_FOR_AI }}
+          SIGNAL_COOLDOWN_MINUTES: ${{ vars.SIGNAL_COOLDOWN_MINUTES }}
+          SIGNAL_REALERT_MULTIPLIER: ${{ vars.SIGNAL_REALERT_MULTIPLIER }}
+          AI_ENABLED: ${{ vars.AI_ENABLED }}
+          AI_SCORING_ENABLED: ${{ vars.AI_SCORING_ENABLED }}
+          POE_API_KEY: ${{ secrets.POE_API_KEY }}
+          POE_MODEL_SIGNAL: ${{ vars.POE_MODEL_SIGNAL }}
+          AI_DAILY_TARGET_POINTS: ${{ vars.AI_DAILY_TARGET_POINTS }}
+          AI_MIN_FINAL_SCORE_FOR_OPEN: ${{ vars.AI_MIN_FINAL_SCORE_FOR_OPEN }}
+          AI_MAX_LEVERAGE: ${{ vars.AI_MAX_LEVERAGE }}
+          AI_MAX_MARGIN_PCT_PER_TRADE: ${{ vars.AI_MAX_MARGIN_PCT_PER_TRADE }}
+          AI_MAX_TOTAL_MARGIN_PCT: ${{ vars.AI_MAX_TOTAL_MARGIN_PCT }}
+          VIRTUAL_CAPITAL_USD: ${{ vars.VIRTUAL_CAPITAL_USD }}
+          TELEGRAM_ENABLED: ${{ vars.TELEGRAM_ENABLED }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PARAM_OPTIMIZER_ENABLED: ${{ vars.PARAM_OPTIMIZER_ENABLED }}
+        run: python run_once.py
+      - name: Commit state & reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data reports config 2>/dev/null || true
+          git commit -m "auto: update state & reports [skip ci]" || echo "nothing to commit"
+          git push || echo "push skipped"

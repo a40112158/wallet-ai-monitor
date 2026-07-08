@@ -1,0 +1,15 @@
+{
+  "smart_money.txt": {
+    "source": "smart_money_all_addresses(1).txt",
+    "valid_addresses": 1750,
+    "invalid_lines": 0
+  },
+  "money_printer.txt": {
+    "source": "money_printer_all_addresses(1).txt",
+    "valid_addresses": 677,
+    "invalid_lines": 0
+  },
+  "overlap_between_groups": 6,
+  "total_unique_addresses_loaded_by_script": 2421,
+  "generated_at_unix": 1783481416
+}
