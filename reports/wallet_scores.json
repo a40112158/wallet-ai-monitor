@@ -1,5 +1,5 @@
 {
-  "generated_bj": "2026-07-09 02:13:17 CST",
+  "generated_bj": "2026-07-09 03:12:22 CST",
   "wallets": [
     {
       "address": "0x000000209e0a892842bc06c354e7d097392cbbbb",
@@ -29885,6 +29885,126 @@
     },
     {
       "address": "0x8434b7844fd17fad52f0aceae50a834cd4896577",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x17286a34d2b2e842cd38da74bc079c1f23992b1d",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x368fa5b8582c72ca0ecfbc8469f1cbc13c7e2162",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x9887ac3b69538d77caa7f88c0688b740fb05a11f",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x9abb9d9c10d1512148e9e0074547f0e6785c84d8",
       "groups": [
         "smart_money"
       ],
