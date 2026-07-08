@@ -1,0 +1,971 @@
+# 巨鲸中长期信号报告
+运行时间(北京): 2026-07-08 18:23:09 CST
+扫描钱包: 2421 | 信号数: 109 | 噪音过滤: 67
+扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
+
+## AI 状态
+- 启用: True / 评分启用: True
+- 调用: 10 缓存命中: 0 错误: 10
+- 输入信号数: 10 | fallback: True
+- 预算(北京 2026-07-08): 已用调用 10 估算点数 4000 | 预算封顶: False (被拦 0 次)
+
+## 开多强候选
+（无）
+
+## 开空强候选
+### CFX OPEN_SHORT
+- swing=65.29 bucket=GOOD horizon=7天
+- AI分=65.29 综合=65.29 conf=0.65
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,038,363 6h=$1,038,363 24h=$1,038,363 72h=$1,038,363 168h=$1,038,363
+- wallets=33 delta=$1,038,363 max_single=$221,858 quality=0.5 groups=money_printer,smart_money
+- AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=65.29 bucket=GOOD
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+
+## 观察候选
+### MON OPEN_SHORT
+- swing=64.94 bucket=WATCH horizon=7天
+- AI分=64.94 综合=64.94 conf=0.65
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$13,292,892 6h=$13,292,892 24h=$13,292,892 72h=$13,292,892 168h=$13,292,892
+- wallets=91 delta=$13,292,892 max_single=$1,638,706 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=64.94 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### FET OPEN_SHORT
+- swing=64.71 bucket=WATCH horizon=7天
+- AI分=64.71 综合=64.71 conf=0.65
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,075,844 6h=$2,075,844 24h=$2,075,844 72h=$2,075,844 168h=$2,075,844
+- wallets=50 delta=$2,075,844 max_single=$507,295 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=64.71 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### LTC OPEN_SHORT
+- swing=64.42 bucket=WATCH horizon=7天
+- AI分=64.42 综合=64.42 conf=0.64
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$4,695,816 6h=$4,695,816 24h=$4,695,816 72h=$4,695,816 168h=$4,695,816
+- wallets=73 delta=$4,695,816 max_single=$775,587 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=64.42 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### CC OPEN_SHORT
+- swing=64.32 bucket=WATCH horizon=7天
+- AI分=64.32 综合=64.32 conf=0.64
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,295,057 6h=$1,295,057 24h=$1,295,057 72h=$1,295,057 168h=$1,295,057
+- wallets=49 delta=$1,295,057 max_single=$213,174 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=64.32 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### WIF OPEN_SHORT
+- swing=64.12 bucket=WATCH horizon=7天
+- AI分=64.12 综合=64.12 conf=0.64
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,131,437 6h=$1,131,437 24h=$1,131,437 72h=$1,131,437 168h=$1,131,437
+- wallets=36 delta=$1,131,437 max_single=$215,518 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=64.12 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### LINK OPEN_SHORT
+- swing=63.86 bucket=WATCH horizon=7天
+- AI分=63.86 综合=63.86 conf=0.64
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$13,708,885 6h=$13,708,885 24h=$13,708,885 72h=$13,708,885 168h=$13,708,885
+- wallets=85 delta=$13,708,885 max_single=$1,998,857 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=63.86 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### HBAR OPEN_SHORT
+- swing=63.21 bucket=WATCH horizon=7天
+- AI分=63.21 综合=63.21 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,037,451 6h=$1,037,451 24h=$1,037,451 72h=$1,037,451 168h=$1,037,451
+- wallets=34 delta=$1,037,451 max_single=$212,166 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=63.21 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### MEGA OPEN_SHORT
+- swing=63.18 bucket=WATCH horizon=7天
+- AI分=63.18 综合=63.18 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,069,029 6h=$2,069,029 24h=$2,069,029 72h=$2,069,029 168h=$2,069,029
+- wallets=54 delta=$2,069,029 max_single=$529,564 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=63.18 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ETH OPEN_SHORT
+- swing=63.13 bucket=WATCH horizon=7天
+- AI分=63.13 综合=63.13 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$540,643,211 6h=$540,643,211 24h=$540,643,211 72h=$540,643,211 168h=$540,643,211
+- wallets=289 delta=$540,643,211 max_single=$86,705,000 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=63.13 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### EIGEN OPEN_SHORT
+- swing=63.11 bucket=WATCH horizon=7天
+- AI分=63.11 综合=63.11 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,402,498 6h=$2,402,498 24h=$2,402,498 72h=$2,402,498 168h=$2,402,498
+- wallets=45 delta=$2,402,498 max_single=$713,610 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=63.11 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### PENGU OPEN_SHORT
+- swing=62.97 bucket=WATCH horizon=7天
+- AI分=62.97 综合=62.97 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,596,304 6h=$1,596,304 24h=$1,596,304 72h=$1,596,304 168h=$1,596,304
+- wallets=43 delta=$1,596,304 max_single=$389,535 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.97 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### TAO OPEN_SHORT
+- swing=62.89 bucket=WATCH horizon=7天
+- AI分=62.89 综合=62.89 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$8,520,921 6h=$8,520,921 24h=$8,520,921 72h=$8,520,921 168h=$8,520,921
+- wallets=86 delta=$8,520,921 max_single=$1,673,849 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.89 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### XMR OPEN_SHORT
+- swing=62.85 bucket=WATCH horizon=7天
+- AI分=62.85 综合=62.85 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$19,003,019 6h=$19,003,019 24h=$19,003,019 72h=$19,003,019 168h=$19,003,019
+- wallets=97 delta=$19,003,019 max_single=$6,581,890 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.85 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ONDO OPEN_SHORT
+- swing=62.77 bucket=WATCH horizon=7天
+- AI分=62.77 综合=62.77 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,539,821 6h=$2,539,821 24h=$2,539,821 72h=$2,539,821 168h=$2,539,821
+- wallets=58 delta=$2,539,821 max_single=$358,081 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.77 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ASTER OPEN_SHORT
+- swing=62.55 bucket=WATCH horizon=7天
+- AI分=62.55 综合=62.55 conf=0.63
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$8,229,684 6h=$8,229,684 24h=$8,229,684 72h=$8,229,684 168h=$8,229,684
+- wallets=77 delta=$8,229,684 max_single=$870,183 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.55 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### XRP OPEN_SHORT
+- swing=62.5 bucket=WATCH horizon=7天
+- AI分=62.5 综合=62.5 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$31,927,203 6h=$31,927,203 24h=$31,927,203 72h=$31,927,203 168h=$31,927,203
+- wallets=78 delta=$31,927,203 max_single=$4,964,754 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.5 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### SUI OPEN_SHORT
+- swing=62.47 bucket=WATCH horizon=7天
+- AI分=62.47 综合=62.47 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$8,226,377 6h=$8,226,377 24h=$8,226,377 72h=$8,226,377 168h=$8,226,377
+- wallets=78 delta=$8,226,377 max_single=$1,752,675 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.47 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### CRV OPEN_SHORT
+- swing=62.47 bucket=WATCH horizon=7天
+- AI分=62.47 综合=62.47 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,728,080 6h=$1,728,080 24h=$1,728,080 72h=$1,728,080 168h=$1,728,080
+- wallets=49 delta=$1,728,080 max_single=$396,101 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.47 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### WLD OPEN_SHORT
+- swing=62.31 bucket=WATCH horizon=7天
+- AI分=62.31 综合=62.31 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$14,500,316 6h=$14,500,316 24h=$14,500,316 72h=$14,500,316 168h=$14,500,316
+- wallets=87 delta=$14,500,316 max_single=$3,914,270 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.31 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### GRAM OPEN_SHORT
+- swing=62.3 bucket=WATCH horizon=7天
+- AI分=62.3 综合=62.3 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$10,073,048 6h=$10,073,048 24h=$10,073,048 72h=$10,073,048 168h=$10,073,048
+- wallets=44 delta=$10,073,048 max_single=$4,626,270 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=62.3 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### FARTCOIN OPEN_SHORT
+- swing=61.97 bucket=WATCH horizon=7天
+- AI分=61.97 综合=61.97 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$8,714,729 6h=$8,714,729 24h=$8,714,729 72h=$8,714,729 168h=$8,714,729
+- wallets=66 delta=$8,714,729 max_single=$2,594,353 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.97 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### NEAR OPEN_SHORT
+- swing=61.67 bucket=WATCH horizon=7天
+- AI分=61.67 综合=61.67 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$29,426,344 6h=$29,426,344 24h=$29,426,344 72h=$29,426,344 168h=$29,426,344
+- wallets=97 delta=$29,426,344 max_single=$7,332,577 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.67 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### kPEPE OPEN_SHORT
+- swing=61.59 bucket=WATCH horizon=7天
+- AI分=61.59 综合=61.59 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$5,691,388 6h=$5,691,388 24h=$5,691,388 72h=$5,691,388 168h=$5,691,388
+- wallets=58 delta=$5,691,388 max_single=$1,226,823 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.59 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ARB OPEN_SHORT
+- swing=61.58 bucket=WATCH horizon=7天
+- AI分=61.58 综合=61.58 conf=0.62
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,287,262 6h=$1,287,262 24h=$1,287,262 72h=$1,287,262 168h=$1,287,262
+- wallets=47 delta=$1,287,262 max_single=$334,519 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.58 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### SOL OPEN_SHORT
+- swing=61.42 bucket=WATCH horizon=7天
+- AI分=61.42 综合=61.42 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$146,232,876 6h=$146,232,876 24h=$146,232,876 72h=$146,232,876 168h=$146,232,876
+- wallets=175 delta=$146,232,876 max_single=$11,975,303 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.42 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### kSHIB OPEN_SHORT
+- swing=61.4 bucket=WATCH horizon=7天
+- AI分=61.4 综合=61.4 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$878,109 6h=$878,109 24h=$878,109 72h=$878,109 168h=$878,109
+- wallets=36 delta=$878,109 max_single=$203,006 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.4 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### VVV OPEN_SHORT
+- swing=61.29 bucket=WATCH horizon=7天
+- AI分=61.29 综合=61.29 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$6,061,248 6h=$6,061,248 24h=$6,061,248 72h=$6,061,248 168h=$6,061,248
+- wallets=74 delta=$6,061,248 max_single=$913,946 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.29 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### IMX OPEN_SHORT
+- swing=61.2 bucket=WATCH horizon=7天
+- AI分=61.2 综合=61.2 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$705,620 6h=$705,620 24h=$705,620 72h=$705,620 168h=$705,620
+- wallets=29 delta=$705,620 max_single=$208,634 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.2 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### kBONK OPEN_SHORT
+- swing=61.06 bucket=WATCH horizon=7天
+- AI分=61.06 综合=61.06 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,699,939 6h=$1,699,939 24h=$1,699,939 72h=$1,699,939 168h=$1,699,939
+- wallets=46 delta=$1,699,939 max_single=$594,935 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.06 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### CHIP OPEN_SHORT
+- swing=60.99 bucket=WATCH horizon=7天
+- AI分=60.99 综合=60.99 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,532,990 6h=$1,532,990 24h=$1,532,990 72h=$1,532,990 168h=$1,532,990
+- wallets=45 delta=$1,532,990 max_single=$306,260 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=60.99 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### VIRTUAL OPEN_SHORT
+- swing=60.89 bucket=WATCH horizon=7天
+- AI分=60.89 综合=60.89 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,962,431 6h=$1,962,431 24h=$1,962,431 72h=$1,962,431 168h=$1,962,431
+- wallets=48 delta=$1,962,431 max_single=$599,302 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=60.89 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### SYRUP OPEN_SHORT
+- swing=60.68 bucket=WATCH horizon=7天
+- AI分=60.68 综合=60.68 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,298,577 6h=$1,298,577 24h=$1,298,577 72h=$1,298,577 168h=$1,298,577
+- wallets=34 delta=$1,298,577 max_single=$369,988 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=60.68 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### PURR OPEN_SHORT
+- swing=60.64 bucket=WATCH horizon=7天
+- AI分=60.64 综合=60.64 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,604,704 6h=$2,604,704 24h=$2,604,704 72h=$2,604,704 168h=$2,604,704
+- wallets=35 delta=$2,604,704 max_single=$890,154 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=60.64 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### TIA OPEN_SHORT
+- swing=60.62 bucket=WATCH horizon=7天
+- AI分=60.62 综合=60.62 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$797,528 6h=$797,528 24h=$797,528 72h=$797,528 168h=$797,528
+- wallets=36 delta=$797,528 max_single=$232,829 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=60.62 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ENS OPEN_SHORT
+- swing=60.56 bucket=WATCH horizon=7天
+- AI分=60.56 综合=60.56 conf=0.61
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$725,243 6h=$725,243 24h=$725,243 72h=$725,243 168h=$725,243
+- wallets=31 delta=$725,243 max_single=$190,514 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=60.56 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### SPX OPEN_SHORT
+- swing=60.5 bucket=WATCH horizon=7天
+- AI分=60.5 综合=60.5 conf=0.6
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,149,656 6h=$1,149,656 24h=$1,149,656 72h=$1,149,656 168h=$1,149,656
+- wallets=37 delta=$1,149,656 max_single=$293,140 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=60.5 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### AVAX OPEN_SHORT
+- swing=59.79 bucket=WATCH horizon=3天
+- AI分=59.79 综合=59.79 conf=0.6
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$3,915,401 6h=$3,915,401 24h=$3,915,401 72h=$3,915,401 168h=$3,915,401
+- wallets=75 delta=$3,915,401 max_single=$686,120 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=59.79 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### BTC OPEN_SHORT
+- swing=59.4 bucket=WATCH horizon=3天
+- AI分=59.4 综合=59.4 conf=0.59
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$738,734,963 6h=$738,734,963 24h=$738,734,963 72h=$738,734,963 168h=$738,734,963
+- wallets=349 delta=$738,734,963 max_single=$48,968,097 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=59.4 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ZEC OPEN_SHORT
+- swing=59.33 bucket=WATCH horizon=3天
+- AI分=59.33 综合=59.33 conf=0.59
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$51,827,742 6h=$51,827,742 24h=$51,827,742 72h=$51,827,742 168h=$51,827,742
+- wallets=112 delta=$51,827,742 max_single=$6,560,068 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=59.33 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### STRK OPEN_SHORT
+- swing=59.09 bucket=WATCH horizon=3天
+- AI分=59.09 综合=59.09 conf=0.59
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$937,528 6h=$937,528 24h=$937,528 72h=$937,528 168h=$937,528
+- wallets=28 delta=$937,528 max_single=$315,534 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=59.09 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### DOGE OPEN_SHORT
+- swing=58.78 bucket=WATCH horizon=3天
+- AI分=58.78 综合=58.78 conf=0.59
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$9,778,891 6h=$9,778,891 24h=$9,778,891 72h=$9,778,891 168h=$9,778,891
+- wallets=71 delta=$9,778,891 max_single=$2,566,490 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=58.78 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### MORPHO OPEN_SHORT
+- swing=58.73 bucket=WATCH horizon=3天
+- AI分=58.73 综合=58.73 conf=0.59
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,741,601 6h=$1,741,601 24h=$1,741,601 72h=$1,741,601 168h=$1,741,601
+- wallets=46 delta=$1,741,601 max_single=$276,497 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=58.73 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### WLFI OPEN_SHORT
+- swing=58.53 bucket=WATCH horizon=3天
+- AI分=58.53 综合=58.53 conf=0.59
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$4,460,233 6h=$4,460,233 24h=$4,460,233 72h=$4,460,233 168h=$4,460,233
+- wallets=55 delta=$4,460,233 max_single=$1,213,308 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=58.53 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ENA OPEN_SHORT
+- swing=58.44 bucket=WATCH horizon=3天
+- AI分=58.44 综合=58.44 conf=0.58
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$8,239,061 6h=$8,239,061 24h=$8,239,061 72h=$8,239,061 168h=$8,239,061
+- wallets=81 delta=$8,239,061 max_single=$1,907,445 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=58.44 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### DYDX OPEN_SHORT
+- swing=58.12 bucket=WATCH horizon=3天
+- AI分=58.12 综合=58.12 conf=0.58
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,095,232 6h=$1,095,232 24h=$1,095,232 72h=$1,095,232 168h=$1,095,232
+- wallets=41 delta=$1,095,232 max_single=$605,360 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=58.12 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### UNI OPEN_SHORT
+- swing=56.78 bucket=WATCH horizon=3天
+- AI分=56.78 综合=56.78 conf=0.57
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$4,131,164 6h=$4,131,164 24h=$4,131,164 72h=$4,131,164 168h=$4,131,164
+- wallets=57 delta=$4,131,164 max_single=$680,032 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.78 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### AAVE OPEN_SHORT
+- swing=56.76 bucket=WATCH horizon=3天
+- AI分=56.76 综合=56.76 conf=0.57
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$33,249,682 6h=$33,249,682 24h=$33,249,682 72h=$33,249,682 168h=$33,249,682
+- wallets=92 delta=$33,249,682 max_single=$8,865,256 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.76 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### STBL OPEN_SHORT
+- swing=56.74 bucket=WATCH horizon=3天
+- AI分=56.74 综合=56.74 conf=0.57
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$807,297 6h=$807,297 24h=$807,297 72h=$807,297 168h=$807,297
+- wallets=29 delta=$807,297 max_single=$169,342 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.74 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### APEX OPEN_SHORT
+- swing=56.73 bucket=WATCH horizon=3天
+- AI分=56.73 综合=56.73 conf=0.57
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$609,904 6h=$609,904 24h=$609,904 72h=$609,904 168h=$609,904
+- wallets=15 delta=$609,904 max_single=$307,019 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.73 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### BNB OPEN_SHORT
+- swing=56.61 bucket=WATCH horizon=3天
+- AI分=56.61 综合=56.61 conf=0.57
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$9,181,268 6h=$9,181,268 24h=$9,181,268 72h=$9,181,268 168h=$9,181,268
+- wallets=62 delta=$9,181,268 max_single=$1,065,140 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.61 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### TRUMP OPEN_LONG
+- swing=56.48 bucket=WATCH horizon=3天
+- AI分=56.48 综合=56.48 conf=0.56
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$3,736,394 6h=$3,736,394 24h=$3,736,394 72h=$3,736,394 168h=$3,736,394
+- wallets=35 delta=$3,736,394 max_single=$1,074,390 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.48 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### PUMP OPEN_SHORT
+- swing=56.23 bucket=WATCH horizon=3天
+- AI分=56.23 综合=56.23 conf=0.56
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$15,154,973 6h=$15,154,973 24h=$15,154,973 72h=$15,154,973 168h=$15,154,973
+- wallets=69 delta=$15,154,973 max_single=$3,636,391 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.23 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### APT OPEN_SHORT
+- swing=55.95 bucket=WATCH horizon=3天
+- AI分=55.95 综合=55.95 conf=0.56
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,443,644 6h=$1,443,644 24h=$1,443,644 72h=$1,443,644 168h=$1,443,644
+- wallets=32 delta=$1,443,644 max_single=$436,310 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=55.95 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### PENDLE OPEN_SHORT
+- swing=55.52 bucket=WATCH horizon=3天
+- AI分=55.52 综合=55.52 conf=0.56
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,698,488 6h=$2,698,488 24h=$2,698,488 72h=$2,698,488 168h=$2,698,488
+- wallets=33 delta=$2,698,488 max_single=$1,399,976 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=55.52 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ETHFI OPEN_SHORT
+- swing=55.49 bucket=WATCH horizon=3天
+- AI分=55.49 综合=55.49 conf=0.55
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,159,869 6h=$2,159,869 24h=$2,159,869 72h=$2,159,869 168h=$2,159,869
+- wallets=48 delta=$2,159,869 max_single=$327,590 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=55.49 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### LIT OPEN_SHORT
+- swing=55.33 bucket=WATCH horizon=3天
+- AI分=55.33 综合=55.33 conf=0.55
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$48,049,241 6h=$48,049,241 24h=$48,049,241 72h=$48,049,241 168h=$48,049,241
+- wallets=117 delta=$48,049,241 max_single=$6,499,422 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=55.33 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### POPCAT OPEN_SHORT
+- swing=55.25 bucket=WATCH horizon=3天
+- AI分=55.25 综合=55.25 conf=0.55
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$521,576 6h=$521,576 24h=$521,576 72h=$521,576 168h=$521,576
+- wallets=18 delta=$521,576 max_single=$267,766 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=55.25 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### MNT OPEN_SHORT
+- swing=55.0 bucket=WATCH horizon=3天
+- AI分=55.0 综合=55.0 conf=0.55
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$529,230 6h=$529,230 24h=$529,230 72h=$529,230 168h=$529,230
+- wallets=22 delta=$529,230 max_single=$135,960 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=55.0 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### XLM OPEN_SHORT
+- swing=54.96 bucket=WATCH horizon=3天
+- AI分=54.96 综合=54.96 conf=0.55
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$2,488,985 6h=$2,488,985 24h=$2,488,985 72h=$2,488,985 168h=$2,488,985
+- wallets=41 delta=$2,488,985 max_single=$515,040 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=54.96 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### LDO OPEN_SHORT
+- swing=54.89 bucket=WATCH horizon=3天
+- AI分=54.89 综合=54.89 conf=0.55
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$3,172,692 6h=$3,172,692 24h=$3,172,692 72h=$3,172,692 168h=$3,172,692
+- wallets=59 delta=$3,172,692 max_single=$661,185 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=54.89 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### JUP OPEN_SHORT
+- swing=54.7 bucket=WATCH horizon=3天
+- AI分=54.7 综合=54.7 conf=0.55
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$3,058,044 6h=$3,058,044 24h=$3,058,044 72h=$3,058,044 168h=$3,058,044
+- wallets=45 delta=$3,058,044 max_single=$660,792 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=54.7 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### MET OPEN_SHORT
+- swing=53.84 bucket=WATCH horizon=3天
+- AI分=53.84 综合=53.84 conf=0.54
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,042,343 6h=$1,042,343 24h=$1,042,343 72h=$1,042,343 168h=$1,042,343
+- wallets=33 delta=$1,042,343 max_single=$223,310 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=53.84 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### STABLE OPEN_SHORT
+- swing=53.7 bucket=WATCH horizon=3天
+- AI分=53.7 综合=53.7 conf=0.54
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$839,954 6h=$839,954 24h=$839,954 72h=$839,954 168h=$839,954
+- wallets=15 delta=$839,954 max_single=$254,765 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=53.7 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### BCH OPEN_SHORT
+- swing=53.6 bucket=WATCH horizon=3天
+- AI分=53.6 综合=53.6 conf=0.54
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,496,528 6h=$1,496,528 24h=$1,496,528 72h=$1,496,528 168h=$1,496,528
+- wallets=45 delta=$1,496,528 max_single=$424,276 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=53.6 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### SEI OPEN_SHORT
+- swing=53.43 bucket=WATCH horizon=3天
+- AI分=53.43 综合=53.43 conf=0.53
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$502,468 6h=$502,468 24h=$502,468 72h=$502,468 168h=$502,468
+- wallets=29 delta=$502,468 max_single=$143,379 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=53.43 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### AR OPEN_SHORT
+- swing=53.42 bucket=WATCH horizon=3天
+- AI分=53.42 综合=53.42 conf=0.53
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$726,312 6h=$726,312 24h=$726,312 72h=$726,312 168h=$726,312
+- wallets=34 delta=$726,312 max_single=$282,938 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=53.42 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### DOT OPEN_LONG
+- swing=53.19 bucket=WATCH horizon=3天
+- AI分=53.19 综合=53.19 conf=0.53
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,517,445 6h=$1,517,445 24h=$1,517,445 72h=$1,517,445 168h=$1,517,445
+- wallets=24 delta=$1,517,445 max_single=$504,859 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=53.19 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### PYTH OPEN_SHORT
+- swing=52.93 bucket=WATCH horizon=3天
+- AI分=52.93 综合=52.93 conf=0.53
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$574,304 6h=$574,304 24h=$574,304 72h=$574,304 168h=$574,304
+- wallets=24 delta=$574,304 max_single=$136,149 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=52.93 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### KAITO OPEN_LONG
+- swing=52.51 bucket=WATCH horizon=3天
+- AI分=52.51 综合=52.51 conf=0.53
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$793,839 6h=$793,839 24h=$793,839 72h=$793,839 168h=$793,839
+- wallets=21 delta=$793,839 max_single=$408,241 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=52.51 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### XPL OPEN_SHORT
+- swing=52.47 bucket=WATCH horizon=3天
+- AI分=52.47 综合=52.47 conf=0.52
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$11,871,026 6h=$11,871,026 24h=$11,871,026 72h=$11,871,026 168h=$11,871,026
+- wallets=74 delta=$11,871,026 max_single=$2,518,827 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=52.47 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### PAXG OPEN_SHORT
+- swing=52.34 bucket=WATCH horizon=3天
+- AI分=52.34 综合=52.34 conf=0.52
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$5,927,024 6h=$5,927,024 24h=$5,927,024 72h=$5,927,024 168h=$5,927,024
+- wallets=28 delta=$5,927,024 max_single=$2,423,993 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=52.34 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### W OPEN_SHORT
+- swing=52.11 bucket=WATCH horizon=3天
+- AI分=52.11 综合=52.11 conf=0.52
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$559,609 6h=$559,609 24h=$559,609 72h=$559,609 168h=$559,609
+- wallets=21 delta=$559,609 max_single=$176,279 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=52.11 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### HYPE OPEN_SHORT
+- swing=51.72 bucket=WATCH horizon=3天
+- AI分=51.72 综合=51.72 conf=0.52
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$460,057,376 6h=$460,057,376 24h=$460,057,376 72h=$460,057,376 168h=$460,057,376
+- wallets=264 delta=$460,057,376 max_single=$58,901,206 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=51.72 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### TRX OPEN_SHORT
+- swing=51.55 bucket=WATCH horizon=3天
+- AI分=51.55 综合=51.55 conf=0.52
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$3,668,928 6h=$3,668,928 24h=$3,668,928 72h=$3,668,928 168h=$3,668,928
+- wallets=28 delta=$3,668,928 max_single=$1,507,180 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=51.55 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ICP OPEN_SHORT
+- swing=51.36 bucket=WATCH horizon=3天
+- AI分=51.36 综合=51.36 conf=0.51
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$473,117 6h=$473,117 24h=$473,117 72h=$473,117 168h=$473,117
+- wallets=37 delta=$473,117 max_single=$102,600 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=51.36 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### HEMI OPEN_SHORT
+- swing=51.09 bucket=WATCH horizon=3天
+- AI分=51.09 综合=51.09 conf=0.51
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$433,921 6h=$433,921 24h=$433,921 72h=$433,921 168h=$433,921
+- wallets=19 delta=$433,921 max_single=$161,159 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=51.09 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ADA OPEN_SHORT
+- swing=50.44 bucket=WATCH horizon=3天
+- AI分=50.44 综合=50.44 conf=0.5
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$4,626,303 6h=$4,626,303 24h=$4,626,303 72h=$4,626,303 168h=$4,626,303
+- wallets=63 delta=$4,626,303 max_single=$1,089,077 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=50.44 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### OP OPEN_SHORT
+- swing=50.18 bucket=WATCH horizon=3天
+- AI分=50.18 综合=50.18 conf=0.5
+- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-08 18:21:04 CST
+- flow: 2h=$1,022,120 6h=$1,022,120 24h=$1,022,120 72h=$1,022,120 168h=$1,022,120
+- wallets=24 delta=$1,022,120 max_single=$386,047 quality=0.5 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=50.18 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+
+## 虚拟账户
+- 初始本金: $100,000
+- 当前本金: $100,000
+- 持仓数: 1
+  - CFX SHORT lev=3x margin=$5,000 notional=$15,000 entry=0.042002 cur=0.042002 pnl=-0.0% ROE=-0.0% 开仓(北京)=2026-07-08 18:23:09 CST 准备平仓=-

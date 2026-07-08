@@ -1,0 +1,9 @@
+{
+  "generated_bj": "2026-07-08 18:23:09 CST",
+  "samples": 0,
+  "suggestions": {},
+  "rationale": [],
+  "hard_limits": {
+    "AI_MAX_LEVERAGE": 10
+  }
+}
