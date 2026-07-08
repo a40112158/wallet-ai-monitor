@@ -1,5 +1,5 @@
 {
-  "generated_bj": "2026-07-09 03:12:22 CST",
+  "generated_bj": "2026-07-09 04:14:19 CST",
   "wallets": [
     {
       "address": "0x000000209e0a892842bc06c354e7d097392cbbbb",
@@ -30005,6 +30005,30 @@
     },
     {
       "address": "0x9abb9d9c10d1512148e9e0074547f0e6785c84d8",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xae78adaba70f18c15418001263504af373884520",
       "groups": [
         "smart_money"
       ],
