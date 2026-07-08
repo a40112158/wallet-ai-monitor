@@ -1,6 +1,6 @@
 {
-  "ts": 1783492232,
-  "time": "2026-07-08 06:30:32 UTC",
+  "ts": 1783494032,
+  "time": "2026-07-08 07:00:32 UTC",
   "note": "Wallet rows appear after at least one evaluated 24h/72h/168h sample. NEW means sample size is still below the configured minimum.",
   "min_sample_size": 8,
   "wallets": [
@@ -10,8 +10,8 @@
       "trades": 15,
       "wins": 15,
       "losses": 0,
-      "avg_pnl_pct": 2.7690834802869975,
-      "score": 1.8269083480286998,
+      "avg_pnl_pct": 2.662060298609201,
+      "score": 1.8162060298609202,
       "quality_grade": "S",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -26,7 +26,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x7fdafde5cfb5465924316eced2d3715494c517d1",
@@ -34,8 +34,8 @@
       "trades": 12,
       "wins": 9,
       "losses": 3,
-      "avg_pnl_pct": 1.0931915491597366,
-      "score": 1.4343191549159737,
+      "avg_pnl_pct": 1.0418598043213687,
+      "score": 1.429185980432137,
       "quality_grade": "A",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -50,7 +50,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
@@ -58,8 +58,8 @@
       "trades": 13,
       "wins": 8,
       "losses": 5,
-      "avg_pnl_pct": 1.2137608890561018,
-      "score": 1.3252222427517641,
+      "avg_pnl_pct": 1.2250265633562247,
+      "score": 1.3263488101817764,
       "quality_grade": "A",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -74,7 +74,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x5323b92268b4e140ac2133c677e991cd9ad1b23c",
@@ -82,8 +82,8 @@
       "trades": 14,
       "wins": 7,
       "losses": 7,
-      "avg_pnl_pct": 0.32543489609171633,
-      "score": 1.1325434896091717,
+      "avg_pnl_pct": 0.24037991585388613,
+      "score": 1.1240379915853886,
       "quality_grade": "B",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -98,7 +98,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xf9109ada2f73c62e9889b45453065f0d99260a2d",
@@ -106,8 +106,8 @@
       "trades": 9,
       "wins": 4,
       "losses": 5,
-      "avg_pnl_pct": 0.4065498136410438,
-      "score": 1.0906549813641044,
+      "avg_pnl_pct": 0.4021225065457161,
+      "score": 1.0902122506545717,
       "quality_grade": "B",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -122,7 +122,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x592838c5d6ffb870c20bf4f13d1089259354d5f9",
@@ -130,7 +130,7 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 9.083298451234814,
+      "avg_pnl_pct": 7.9626317591993585,
       "score": 2.2,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -146,7 +146,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xb2f7374b222a930d20e8d556f33228211d1baf9f",
@@ -154,7 +154,7 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 9.216300940438856,
+      "avg_pnl_pct": 8.097273677210975,
       "score": 2.2,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -170,7 +170,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xbb828515677729c4db2f790a52cf14b1c659e19f",
@@ -178,7 +178,7 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 9.216300940438856,
+      "avg_pnl_pct": 8.097273677210975,
       "score": 2.2,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -194,7 +194,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x0b1ace05eb9ef1c3a1951b763700ecad24f27741",
@@ -202,8 +202,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 5.9034298705149775,
-      "score": 2.140342987051498,
+      "avg_pnl_pct": 5.871305723040428,
+      "score": 2.137130572304043,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -218,7 +218,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xa33a4a057334c7811ad5f45f3c4f0dfa3d081ff8",
@@ -226,8 +226,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 5.9034298705149775,
-      "score": 2.140342987051498,
+      "avg_pnl_pct": 5.871305723040428,
+      "score": 2.137130572304043,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -242,7 +242,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xfe7ce058edc7cfcde9ef8262ba51f8d4796ab7ae",
@@ -250,8 +250,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 5.389132755961554,
-      "score": 2.0889132755961555,
+      "avg_pnl_pct": 5.4810772333610185,
+      "score": 2.098107723336102,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -266,7 +266,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xb83de012dba672c76a7dbbbf3e459cb59d7d6e36",
@@ -274,8 +274,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 5.332905328059989,
-      "score": 2.083290532805999,
+      "avg_pnl_pct": 5.3680340627593015,
+      "score": 2.08680340627593,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -290,7 +290,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x35af6c00f4be09af7219192cf54edb9892b31428",
@@ -298,8 +298,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 5.079731430969351,
-      "score": 2.0579731430969352,
+      "avg_pnl_pct": 4.7957756329556585,
+      "score": 2.029577563295566,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -314,79 +314,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
-      "wallet_group": "money_printer",
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "avg_pnl_pct": 4.803267257694978,
-      "score": 2.030326725769498,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x16c95227d8442946c1c152bc8ea16a37ebe1a282",
-      "wallet_group": "smart_money",
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "avg_pnl_pct": 4.488546395017408,
-      "score": 1.9988546395017408,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0xfe72c242af1a4ca8114c6a170ba4a823785241ce",
-      "wallet_group": "smart_money",
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "avg_pnl_pct": 4.488546395017408,
-      "score": 1.9988546395017408,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x0873ca7cb967af8c35642d903a950d256c1701df",
@@ -394,8 +322,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 4.247250895947572,
-      "score": 1.9747250895947572,
+      "avg_pnl_pct": 4.282782491499993,
+      "score": 1.9782782491499993,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -410,7 +338,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x4ef1c5ae65ab5b37629b7aa523e7e95e7da528e3",
@@ -418,8 +346,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 4.247250895947572,
-      "score": 1.9747250895947572,
+      "avg_pnl_pct": 4.282782491499993,
+      "score": 1.9782782491499993,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -434,7 +362,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x7fa02bda84034b71213871ef70627b4052d35a94",
@@ -442,8 +370,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 4.247250895947572,
-      "score": 1.9747250895947572,
+      "avg_pnl_pct": 4.282782491499993,
+      "score": 1.9782782491499993,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -458,7 +386,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xaf2825f73a90cf08baf2577818826b79e3faca9b",
@@ -466,8 +394,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 4.247250895947572,
-      "score": 1.9747250895947572,
+      "avg_pnl_pct": 4.282782491499993,
+      "score": 1.9782782491499993,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -482,16 +410,16 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
-      "wallet": "0xe9d199fd55a2560e3193f330e017192316ecd2d3",
+      "wallet": "0x16c95227d8442946c1c152bc8ea16a37ebe1a282",
       "wallet_group": "smart_money",
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 3.9634550028688653,
-      "score": 1.9463455002868866,
+      "avg_pnl_pct": 4.2028220556669895,
+      "score": 1.9702822055666989,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -506,7 +434,31 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xfe72c242af1a4ca8114c6a170ba4a823785241ce",
+      "wallet_group": "smart_money",
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "avg_pnl_pct": 4.2028220556669895,
+      "score": 1.9702822055666989,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x0a06ec6754b628be489b2c40bba20c8580392a7b",
@@ -514,8 +466,8 @@
       "trades": 2,
       "wins": 2,
       "losses": 0,
-      "avg_pnl_pct": 3.9105405286363624,
-      "score": 1.9410540528636364,
+      "avg_pnl_pct": 3.946197069495331,
+      "score": 1.944619706949533,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -530,40 +482,16 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
-      "wallet": "0xcac19662ec88d23fa1c81ac0e8570b0cf2ff26b3",
-      "wallet_group": "money_printer",
-      "trades": 3,
-      "wins": 3,
-      "losses": 0,
-      "avg_pnl_pct": 3.8480935920909425,
-      "score": 1.9348093592090942,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x7c976f00e84db0b44f945fc6d7fad34b43150a1a",
+      "wallet": "0xe9d199fd55a2560e3193f330e017192316ecd2d3",
       "wallet_group": "smart_money",
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 3.648762343355632,
-      "score": 1.9148762343355632,
+      "avg_pnl_pct": 3.778081829015311,
+      "score": 1.927808182901531,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -578,7 +506,31 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
+      "wallet_group": "money_printer",
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "avg_pnl_pct": 3.629843609921305,
+      "score": 1.9129843609921307,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x7a5a42bd6b1fd13368732be8a7b63e06064e0394",
@@ -586,8 +538,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 3.5738301613251524,
-      "score": 1.9073830161325152,
+      "avg_pnl_pct": 3.6096116474906688,
+      "score": 1.910961164749067,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -602,16 +554,16 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
-      "wallet": "0xbf732ea04197942783e34730ed6e0f6099575d58",
-      "wallet_group": "money_printer",
+      "wallet": "0x7c976f00e84db0b44f945fc6d7fad34b43150a1a",
+      "wallet_group": "smart_money",
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 3.1103242035259764,
-      "score": 1.8610324203525976,
+      "avg_pnl_pct": 3.462781738475856,
+      "score": 1.8962781738475858,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -626,7 +578,31 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xcac19662ec88d23fa1c81ac0e8570b0cf2ff26b3",
+      "wallet_group": "money_printer",
+      "trades": 3,
+      "wins": 3,
+      "losses": 0,
+      "avg_pnl_pct": 3.3923979383658143,
+      "score": 1.8892397938365815,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x27c9fa86c91b84ddfa15de58c482ff662498d65d",
@@ -634,8 +610,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 2.988550359014159,
-      "score": 1.848855035901416,
+      "avg_pnl_pct": 2.9386487760250617,
+      "score": 1.8438648776025062,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -650,16 +626,16 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
-      "wallet": "0x936cf4fb95c30ce83f658b5bbb247e4bb381bb0f",
+      "wallet": "0xbf732ea04197942783e34730ed6e0f6099575d58",
       "wallet_group": "money_printer",
-      "trades": 5,
-      "wins": 5,
+      "trades": 1,
+      "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 2.7232488168051376,
-      "score": 1.8223248816805138,
+      "avg_pnl_pct": 2.838265300614288,
+      "score": 1.8338265300614287,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -674,7 +650,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x9da9ccc7563bc4c420a7a30819d3875d9499f376",
@@ -682,8 +658,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 2.637656158704536,
-      "score": 1.8137656158704536,
+      "avg_pnl_pct": 2.587574079741799,
+      "score": 1.80875740797418,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -698,7 +674,31 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x936cf4fb95c30ce83f658b5bbb247e4bb381bb0f",
+      "wallet_group": "money_printer",
+      "trades": 5,
+      "wins": 5,
+      "losses": 0,
+      "avg_pnl_pct": 2.4584307301420596,
+      "score": 1.795843073014206,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x8b9da005316ecfd7022ccca9b6231281e5c47b28",
@@ -706,8 +706,8 @@
       "trades": 2,
       "wins": 2,
       "losses": 0,
-      "avg_pnl_pct": 2.374857519201255,
-      "score": 1.7874857519201255,
+      "avg_pnl_pct": 2.3311091356630227,
+      "score": 1.7831109135663024,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -722,7 +722,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x2cef0a7f84e722c77b271862da5fe2387028fa20",
@@ -730,8 +730,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 2.2514595379759186,
-      "score": 1.775145953797592,
+      "avg_pnl_pct": 2.2011788038772084,
+      "score": 1.7701178803877209,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -746,31 +746,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x621c5551678189b9a6c94d929924c225ff1d63ab",
-      "wallet_group": "money_printer",
-      "trades": 6,
-      "wins": 6,
-      "losses": 0,
-      "avg_pnl_pct": 2.116228611368848,
-      "score": 1.761622861136885,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xb8eb97eaed8367079894d2f1bed69bd220ec1dd5",
@@ -778,8 +754,8 @@
       "trades": 4,
       "wins": 4,
       "losses": 0,
-      "avg_pnl_pct": 2.0976561091724966,
-      "score": 1.7597656109172497,
+      "avg_pnl_pct": 2.0472962603445986,
+      "score": 1.7547296260344598,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -794,7 +770,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xd911e53d53b663972254e086450fd6198a25961e",
@@ -802,8 +778,8 @@
       "trades": 4,
       "wins": 4,
       "losses": 0,
-      "avg_pnl_pct": 2.0976561091724966,
-      "score": 1.7597656109172497,
+      "avg_pnl_pct": 2.0472962603445986,
+      "score": 1.7547296260344598,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -818,7 +794,31 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x621c5551678189b9a6c94d929924c225ff1d63ab",
+      "wallet_group": "money_printer",
+      "trades": 6,
+      "wins": 6,
+      "losses": 0,
+      "avg_pnl_pct": 2.043607429745402,
+      "score": 1.7543607429745403,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xf822fa0fd364c573fcdb7009fcf47601bc8be01a",
@@ -826,8 +826,8 @@
       "trades": 5,
       "wins": 5,
       "losses": 0,
-      "avg_pnl_pct": 2.081668763908496,
-      "score": 1.7581668763908496,
+      "avg_pnl_pct": 1.8922982243013489,
+      "score": 1.739229822430135,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -842,7 +842,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x3440f23a87f1950e7a88cd248fd270e92d1132c5",
@@ -850,8 +850,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.8731948066515163,
-      "score": 1.7373194806651517,
+      "avg_pnl_pct": 1.8227194974902556,
+      "score": 1.7322719497490255,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -866,7 +866,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x351126a070c9cadef8064ddd7b2d289fc33163aa",
@@ -874,8 +874,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.8731948066515163,
-      "score": 1.7373194806651517,
+      "avg_pnl_pct": 1.8227194974902556,
+      "score": 1.7322719497490255,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -890,7 +890,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xa6ee1ed1ae80b8352603654b39f5e7b9bedd5078",
@@ -898,8 +898,8 @@
       "trades": 3,
       "wins": 3,
       "losses": 0,
-      "avg_pnl_pct": 1.7906695517790598,
-      "score": 1.729066955177906,
+      "avg_pnl_pct": 1.7401517925681407,
+      "score": 1.7240151792568141,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -914,7 +914,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x0dd5db9c3748486e747c6a123727f472668cf6ee",
@@ -922,8 +922,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.768520337983887,
-      "score": 1.7268520337983888,
+      "avg_pnl_pct": 1.7179911854700691,
+      "score": 1.721799118547007,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -938,7 +938,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x3d89bcea338f35edfaeb313b1c713978c6dceb14",
@@ -946,8 +946,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.768520337983887,
-      "score": 1.7268520337983888,
+      "avg_pnl_pct": 1.7179911854700691,
+      "score": 1.721799118547007,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -962,7 +962,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x54069d1a01434813617e09b9426b03971c0ce123",
@@ -970,8 +970,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.768520337983887,
-      "score": 1.7268520337983888,
+      "avg_pnl_pct": 1.7179911854700691,
+      "score": 1.721799118547007,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -986,7 +986,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x847bd1ef4fede0fe191129894d63044843f4d473",
@@ -994,8 +994,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.768520337983887,
-      "score": 1.7268520337983888,
+      "avg_pnl_pct": 1.7179911854700691,
+      "score": 1.721799118547007,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1010,7 +1010,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xcde682fc64f38967b71cfd00803d4ba3d60e49d1",
@@ -1018,8 +1018,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.768520337983887,
-      "score": 1.7268520337983888,
+      "avg_pnl_pct": 1.7179911854700691,
+      "score": 1.721799118547007,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1034,7 +1034,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x001ac3f0972b620cd6be82ba54d111614d7d48fb",
@@ -1042,8 +1042,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.6283185840707963,
-      "score": 1.7128318584070796,
+      "avg_pnl_pct": 1.5056047197640117,
+      "score": 1.7005604719764011,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1058,7 +1058,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x8c96e5a2d770f9f2c9d2464ce4e741df0b2bca57",
@@ -1066,8 +1066,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.6283185840707963,
-      "score": 1.7128318584070796,
+      "avg_pnl_pct": 1.5056047197640117,
+      "score": 1.7005604719764011,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1082,7 +1082,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xd92027fc1bf15ea8e1c9c0a1aa4a9f58b5433f20",
@@ -1090,8 +1090,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.6283185840707963,
-      "score": 1.7128318584070796,
+      "avg_pnl_pct": 1.5056047197640117,
+      "score": 1.7005604719764011,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1106,7 +1106,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xdbcc96bcada067864902aad14e029fe7c422f147",
@@ -1114,8 +1114,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.6283185840707963,
-      "score": 1.7128318584070796,
+      "avg_pnl_pct": 1.5056047197640117,
+      "score": 1.7005604719764011,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1130,7 +1130,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xf58b673c1633ccef0ac58263cdc95ed80f817fc7",
@@ -1138,8 +1138,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.6283185840707963,
-      "score": 1.7128318584070796,
+      "avg_pnl_pct": 1.5056047197640117,
+      "score": 1.7005604719764011,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1154,7 +1154,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xadc9cf23f55c6221a05a8150e5768d7c3289562f",
@@ -1162,8 +1162,8 @@
       "trades": 4,
       "wins": 4,
       "losses": 0,
-      "avg_pnl_pct": 1.5449014228113127,
-      "score": 1.7044901422811314,
+      "avg_pnl_pct": 1.4220834996731617,
+      "score": 1.6922083499673162,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1178,7 +1178,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x09bc1cf4d9f0b59e1425a8fde4d4b1f7d3c9410d",
@@ -1186,8 +1186,8 @@
       "trades": 4,
       "wins": 4,
       "losses": 0,
-      "avg_pnl_pct": 1.4590961387837782,
-      "score": 1.6959096138783778,
+      "avg_pnl_pct": 1.336171177747836,
+      "score": 1.6836171177747836,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1202,55 +1202,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x2ca4927174ba283d8a57f60ef3589844035a2930",
-      "wallet_group": "smart_money",
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "avg_pnl_pct": 1.425159423945516,
-      "score": 1.6925159423945517,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x34fb5ec7d4e939161946340ea2a1f29254b893de",
-      "wallet_group": "money_printer",
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "avg_pnl_pct": 1.425159423945516,
-      "score": 1.6925159423945517,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x2312171890250347dbf1b082bdf7950504909e92",
@@ -1258,8 +1210,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.3587033121916792,
-      "score": 1.685870331219168,
+      "avg_pnl_pct": 1.307963354474985,
+      "score": 1.6807963354474986,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1274,7 +1226,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xb947763b6e64b4441b02562a63fda94f6b805162",
@@ -1282,8 +1234,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.3587033121916792,
-      "score": 1.685870331219168,
+      "avg_pnl_pct": 1.307963354474985,
+      "score": 1.6807963354474986,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1298,16 +1250,16 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
-      "wallet": "0xf0480a7892bc260658e82359f3c9374bc0a75444",
-      "wallet_group": "money_printer",
-      "trades": 2,
-      "wins": 2,
+      "wallet": "0x2ca4927174ba283d8a57f60ef3589844035a2930",
+      "wallet_group": "smart_money",
+      "trades": 1,
+      "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.280209029473608,
-      "score": 1.678020902947361,
+      "avg_pnl_pct": 1.3021921285165887,
+      "score": 1.6802192128516589,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1322,7 +1274,31 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x34fb5ec7d4e939161946340ea2a1f29254b893de",
+      "wallet_group": "money_printer",
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "avg_pnl_pct": 1.3021921285165887,
+      "score": 1.6802192128516589,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x6f7f358df5a6a4b02178bdbfaae5ed4dc14b28ae",
@@ -1330,8 +1306,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.2694237122231766,
-      "score": 1.6769423712223177,
+      "avg_pnl_pct": 1.275541416860396,
+      "score": 1.6775541416860396,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1346,31 +1322,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x0fd468a73084daa6ea77a9261e40fdec3e67e0c7",
-      "wallet_group": "money_printer",
-      "trades": 3,
-      "wins": 3,
-      "losses": 0,
-      "avg_pnl_pct": 1.2654702511243754,
-      "score": 1.6765470251124377,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x51b97ab1e4381e22dd6cd04d6f67393964fe3bc1",
@@ -1378,8 +1330,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.2473543107097451,
-      "score": 1.6747354310709746,
+      "avg_pnl_pct": 1.1965570763369575,
+      "score": 1.6696557076336958,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1394,7 +1346,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xc30c7ea910a71ce06ae840868b0c7e47616ba4c9",
@@ -1402,8 +1354,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.2473543107097451,
-      "score": 1.6747354310709746,
+      "avg_pnl_pct": 1.1965570763369575,
+      "score": 1.6696557076336958,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1418,7 +1370,55 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xf0480a7892bc260658e82359f3c9374bc0a75444",
+      "wallet_group": "money_printer",
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "avg_pnl_pct": 1.1570609155125338,
+      "score": 1.6657060915512534,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x0fd468a73084daa6ea77a9261e40fdec3e67e0c7",
+      "wallet_group": "money_printer",
+      "trades": 3,
+      "wins": 3,
+      "losses": 0,
+      "avg_pnl_pct": 1.1423037512577199,
+      "score": 1.664230375125772,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x7ca165f354e3260e2f8d5a7508cc9dd2fa009235",
@@ -1426,8 +1426,8 @@
       "trades": 4,
       "wins": 4,
       "losses": 0,
-      "avg_pnl_pct": 1.2329173470937067,
-      "score": 1.6732917347093708,
+      "avg_pnl_pct": 1.1097102390704097,
+      "score": 1.660971023907041,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1442,7 +1442,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x12f147f08112ff4c32c66bad45118302d20d807c",
@@ -1450,8 +1450,8 @@
       "trades": 4,
       "wins": 4,
       "losses": 0,
-      "avg_pnl_pct": 1.2218032206110945,
-      "score": 1.6721803220611096,
+      "avg_pnl_pct": 1.0985822482582523,
+      "score": 1.6598582248258253,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1466,7 +1466,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xcb8436264dd4b0d9912b65dbe2893e71de7752cd",
@@ -1474,8 +1474,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.1758848770773571,
-      "score": 1.6675884877077358,
+      "avg_pnl_pct": 1.0526066238353762,
+      "score": 1.6552606623835378,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1490,7 +1490,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xef96d013bdb1a5dfe553999f19b5091b9a299383",
@@ -1498,8 +1498,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.1758848770773571,
-      "score": 1.6675884877077358,
+      "avg_pnl_pct": 1.0526066238353762,
+      "score": 1.6552606623835378,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1514,7 +1514,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xbb475febf78b528f4f0d4ae1a12541406565199c",
@@ -1522,8 +1522,8 @@
       "trades": 3,
       "wins": 3,
       "losses": 0,
-      "avg_pnl_pct": 1.16883665480977,
-      "score": 1.666883665480977,
+      "avg_pnl_pct": 1.0455496092550167,
+      "score": 1.6545549609255017,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1538,7 +1538,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x039cc0690200bfba3bacc6a9bcc5f865ed970ebd",
@@ -1546,8 +1546,8 @@
       "trades": 2,
       "wins": 2,
       "losses": 0,
-      "avg_pnl_pct": 1.1555717560395284,
-      "score": 1.6655571756039529,
+      "avg_pnl_pct": 1.0322681631719277,
+      "score": 1.6532268163171928,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1562,7 +1562,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x0c1fd4fed8679488afb3b23b2b872971e0001d39",
@@ -1570,8 +1570,8 @@
       "trades": 2,
       "wins": 2,
       "losses": 0,
-      "avg_pnl_pct": 1.1555717560395284,
-      "score": 1.6655571756039529,
+      "avg_pnl_pct": 1.0322681631719277,
+      "score": 1.6532268163171928,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1586,7 +1586,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x2e30c32738a28833e3d85189c04895c25ee54cb5",
@@ -1594,8 +1594,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.1352586350016998,
-      "score": 1.66352586350017,
+      "avg_pnl_pct": 1.011929702508479,
+      "score": 1.6511929702508479,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1610,7 +1610,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xa2a7c751da5c4add00d1c8cb9a0110fb2c233f51",
@@ -1618,8 +1618,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 1.1352586350016998,
-      "score": 1.66352586350017,
+      "avg_pnl_pct": 1.011929702508479,
+      "score": 1.6511929702508479,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1634,55 +1634,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
-      "wallet_group": "smart_money",
-      "trades": 2,
-      "wins": 2,
-      "losses": 0,
-      "avg_pnl_pct": 1.0415047106481121,
-      "score": 1.6541504710648112,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0xd4c1f7e8d876c4749228d515473d36f919583d1d",
-      "wallet_group": "money_printer",
-      "trades": 5,
-      "wins": 4,
-      "losses": 1,
-      "avg_pnl_pct": 2.8090826622101592,
-      "score": 1.6509082662210162,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x0eecd62efb05009e2b72964b4bcdbcf653afd4c5",
@@ -1690,8 +1642,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9958975809874047,
-      "score": 1.6495897580987404,
+      "avg_pnl_pct": 0.9449710001414653,
+      "score": 1.6444971000141466,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1706,7 +1658,55 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xd4c1f7e8d876c4749228d515473d36f919583d1d",
+      "wallet_group": "money_printer",
+      "trades": 5,
+      "wins": 4,
+      "losses": 1,
+      "avg_pnl_pct": 2.7291391513165904,
+      "score": 1.6429139151316592,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
+      "wallet_group": "smart_money",
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "avg_pnl_pct": 0.9180588247168108,
+      "score": 1.641805882471681,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x093f2e026bf3d52f5ba02306976255782ffbf712",
@@ -1714,8 +1714,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9645767503741893,
-      "score": 1.646457675037419,
+      "avg_pnl_pct": 0.841034900572569,
+      "score": 1.6341034900572569,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1730,7 +1730,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x1a2e6afa298b1cc50939b4b2b0b430e3c1ef3459",
@@ -1738,8 +1738,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9645767503741893,
-      "score": 1.646457675037419,
+      "avg_pnl_pct": 0.841034900572569,
+      "score": 1.6341034900572569,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1754,7 +1754,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x362c5006ed0a405c35df4a138cb38d891f1a1a20",
@@ -1762,8 +1762,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9645767503741893,
-      "score": 1.646457675037419,
+      "avg_pnl_pct": 0.841034900572569,
+      "score": 1.6341034900572569,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1778,7 +1778,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x3ac9b030594c1ef23a3e8fed9f62356b7bf98bf6",
@@ -1786,8 +1786,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9645767503741893,
-      "score": 1.646457675037419,
+      "avg_pnl_pct": 0.841034900572569,
+      "score": 1.6341034900572569,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1802,7 +1802,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x4588595ee0047982cd5ca4a82ab69c3174fbc832",
@@ -1810,8 +1810,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9645767503741893,
-      "score": 1.646457675037419,
+      "avg_pnl_pct": 0.841034900572569,
+      "score": 1.6341034900572569,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1826,7 +1826,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x50d59f4c2480e107acf32c0d1e9cbe7579b01480",
@@ -1834,8 +1834,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9645767503741893,
-      "score": 1.646457675037419,
+      "avg_pnl_pct": 0.841034900572569,
+      "score": 1.6341034900572569,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1850,7 +1850,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x54e3f54df4b10ff63f7284733ed735e8e1507c20",
@@ -1858,8 +1858,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.9645767503741893,
-      "score": 1.646457675037419,
+      "avg_pnl_pct": 0.841034900572569,
+      "score": 1.6341034900572569,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1874,103 +1874,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x0748e296e5a350ec36c8487a1cea406e1b57d4b2",
-      "wallet_group": "money_printer",
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "avg_pnl_pct": 0.9522620125511246,
-      "score": 1.6452262012551124,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x645b2eeaa0a46df3c4211bebda1b2c7703e287b8",
-      "wallet_group": "money_printer",
-      "trades": 2,
-      "wins": 2,
-      "losses": 0,
-      "avg_pnl_pct": 0.4822544051898682,
-      "score": 1.5982254405189869,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
-      "wallet_group": "money_printer",
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "avg_pnl_pct": 0.4098244016279033,
-      "score": 1.5909824401627903,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x3bcae23e8c380dab4732e9a159c0456f12d866f3",
-      "wallet_group": "money_printer",
-      "trades": 7,
-      "wins": 6,
-      "losses": 1,
-      "avg_pnl_pct": 1.6849062903223857,
-      "score": 1.5899192004608098,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x48ea62a2cc8391fbbe210e8ee89db573a8ec145f",
@@ -1978,8 +1882,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.28893191256670525,
-      "score": 1.5788931912566706,
+      "avg_pnl_pct": 0.5889481696052473,
+      "score": 1.6088948169605248,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -1994,7 +1898,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x95da8596c44dd09f4b8becce87ad3b7894fb2328",
@@ -2002,8 +1906,8 @@
       "trades": 1,
       "wins": 1,
       "losses": 0,
-      "avg_pnl_pct": 0.28893191256670525,
-      "score": 1.5788931912566706,
+      "avg_pnl_pct": 0.5889481696052473,
+      "score": 1.6088948169605248,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2018,7 +1922,79 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
+      "wallet_group": "money_printer",
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "avg_pnl_pct": 0.3585963514244218,
+      "score": 1.5858596351424423,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x645b2eeaa0a46df3c4211bebda1b2c7703e287b8",
+      "wallet_group": "money_printer",
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "avg_pnl_pct": 0.30789409874516926,
+      "score": 1.580789409874517,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x3bcae23e8c380dab4732e9a159c0456f12d866f3",
+      "wallet_group": "money_printer",
+      "trades": 7,
+      "wins": 6,
+      "losses": 1,
+      "avg_pnl_pct": 1.5836697435723066,
+      "score": 1.579795545785802,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x31dea2516beee92135b96f464eeec3cf292a13f2",
@@ -2026,8 +2002,8 @@
       "trades": 5,
       "wins": 4,
       "losses": 1,
-      "avg_pnl_pct": 1.5200246449781023,
-      "score": 1.5220024644978103,
+      "avg_pnl_pct": 1.52567989660364,
+      "score": 1.522567989660364,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2042,7 +2018,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x325edd95bb016c36027ce3b9f7595af7094a9564",
@@ -2050,8 +2026,8 @@
       "trades": 3,
       "wins": 2,
       "losses": 1,
-      "avg_pnl_pct": 2.4882266830348527,
-      "score": 1.4988226683034853,
+      "avg_pnl_pct": 2.1889905770238904,
+      "score": 1.468899057702389,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2066,7 +2042,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xaf9f722a676230cc44045efe26fe9a85801ca4fa",
@@ -2074,8 +2050,8 @@
       "trades": 3,
       "wins": 2,
       "losses": 1,
-      "avg_pnl_pct": 0.7962990957868841,
-      "score": 1.3296299095786883,
+      "avg_pnl_pct": 0.7564159279777251,
+      "score": 1.3256415927977725,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2090,7 +2066,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xaca2d79168f9e9072c089e5f7d6eb0daefc13915",
@@ -2098,8 +2074,8 @@
       "trades": 2,
       "wins": 1,
       "losses": 1,
-      "avg_pnl_pct": 2.009577604903618,
-      "score": 1.300957760490362,
+      "avg_pnl_pct": 2.0530041673706125,
+      "score": 1.3053004167370614,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2114,7 +2090,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xe86b057f5eb764c9738d6b0d38170befd0723664",
@@ -2122,8 +2098,8 @@
       "trades": 2,
       "wins": 1,
       "losses": 1,
-      "avg_pnl_pct": 1.9235878685738377,
-      "score": 1.2923587868573838,
+      "avg_pnl_pct": 2.0025981044766015,
+      "score": 1.3002598104476601,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2138,7 +2114,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x4537e1a5b7bcadd39f6d6211cb757ce431798732",
@@ -2146,8 +2122,8 @@
       "trades": 2,
       "wins": 1,
       "losses": 1,
-      "avg_pnl_pct": 1.5579407618582155,
-      "score": 1.2557940761858217,
+      "avg_pnl_pct": 1.5609479548357441,
+      "score": 1.2560947954835746,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2162,7 +2138,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x72cb918356c4f6d3f1b2e532928110ba6995f139",
@@ -2170,8 +2146,8 @@
       "trades": 2,
       "wins": 1,
       "losses": 1,
-      "avg_pnl_pct": 0.2854350104135399,
-      "score": 1.128543501041354,
+      "avg_pnl_pct": 0.28532909218726066,
+      "score": 1.1285329092187262,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2186,7 +2162,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xcf3f419d08a5bdc2c6e5fbd9ad70904c5420f95f",
@@ -2194,8 +2170,8 @@
       "trades": 7,
       "wins": 3,
       "losses": 4,
-      "avg_pnl_pct": -0.45726086640346797,
-      "score": 0.9899881990739388,
+      "avg_pnl_pct": -0.4400105466768479,
+      "score": 0.9917132310466008,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2210,7 +2186,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x6e8bc7cd0978397b06a14af2a8c31f5daeffea79",
@@ -2218,8 +2194,8 @@
       "trades": 5,
       "wins": 2,
       "losses": 3,
-      "avg_pnl_pct": -0.3630005507681503,
-      "score": 0.973699944923185,
+      "avg_pnl_pct": -0.3385043537821829,
+      "score": 0.9761495646217817,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2234,7 +2210,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x2cffce91b4e0c81df18726ff66b31b2b1545e1ad",
@@ -2242,8 +2218,8 @@
       "trades": 5,
       "wins": 2,
       "losses": 3,
-      "avg_pnl_pct": -0.4957489175074718,
-      "score": 0.9604251082492529,
+      "avg_pnl_pct": -0.4714183176204715,
+      "score": 0.9628581682379529,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2258,7 +2234,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x45ffe9ad0793c732578966bae4199b92ffabff5f",
@@ -2266,8 +2242,8 @@
       "trades": 3,
       "wins": 1,
       "losses": 2,
-      "avg_pnl_pct": -0.38816789093498527,
-      "score": 0.9111832109065015,
+      "avg_pnl_pct": -0.3470704073556472,
+      "score": 0.9152929592644352,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2282,7 +2258,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x39475d17bcd20adc540e647dae6781b153fbf3b1",
@@ -2290,8 +2266,8 @@
       "trades": 3,
       "wins": 1,
       "losses": 2,
-      "avg_pnl_pct": -1.2136126555092164,
-      "score": 0.8286387344490783,
+      "avg_pnl_pct": -1.145853426314513,
+      "score": 0.8354146573685487,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2306,7 +2282,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xc6ac58a7a63339898aeda32499a8238a46d88e84",
@@ -2314,8 +2290,8 @@
       "trades": 5,
       "wins": 1,
       "losses": 4,
-      "avg_pnl_pct": -0.8851250512090587,
-      "score": 0.7414874948790942,
+      "avg_pnl_pct": -0.8113821341564709,
+      "score": 0.748861786584353,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2330,7 +2306,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xfeee942a06d2f8012823ccde7bf7bcbcaa29a09f",
@@ -2338,8 +2314,8 @@
       "trades": 5,
       "wins": 1,
       "losses": 4,
-      "avg_pnl_pct": -1.0621880247918676,
-      "score": 0.7237811975208133,
+      "avg_pnl_pct": -0.9886659851442527,
+      "score": 0.7311334014855748,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2354,7 +2330,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x8f63c88fccae90c1f9eb8b447f830bce7b71dd74",
@@ -2362,8 +2338,8 @@
       "trades": 7,
       "wins": 1,
       "losses": 6,
-      "avg_pnl_pct": -0.9768362236999114,
-      "score": 0.6808878062014374,
+      "avg_pnl_pct": -0.8993995625421698,
+      "score": 0.6886314723172116,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2378,7 +2354,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x97991003fd631e2923f40cab2a4fdc35e60dc807",
@@ -2386,8 +2362,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -0.22809568614033585,
-      "score": 0.6271904313859664,
+      "avg_pnl_pct": -0.17677415675876806,
+      "score": 0.6323225843241232,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2402,7 +2378,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xca4903c207a0df58bf37d4bc8bbc5210726f53c8",
@@ -2410,8 +2386,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -0.22809568614033585,
-      "score": 0.6271904313859664,
+      "avg_pnl_pct": -0.17677415675876806,
+      "score": 0.6323225843241232,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2426,7 +2402,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xebcfa0e05df4c406f4a166b1318581134a8537c0",
@@ -2434,8 +2410,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -0.22809568614033585,
-      "score": 0.6271904313859664,
+      "avg_pnl_pct": -0.17677415675876806,
+      "score": 0.6323225843241232,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2450,7 +2426,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e",
@@ -2458,8 +2434,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -0.3245818391225811,
-      "score": 0.617541816087742,
+      "avg_pnl_pct": -0.29055309792424383,
+      "score": 0.6209446902075756,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2474,7 +2450,31 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x0748e296e5a350ec36c8487a1cea406e1b57d4b2",
+      "wallet_group": "money_printer",
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "avg_pnl_pct": -0.40588216928409354,
+      "score": 0.6094117830715907,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x049bdc370620beab340b01072fa580fd57745e7d",
@@ -2482,8 +2482,8 @@
       "trades": 2,
       "wins": 0,
       "losses": 2,
-      "avg_pnl_pct": -0.5274979020468883,
-      "score": 0.5972502097953112,
+      "avg_pnl_pct": -0.43988881480907394,
+      "score": 0.6060111185190926,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2498,7 +2498,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x9a31f7aff78fd464bbceb398e11b82ba633c6525",
@@ -2506,8 +2506,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -0.8475734791524343,
-      "score": 0.5652426520847565,
+      "avg_pnl_pct": -0.6561859193438226,
+      "score": 0.5843814080656178,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2522,7 +2522,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x335f45392f8d87745aaae68f5c192849afd9b60e",
@@ -2530,8 +2530,8 @@
       "trades": 3,
       "wins": 0,
       "losses": 3,
-      "avg_pnl_pct": -1.3783540218403079,
-      "score": 0.5121645978159692,
+      "avg_pnl_pct": -1.2553283389600318,
+      "score": 0.5244671661039968,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2546,7 +2546,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xb756c89e73c8711a881c009e10f79b1566f80cdb",
@@ -2554,8 +2554,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -1.4702058760961543,
-      "score": 0.5029794123903846,
+      "avg_pnl_pct": -1.3472947739144823,
+      "score": 0.5152705226085518,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2570,79 +2570,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0x408d807d1dbb778f59a9c088e56d4c27bdd362ac",
-      "wallet_group": "smart_money",
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "avg_pnl_pct": -1.6283185840707963,
-      "score": 0.4871681415929204,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0xd759e86ed8ca3b9af4fbd87b295f2feea3b8daf3",
-      "wallet_group": "smart_money",
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "avg_pnl_pct": -1.6283185840707963,
-      "score": 0.4871681415929204,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
-    },
-    {
-      "wallet": "0xa1d22621c9b077ce4ac468908114a82b2de4a8db",
-      "wallet_group": "smart_money",
-      "trades": 2,
-      "wins": 0,
-      "losses": 2,
-      "avg_pnl_pct": -1.6689123310719718,
-      "score": 0.48310876689280285,
-      "quality_grade": "NEW",
-      "trades_24h": 0,
-      "wins_24h": 0,
-      "win_rate_24h": null,
-      "avg_pnl_24h": null,
-      "trades_72h": 0,
-      "wins_72h": 0,
-      "win_rate_72h": null,
-      "avg_pnl_72h": null,
-      "trades_168h": 0,
-      "wins_168h": 0,
-      "win_rate_168h": null,
-      "avg_pnl_168h": null,
-      "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x258a4b8a8447c61aabf1bef9bb14ee4d69efff03",
@@ -2650,8 +2578,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -1.6929662045614358,
-      "score": 0.48070337954385645,
+      "avg_pnl_pct": -1.4246470325177278,
+      "score": 0.5075352967482272,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2666,7 +2594,79 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0x408d807d1dbb778f59a9c088e56d4c27bdd362ac",
+      "wallet_group": "smart_money",
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "avg_pnl_pct": -1.5056047197640117,
+      "score": 0.49943952802359887,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xd759e86ed8ca3b9af4fbd87b295f2feea3b8daf3",
+      "wallet_group": "smart_money",
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "avg_pnl_pct": -1.5056047197640117,
+      "score": 0.49943952802359887,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
+    },
+    {
+      "wallet": "0xa1d22621c9b077ce4ac468908114a82b2de4a8db",
+      "wallet_group": "smart_money",
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "avg_pnl_pct": -1.5462491054804097,
+      "score": 0.49537508945195907,
+      "quality_grade": "NEW",
+      "trades_24h": 0,
+      "wins_24h": 0,
+      "win_rate_24h": null,
+      "avg_pnl_24h": null,
+      "trades_72h": 0,
+      "wins_72h": 0,
+      "win_rate_72h": null,
+      "avg_pnl_72h": null,
+      "trades_168h": 0,
+      "wins_168h": 0,
+      "win_rate_168h": null,
+      "avg_pnl_168h": null,
+      "profit_factor": null,
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x4603444ec777fc3e783d157bc871f6bc04baf161",
@@ -2674,8 +2674,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -1.8506745779473053,
-      "score": 0.4649325422052695,
+      "avg_pnl_pct": -1.7282380918744555,
+      "score": 0.47717619081255447,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2690,7 +2690,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xcdbd79aafd6d0618e3fc6aecb11e1a61908a9169",
@@ -2698,8 +2698,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -1.8506745779473053,
-      "score": 0.4649325422052695,
+      "avg_pnl_pct": -1.7282380918744555,
+      "score": 0.47717619081255447,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2714,7 +2714,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x67cd5c1c4548c7ec1a20fadefca19ad42e6230da",
@@ -2722,8 +2722,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -1.867618786047789,
-      "score": 0.46323812139522114,
+      "avg_pnl_pct": -1.7452034370463374,
+      "score": 0.47547965629536626,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2738,7 +2738,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xeff7fe671d9a7acf86f48994bc5d5161042415b6",
@@ -2746,8 +2746,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -1.867618786047789,
-      "score": 0.46323812139522114,
+      "avg_pnl_pct": -1.7452034370463374,
+      "score": 0.47547965629536626,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2762,7 +2762,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xfcf104006bfff47695c1dc21dad3e9de1e72098e",
@@ -2770,8 +2770,8 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -1.867618786047789,
-      "score": 0.46323812139522114,
+      "avg_pnl_pct": -1.7452034370463374,
+      "score": 0.47547965629536626,
       "quality_grade": "NEW",
       "trades_24h": 0,
       "wins_24h": 0,
@@ -2786,7 +2786,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xad227f63d34e7251c1d0ab65e64eeea07aee4e44",
@@ -2794,7 +2794,7 @@
       "trades": 5,
       "wins": 0,
       "losses": 5,
-      "avg_pnl_pct": -4.245246585617227,
+      "avg_pnl_pct": -4.228643245753446,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2810,7 +2810,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x39b07015ca813075bbce6f475767d5b4b9d518b0",
@@ -2818,7 +2818,7 @@
       "trades": 4,
       "wins": 0,
       "losses": 4,
-      "avg_pnl_pct": -6.173443896378364,
+      "avg_pnl_pct": -6.282031435964683,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2834,7 +2834,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x48ec0004494081e8332589faf0747d568da79faf",
@@ -2842,7 +2842,7 @@
       "trades": 2,
       "wins": 0,
       "losses": 2,
-      "avg_pnl_pct": -2.192055652004238,
+      "avg_pnl_pct": -2.141744361224263,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2858,7 +2858,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x469e9a7f624b04c24f0e64edf8d8a277e6bf58a5",
@@ -2866,7 +2866,7 @@
       "trades": 2,
       "wins": 0,
       "losses": 2,
-      "avg_pnl_pct": -2.269419617243299,
+      "avg_pnl_pct": -2.1475054951393444,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2882,7 +2882,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x00897e2d7168165b81558c3cd9257efb007f2410",
@@ -2890,7 +2890,7 @@
       "trades": 2,
       "wins": 0,
       "losses": 2,
-      "avg_pnl_pct": -3.015059568584048,
+      "avg_pnl_pct": -3.0812127144122297,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2906,7 +2906,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xd6e56265890b76413d1d527eb9b75e334c0c5b42",
@@ -2914,7 +2914,7 @@
       "trades": 2,
       "wins": 0,
       "losses": 2,
-      "avg_pnl_pct": -3.0351412752368616,
+      "avg_pnl_pct": -2.7450690466858942,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2930,7 +2930,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x50a4d39bc020be2c86954eec2670541d300f8168",
@@ -2938,7 +2938,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.86710667977344,
+      "avg_pnl_pct": -2.6026307166596463,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2954,7 +2954,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x3da0af89bbb753754cc85af0658aab61cafefe82",
@@ -2962,7 +2962,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -4.010857749964691,
+      "avg_pnl_pct": -4.046477065459704,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -2978,7 +2978,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xbba0681681815bd70f9075e0235e7997b7b519d9",
@@ -2986,7 +2986,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -4.066543438077629,
+      "avg_pnl_pct": -3.8817005545286527,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3002,7 +3002,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x4e23288cee4960f9f962195c22948e4bc7ae20c3",
@@ -3010,7 +3010,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -5.236808479440289,
+      "avg_pnl_pct": -4.953322580419937,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3026,7 +3026,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x7083a8e36b44865c8d40379502bc081259a0ba66",
@@ -3034,7 +3034,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -7.375155067986679,
+      "avg_pnl_pct": -7.343533360900982,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3050,7 +3050,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x0c349d9b92fbd172bbb5a17a9db0a673a6a10ad3",
@@ -3058,7 +3058,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.1945706665832425,
+      "avg_pnl_pct": -2.0725631740718438,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3074,7 +3074,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x551946bd7965303493ff47ecd8c7f2ba8d754d0d",
@@ -3082,7 +3082,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.1945706665832425,
+      "avg_pnl_pct": -2.0725631740718438,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3098,7 +3098,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x00f8da96829820da934fc4a4cb7d39031ce7454b",
@@ -3106,7 +3106,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -3.685850569264741,
+      "avg_pnl_pct": -3.9399776126176143,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3122,7 +3122,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xd487e26c62ed8c28ce3cc70b5791e501c2934982",
@@ -3130,7 +3130,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -3.685850569264741,
+      "avg_pnl_pct": -3.9399776126176143,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3146,7 +3146,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x07fd993f0fa3a185f7207adccd29f7a87404689d",
@@ -3154,7 +3154,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.637656158704536,
+      "avg_pnl_pct": -2.587574079741799,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3170,7 +3170,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xa516541e599129095d14f7faf8b11ae670c837b0",
@@ -3178,7 +3178,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.637656158704536,
+      "avg_pnl_pct": -2.587574079741799,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3194,7 +3194,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xbcd420d13362532756c968f663f96ba95e240dd2",
@@ -3202,7 +3202,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.902411276672491,
+      "avg_pnl_pct": -2.8524653847221115,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3218,7 +3218,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x01bb092c2e4fef1d68ef1ca66e9b1db29f0cf7b7",
@@ -3226,7 +3226,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -3.2755339847341127,
+      "avg_pnl_pct": -2.9861808955691904,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3242,7 +3242,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x07fe8986162d7f68bcfe15822ec062123dd45f9f",
@@ -3250,7 +3250,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -3.2755339847341127,
+      "avg_pnl_pct": -2.9861808955691904,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3266,7 +3266,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x13640f452a56aaa7a5a5e5a6bd24c45374dacbcc",
@@ -3274,7 +3274,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -3.2755339847341127,
+      "avg_pnl_pct": -2.9861808955691904,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3290,7 +3290,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xd67ca2c6f8bc84acf4fa4472b82a8740dc0a53ff",
@@ -3298,7 +3298,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -3.221295611377381,
+      "avg_pnl_pct": -3.476648393405419,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3314,7 +3314,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x1116b5fcc070945062e8879841c29807db373d0d",
@@ -3322,7 +3322,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.7947485657396105,
+      "avg_pnl_pct": -2.503957197802598,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3338,7 +3338,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x281354062fa932086890a6bbf7dff7d0a67d220f",
@@ -3346,7 +3346,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.7947485657396105,
+      "avg_pnl_pct": -2.503957197802598,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3362,7 +3362,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0x577a00a0ee907ee481791049477a3c1fa1470568",
@@ -3370,7 +3370,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.7947485657396105,
+      "avg_pnl_pct": -2.503957197802598,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3386,7 +3386,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xd4eeed940e2c0b4b13910128fad5e0bc987e759e",
@@ -3394,7 +3394,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.7947485657396105,
+      "avg_pnl_pct": -2.503957197802598,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3410,7 +3410,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     },
     {
       "wallet": "0xfba7c3e68638fda0a13994ddb6733cbd016ec826",
@@ -3418,7 +3418,7 @@
       "trades": 1,
       "wins": 0,
       "losses": 1,
-      "avg_pnl_pct": -2.7947485657396105,
+      "avg_pnl_pct": -2.503957197802598,
       "score": 0.45,
       "quality_grade": "NEW",
       "trades_24h": 0,
@@ -3434,7 +3434,7 @@
       "win_rate_168h": null,
       "avg_pnl_168h": null,
       "profit_factor": null,
-      "last_updated_ts": 1783492232
+      "last_updated_ts": 1783494032
     }
   ]
 }
