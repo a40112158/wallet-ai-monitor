@@ -1,5 +1,5 @@
 {
-  "generated_bj": "2026-07-09 07:15:42 CST",
+  "generated_bj": "2026-07-09 08:13:30 CST",
   "wallets": [
     {
       "address": "0x000000209e0a892842bc06c354e7d097392cbbbb",
@@ -30125,6 +30125,54 @@
     },
     {
       "address": "0xa100c54fcea537adad0743c9745c83195b278b66",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x12203316069a9d155cdadaa94a8e4b3e40ce6447",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x52516d3ee158365393598028055769354d45a3dd",
       "groups": [
         "smart_money"
       ],
