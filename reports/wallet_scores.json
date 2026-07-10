@@ -1,5 +1,5 @@
 {
-  "generated_bj": "2026-07-11 04:14:12 CST",
+  "generated_bj": "2026-07-11 05:15:10 CST",
   "wallets": [
     {
       "address": "0xc846e513f1fb448e744d5c8e911e87bccc0dfb20",
@@ -11,7 +11,7 @@
       "w24h": {
         "samples": 3,
         "win_rate": 1.0,
-        "avg_return": 0.0518
+        "avg_return": 0.0588
       },
       "w72h": {
         "samples": 0,
@@ -74,6 +74,30 @@
       "tier": "HIGH"
     },
     {
+      "address": "0x1001a2fed4bdac4dd037319af153093185b90350",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 1.0,
+      "total_samples": 2,
+      "w24h": {
+        "samples": 2,
+        "win_rate": 1.0,
+        "avg_return": 0.0542
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
       "address": "0x56498e5f90c14060499b62b6f459b3e3fb9280c5",
       "groups": [
         "money_printer"
@@ -83,7 +107,7 @@
       "w24h": {
         "samples": 4,
         "win_rate": 1.0,
-        "avg_return": 0.057
+        "avg_return": 0.0626
       },
       "w72h": {
         "samples": 0,
@@ -102,36 +126,12 @@
       "groups": [
         "money_printer"
       ],
-      "quality": 0.99,
+      "quality": 0.988,
       "total_samples": 17,
       "w24h": {
         "samples": 17,
         "win_rate": 1.0,
-        "avg_return": 0.0449
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0x1001a2fed4bdac4dd037319af153093185b90350",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.987,
-      "total_samples": 2,
-      "w24h": {
-        "samples": 2,
-        "win_rate": 1.0,
-        "avg_return": 0.0437
+        "avg_return": 0.0442
       },
       "w72h": {
         "samples": 0,
@@ -2162,16 +2162,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x088cc6048f04dc01fb00e90421911b362e758e70",
+      "address": "0x25554a80781ee62414c3747e81c3f50157c634b1",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.87,
-      "total_samples": 13,
+      "quality": 0.867,
+      "total_samples": 29,
       "w24h": {
-        "samples": 13,
-        "win_rate": 0.923,
-        "avg_return": 0.0159
+        "samples": 29,
+        "win_rate": 0.897,
+        "avg_return": 0.025
       },
       "w72h": {
         "samples": 0,
@@ -2186,16 +2186,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x25554a80781ee62414c3747e81c3f50157c634b1",
+      "address": "0x088cc6048f04dc01fb00e90421911b362e758e70",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.869,
-      "total_samples": 30,
+      "quality": 0.865,
+      "total_samples": 12,
       "w24h": {
-        "samples": 30,
-        "win_rate": 0.9,
-        "avg_return": 0.0246
+        "samples": 12,
+        "win_rate": 0.917,
+        "avg_return": 0.016
       },
       "w72h": {
         "samples": 0,
@@ -2238,36 +2238,12 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.856,
-      "total_samples": 46,
+      "quality": 0.855,
+      "total_samples": 45,
       "w24h": {
-        "samples": 46,
-        "win_rate": 0.891,
-        "avg_return": 0.0216
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0x1e37a337ed460039d1b15bd3bc489de789768d5e",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.847,
-      "total_samples": 19,
-      "w24h": {
-        "samples": 19,
-        "win_rate": 0.895,
-        "avg_return": 0.0155
+        "samples": 45,
+        "win_rate": 0.889,
+        "avg_return": 0.0218
       },
       "w72h": {
         "samples": 0,
@@ -2330,16 +2306,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0xbbf7d7a9d0eaeab4115f022a6863450296112422",
+      "address": "0x1e37a337ed460039d1b15bd3bc489de789768d5e",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.839,
-      "total_samples": 26,
+      "quality": 0.842,
+      "total_samples": 18,
       "w24h": {
-        "samples": 26,
-        "win_rate": 0.885,
-        "avg_return": 0.0159
+        "samples": 18,
+        "win_rate": 0.889,
+        "avg_return": 0.0155
       },
       "w72h": {
         "samples": 0,
@@ -2378,11 +2354,35 @@
       "tier": "HIGH"
     },
     {
+      "address": "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.834,
+      "total_samples": 6,
+      "w24h": {
+        "samples": 6,
+        "win_rate": 0.833,
+        "avg_return": 0.0338
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
       "address": "0xca4903c207a0df58bf37d4bc8bbc5210726f53c8",
       "groups": [
         "money_printer"
       ],
-      "quality": 0.835,
+      "quality": 0.834,
       "total_samples": 77,
       "w24h": {
         "samples": 77,
@@ -2402,16 +2402,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x3e41a8fa0032d635f02201053f1a5aa2a6967c81",
+      "address": "0xbbf7d7a9d0eaeab4115f022a6863450296112422",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.834,
-      "total_samples": 6,
+      "quality": 0.832,
+      "total_samples": 24,
       "w24h": {
-        "samples": 6,
-        "win_rate": 0.833,
-        "avg_return": 0.0338
+        "samples": 24,
+        "win_rate": 0.875,
+        "avg_return": 0.016
       },
       "w72h": {
         "samples": 0,
@@ -2594,16 +2594,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x9b5b1931fa5838a891973f9877c7648c93ee80cc",
+      "address": "0x1aa5abfd850012297428b509fb84fcd9f9f995cb",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.808,
-      "total_samples": 20,
+      "quality": 0.802,
+      "total_samples": 6,
       "w24h": {
-        "samples": 20,
-        "win_rate": 0.85,
-        "avg_return": 0.0142
+        "samples": 6,
+        "win_rate": 0.833,
+        "avg_return": 0.0178
       },
       "w72h": {
         "samples": 0,
@@ -2618,16 +2618,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x1aa5abfd850012297428b509fb84fcd9f9f995cb",
+      "address": "0x9b5b1931fa5838a891973f9877c7648c93ee80cc",
       "groups": [
         "smart_money"
       ],
       "quality": 0.802,
-      "total_samples": 6,
+      "total_samples": 19,
       "w24h": {
-        "samples": 6,
-        "win_rate": 0.833,
-        "avg_return": 0.0178
+        "samples": 19,
+        "win_rate": 0.842,
+        "avg_return": 0.0141
       },
       "w72h": {
         "samples": 0,
@@ -2690,30 +2690,6 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x4a0aee02132a411cfcf79a486f0e2d7c5152e94a",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.787,
-      "total_samples": 32,
-      "w24h": {
-        "samples": 32,
-        "win_rate": 0.812,
-        "avg_return": 0.0185
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
       "address": "0x523852be2db1a76a0e088ecbff32e849544054e5",
       "groups": [
         "smart_money"
@@ -2723,7 +2699,7 @@
       "w24h": {
         "samples": 6,
         "win_rate": 0.833,
-        "avg_return": 0.01
+        "avg_return": 0.0102
       },
       "w72h": {
         "samples": 0,
@@ -2772,6 +2748,30 @@
         "samples": 6,
         "win_rate": 0.833,
         "avg_return": 0.0082
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
+      "address": "0x4a0aee02132a411cfcf79a486f0e2d7c5152e94a",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.782,
+      "total_samples": 31,
+      "w24h": {
+        "samples": 31,
+        "win_rate": 0.806,
+        "avg_return": 0.0186
       },
       "w72h": {
         "samples": 0,
@@ -2882,30 +2882,6 @@
       "tier": "HIGH"
     },
     {
-      "address": "0xad227f63d34e7251c1d0ab65e64eeea07aee4e44",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.766,
-      "total_samples": 20,
-      "w24h": {
-        "samples": 20,
-        "win_rate": 0.8,
-        "avg_return": 0.0128
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
       "address": "0xd440715f2ce6f7ed1924f282e0096c863e7049f7",
       "groups": [
         "smart_money"
@@ -2978,6 +2954,30 @@
       "tier": "HIGH"
     },
     {
+      "address": "0xad227f63d34e7251c1d0ab65e64eeea07aee4e44",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.757,
+      "total_samples": 19,
+      "w24h": {
+        "samples": 19,
+        "win_rate": 0.789,
+        "avg_return": 0.0128
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
       "address": "0x3da0af89bbb753754cc85af0658aab61cafefe82",
       "groups": [
         "smart_money"
@@ -3035,31 +3035,7 @@
       "w24h": {
         "samples": 4,
         "win_rate": 0.75,
-        "avg_return": 0.0248
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0xa864144d507da1f5a90aae0147b8cba6d93a21cb",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.75,
-      "total_samples": 19,
-      "w24h": {
-        "samples": 19,
-        "win_rate": 0.789,
-        "avg_return": 0.0091
+        "avg_return": 0.0251
       },
       "w72h": {
         "samples": 0,
@@ -3194,16 +3170,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
+      "address": "0xa864144d507da1f5a90aae0147b8cba6d93a21cb",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.733,
-      "total_samples": 9,
+      "quality": 0.74,
+      "total_samples": 18,
       "w24h": {
-        "samples": 9,
+        "samples": 18,
         "win_rate": 0.778,
-        "avg_return": 0.0055
+        "avg_return": 0.0088
       },
       "w72h": {
         "samples": 0,
@@ -3218,16 +3194,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x3e781befd071c59d820725f70ce109298f750706",
+      "address": "0xa99c9e5484e5b26635c07876d0859a1819ff40d5",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.729,
-      "total_samples": 100,
+      "quality": 0.733,
+      "total_samples": 9,
       "w24h": {
-        "samples": 100,
-        "win_rate": 0.75,
-        "avg_return": 0.0145
+        "samples": 9,
+        "win_rate": 0.778,
+        "avg_return": 0.0055
       },
       "w72h": {
         "samples": 0,
@@ -3324,6 +3300,30 @@
         "samples": 7,
         "win_rate": 0.714,
         "avg_return": 0.0255
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
+      "address": "0x3e781befd071c59d820725f70ce109298f750706",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.721,
+      "total_samples": 100,
+      "w24h": {
+        "samples": 100,
+        "win_rate": 0.74,
+        "avg_return": 0.0145
       },
       "w72h": {
         "samples": 0,
@@ -3492,30 +3492,6 @@
         "samples": 4,
         "win_rate": 0.75,
         "avg_return": 0.0058
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0xad59ed47c226987cf458a63428ca10887773ba81",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.712,
-      "total_samples": 8,
-      "w24h": {
-        "samples": 8,
-        "win_rate": 0.75,
-        "avg_return": 0.0061
       },
       "w72h": {
         "samples": 0,
@@ -3770,17 +3746,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x288ed4efc8fbd1e42a06fe083ea942d20c90b336",
+      "address": "0x780825f3f0ad6799e304fb843387934c1fa06e70",
       "groups": [
-        "money_printer",
         "smart_money"
       ],
-      "quality": 0.693,
-      "total_samples": 11,
+      "quality": 0.692,
+      "total_samples": 7,
       "w24h": {
-        "samples": 11,
-        "win_rate": 0.727,
-        "avg_return": 0.0058
+        "samples": 7,
+        "win_rate": 0.714,
+        "avg_return": 0.0105
       },
       "w72h": {
         "samples": 0,
@@ -3795,16 +3770,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x780825f3f0ad6799e304fb843387934c1fa06e70",
+      "address": "0x44a709e254ac9f54bbd37a1d6388da5ddcb57c7a",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.692,
+      "quality": 0.688,
       "total_samples": 7,
       "w24h": {
         "samples": 7,
         "win_rate": 0.714,
-        "avg_return": 0.0105
+        "avg_return": 0.0081
       },
       "w72h": {
         "samples": 0,
@@ -3843,16 +3818,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x44a709e254ac9f54bbd37a1d6388da5ddcb57c7a",
+      "address": "0xad59ed47c226987cf458a63428ca10887773ba81",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.683,
+      "quality": 0.681,
       "total_samples": 7,
       "w24h": {
         "samples": 7,
         "win_rate": 0.714,
-        "avg_return": 0.0056
+        "avg_return": 0.0049
       },
       "w72h": {
         "samples": 0,
@@ -3939,6 +3914,31 @@
       "tier": "HIGH"
     },
     {
+      "address": "0x288ed4efc8fbd1e42a06fe083ea942d20c90b336",
+      "groups": [
+        "money_printer",
+        "smart_money"
+      ],
+      "quality": 0.67,
+      "total_samples": 10,
+      "w24h": {
+        "samples": 10,
+        "win_rate": 0.7,
+        "avg_return": 0.0049
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
       "address": "0xf8bb001a9e55d81fd6a5834f8e64865ef4e231c9",
       "groups": [
         "smart_money"
@@ -3996,7 +3996,7 @@
       "w24h": {
         "samples": 13,
         "win_rate": 0.692,
-        "avg_return": 0.0031
+        "avg_return": 0.0032
       },
       "w72h": {
         "samples": 0,
@@ -4045,30 +4045,6 @@
         "samples": 25,
         "win_rate": 0.68,
         "avg_return": 0.0054
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0x07fd993f0fa3a185f7207adccd29f7a87404689d",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.654,
-      "total_samples": 42,
-      "w24h": {
-        "samples": 42,
-        "win_rate": 0.667,
-        "avg_return": 0.0106
       },
       "w72h": {
         "samples": 0,
@@ -4188,7 +4164,7 @@
       "w24h": {
         "samples": 6,
         "win_rate": 0.667,
-        "avg_return": 0.009
+        "avg_return": 0.0089
       },
       "w72h": {
         "samples": 0,
@@ -4347,16 +4323,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x9471f70f2518846f7a076636d64e5a22787da105",
+      "address": "0xbe19541903f64af97bcf8436f4d15bf3a56b8bd1",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.643,
-      "total_samples": 3,
+      "quality": 0.644,
+      "total_samples": 15,
       "w24h": {
-        "samples": 3,
+        "samples": 15,
         "win_rate": 0.667,
-        "avg_return": 0.0048
+        "avg_return": 0.0052
       },
       "w72h": {
         "samples": 0,
@@ -4371,16 +4347,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0xbe19541903f64af97bcf8436f4d15bf3a56b8bd1",
+      "address": "0x9471f70f2518846f7a076636d64e5a22787da105",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
       "quality": 0.643,
-      "total_samples": 15,
+      "total_samples": 3,
       "w24h": {
-        "samples": 15,
+        "samples": 3,
         "win_rate": 0.667,
-        "avg_return": 0.005
+        "avg_return": 0.0048
       },
       "w72h": {
         "samples": 0,
@@ -4587,6 +4563,30 @@
       "tier": "HIGH"
     },
     {
+      "address": "0xa399f378380dddb1fbb72e935b0111d7a4d16a52",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.636,
+      "total_samples": 16,
+      "w24h": {
+        "samples": 16,
+        "win_rate": 0.625,
+        "avg_return": 0.0179
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
       "address": "0xe9cef9fd872a03cedf9d3e6e90309782b3724ea6",
       "groups": [
         "smart_money"
@@ -4645,30 +4645,6 @@
         "samples": 6,
         "win_rate": 0.667,
         "avg_return": 0.001
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0xa399f378380dddb1fbb72e935b0111d7a4d16a52",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.635,
-      "total_samples": 16,
-      "w24h": {
-        "samples": 16,
-        "win_rate": 0.625,
-        "avg_return": 0.0177
       },
       "w72h": {
         "samples": 0,
@@ -4831,36 +4807,12 @@
       "groups": [
         "money_printer"
       ],
-      "quality": 0.632,
+      "quality": 0.631,
       "total_samples": 13,
       "w24h": {
         "samples": 13,
         "win_rate": 0.615,
         "avg_return": 0.0196
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0x6d3b90747dbf5883bf88ff7eb5fcc86f408b5409",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.629,
-      "total_samples": 14,
-      "w24h": {
-        "samples": 14,
-        "win_rate": 0.643,
-        "avg_return": 0.0073
       },
       "w72h": {
         "samples": 0,
@@ -4932,7 +4884,7 @@
       "w24h": {
         "samples": 18,
         "win_rate": 0.611,
-        "avg_return": 0.0171
+        "avg_return": 0.017
       },
       "w72h": {
         "samples": 0,
@@ -5163,6 +5115,30 @@
       "tier": "HIGH"
     },
     {
+      "address": "0xb56a8e43ac07b1b84d14657e0135e4fb196858a6",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.617,
+      "total_samples": 5,
+      "w24h": {
+        "samples": 5,
+        "win_rate": 0.6,
+        "avg_return": 0.0185
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
       "address": "0x9b864dde6ed1c21608b1665a0ac0faa4f7e36e6e",
       "groups": [
         "smart_money"
@@ -5221,6 +5197,30 @@
         "samples": 3,
         "win_rate": 0.667,
         "avg_return": -0.0099
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "HIGH"
+    },
+    {
+      "address": "0x07fd993f0fa3a185f7207adccd29f7a87404689d",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.607,
+      "total_samples": 36,
+      "w24h": {
+        "samples": 36,
+        "win_rate": 0.611,
+        "avg_return": 0.0092
       },
       "w72h": {
         "samples": 0,
@@ -5307,16 +5307,16 @@
       "tier": "HIGH"
     },
     {
-      "address": "0x36c097864a03c7f0215c0d43165a734152a12e0b",
+      "address": "0x6d3b90747dbf5883bf88ff7eb5fcc86f408b5409",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.603,
-      "total_samples": 16,
+      "quality": 0.606,
+      "total_samples": 13,
       "w24h": {
-        "samples": 16,
-        "win_rate": 0.625,
-        "avg_return": 0.0016
+        "samples": 13,
+        "win_rate": 0.615,
+        "avg_return": 0.0067
       },
       "w72h": {
         "samples": 0,
@@ -5365,30 +5365,6 @@
         "samples": 3,
         "win_rate": 0.667,
         "avg_return": -0.0158
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "HIGH"
-    },
-    {
-      "address": "0xc0f06a313e20b7ad93a65dcdf0f208998d1a4596",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.601,
-      "total_samples": 3,
-      "w24h": {
-        "samples": 3,
-        "win_rate": 0.667,
-        "avg_return": -0.016
       },
       "w72h": {
         "samples": 0,
@@ -5691,6 +5667,54 @@
       "tier": "MID"
     },
     {
+      "address": "0x36c097864a03c7f0215c0d43165a734152a12e0b",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.582,
+      "total_samples": 15,
+      "w24h": {
+        "samples": 15,
+        "win_rate": 0.6,
+        "avg_return": 0.0008
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x65aee08c9235025355ac6c5ad020fb167ecef4fe",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.58,
+      "total_samples": 26,
+      "w24h": {
+        "samples": 26,
+        "win_rate": 0.577,
+        "avg_return": 0.0094
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0xa4add8273d7f47318675bdfbcce3e9648cdb4509",
       "groups": [
         "money_printer"
@@ -5701,6 +5725,30 @@
         "samples": 5,
         "win_rate": 0.6,
         "avg_return": -0.0002
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xcd1c932a413868c3c84e73e195bf34c1ba4ffec5",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.578,
+      "total_samples": 32,
+      "w24h": {
+        "samples": 32,
+        "win_rate": 0.594,
+        "avg_return": 0.0015
       },
       "w72h": {
         "samples": 0,
@@ -5739,16 +5787,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x67cd5c1c4548c7ec1a20fadefca19ad42e6230da",
+      "address": "0x17c3c8fdbcb7d1b240ce08965e09b1fc91cba868",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
       "quality": 0.575,
-      "total_samples": 24,
+      "total_samples": 56,
       "w24h": {
-        "samples": 24,
-        "win_rate": 0.583,
-        "avg_return": 0.0043
+        "samples": 56,
+        "win_rate": 0.589,
+        "avg_return": 0.0016
       },
       "w72h": {
         "samples": 0,
@@ -5763,16 +5811,40 @@
       "tier": "MID"
     },
     {
-      "address": "0x17c3c8fdbcb7d1b240ce08965e09b1fc91cba868",
+      "address": "0x39bac00809cae627f52e4a82f95f4f67d5b269bd",
       "groups": [
         "money_printer"
       ],
-      "quality": 0.574,
-      "total_samples": 56,
+      "quality": 0.575,
+      "total_samples": 138,
       "w24h": {
-        "samples": 56,
-        "win_rate": 0.589,
-        "avg_return": 0.0015
+        "samples": 138,
+        "win_rate": 0.572,
+        "avg_return": 0.0084
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x67cd5c1c4548c7ec1a20fadefca19ad42e6230da",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.575,
+      "total_samples": 24,
+      "w24h": {
+        "samples": 24,
+        "win_rate": 0.583,
+        "avg_return": 0.0043
       },
       "w72h": {
         "samples": 0,
@@ -5907,30 +5979,6 @@
       "tier": "MID"
     },
     {
-      "address": "0x39bac00809cae627f52e4a82f95f4f67d5b269bd",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.571,
-      "total_samples": 139,
-      "w24h": {
-        "samples": 139,
-        "win_rate": 0.568,
-        "avg_return": 0.0083
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0xeafbe89e3bc638a540c166c45d2b12850fc6c402",
       "groups": [
         "money_printer"
@@ -6027,30 +6075,6 @@
       "tier": "MID"
     },
     {
-      "address": "0xb4d6fe0f1504a55c65a986ef55b9148a6f0dae7a",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.564,
-      "total_samples": 26,
-      "w24h": {
-        "samples": 26,
-        "win_rate": 0.577,
-        "avg_return": 0.001
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0xc9257e15609fd24a2334b991756652fbd52f48b5",
       "groups": [
         "smart_money"
@@ -6075,16 +6099,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xcd1c932a413868c3c84e73e195bf34c1ba4ffec5",
+      "address": "0xb4d6fe0f1504a55c65a986ef55b9148a6f0dae7a",
       "groups": [
         "smart_money"
       ],
       "quality": 0.563,
-      "total_samples": 33,
+      "total_samples": 26,
       "w24h": {
-        "samples": 33,
-        "win_rate": 0.576,
-        "avg_return": 0.001
+        "samples": 26,
+        "win_rate": 0.577,
+        "avg_return": 0.0009
       },
       "w72h": {
         "samples": 0,
@@ -6109,30 +6133,6 @@
         "samples": 12,
         "win_rate": 0.583,
         "avg_return": -0.0024
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x65aee08c9235025355ac6c5ad020fb167ecef4fe",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.561,
-      "total_samples": 27,
-      "w24h": {
-        "samples": 27,
-        "win_rate": 0.556,
-        "avg_return": 0.0085
       },
       "w72h": {
         "samples": 0,
@@ -6267,6 +6267,30 @@
       "tier": "MID"
     },
     {
+      "address": "0xaf2825f73a90cf08baf2577818826b79e3faca9b",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.554,
+      "total_samples": 83,
+      "w24h": {
+        "samples": 83,
+        "win_rate": 0.554,
+        "avg_return": 0.0052
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x335f45392f8d87745aaae68f5c192849afd9b60e",
       "groups": [
         "money_printer"
@@ -6315,40 +6339,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xaf2825f73a90cf08baf2577818826b79e3faca9b",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.553,
-      "total_samples": 83,
-      "w24h": {
-        "samples": 83,
-        "win_rate": 0.554,
-        "avg_return": 0.005
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x123dbca6a27005a3c4ce10cb66ee8ece8fc13bff",
+      "address": "0xf27ebb91ea420f73b59b205ac7e0b77a90ec8f3c",
       "groups": [
         "money_printer"
       ],
-      "quality": 0.551,
-      "total_samples": 81,
+      "quality": 0.553,
+      "total_samples": 40,
       "w24h": {
-        "samples": 81,
-        "win_rate": 0.543,
-        "avg_return": 0.008
+        "samples": 40,
+        "win_rate": 0.575,
+        "avg_return": -0.0033
       },
       "w72h": {
         "samples": 0,
@@ -6459,6 +6459,30 @@
       "tier": "MID"
     },
     {
+      "address": "0x123dbca6a27005a3c4ce10cb66ee8ece8fc13bff",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.546,
+      "total_samples": 80,
+      "w24h": {
+        "samples": 80,
+        "win_rate": 0.537,
+        "avg_return": 0.0079
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x248ee78390f5505d34f36ce2df87d79fbcdb6be2",
       "groups": [
         "smart_money"
@@ -6517,30 +6541,6 @@
         "samples": 2,
         "win_rate": 0.5,
         "avg_return": 0.0224
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0xf27ebb91ea420f73b59b205ac7e0b77a90ec8f3c",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.545,
-      "total_samples": 46,
-      "w24h": {
-        "samples": 46,
-        "win_rate": 0.565,
-        "avg_return": -0.0034
       },
       "w72h": {
         "samples": 0,
@@ -6655,36 +6655,12 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.541,
+      "quality": 0.54,
       "total_samples": 87,
       "w24h": {
         "samples": 87,
         "win_rate": 0.54,
-        "avg_return": 0.0042
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x258a4b8a8447c61aabf1bef9bb14ee4d69efff03",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.539,
-      "total_samples": 76,
-      "w24h": {
-        "samples": 76,
-        "win_rate": 0.553,
-        "avg_return": -0.0018
+        "avg_return": 0.0041
       },
       "w72h": {
         "samples": 0,
@@ -6771,16 +6747,40 @@
       "tier": "MID"
     },
     {
+      "address": "0x76c2cd1b8a249f465f8445c455cb78e0eed36f1e",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.537,
+      "total_samples": 30,
+      "w24h": {
+        "samples": 30,
+        "win_rate": 0.533,
+        "avg_return": 0.0053
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x34827044cbd4b808fc1b189fce9f50e6dafae7c9",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.535,
+      "quality": 0.536,
       "total_samples": 72,
       "w24h": {
         "samples": 72,
         "win_rate": 0.542,
-        "avg_return": 0.001
+        "avg_return": 0.0013
       },
       "w72h": {
         "samples": 0,
@@ -6804,7 +6804,7 @@
       "w24h": {
         "samples": 26,
         "win_rate": 0.538,
-        "avg_return": 0.0011
+        "avg_return": 0.001
       },
       "w72h": {
         "samples": 0,
@@ -6823,7 +6823,7 @@
       "groups": [
         "money_printer"
       ],
-      "quality": 0.533,
+      "quality": 0.532,
       "total_samples": 28,
       "w24h": {
         "samples": 28,
@@ -6891,30 +6891,6 @@
       "tier": "MID"
     },
     {
-      "address": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.528,
-      "total_samples": 58,
-      "w24h": {
-        "samples": 58,
-        "win_rate": 0.534,
-        "avg_return": 0.0004
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0x95b5653dfd12b0bc13c08297869621c9650aa6bb",
       "groups": [
         "smart_money"
@@ -6924,31 +6900,7 @@
       "w24h": {
         "samples": 80,
         "win_rate": 0.537,
-        "avg_return": -0.0021
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0xb56a8e43ac07b1b84d14657e0135e4fb196858a6",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.526,
-      "total_samples": 6,
-      "w24h": {
-        "samples": 6,
-        "win_rate": 0.5,
-        "avg_return": 0.013
+        "avg_return": -0.0019
       },
       "w72h": {
         "samples": 0,
@@ -7069,30 +7021,6 @@
         "samples": 2,
         "win_rate": 0.5,
         "avg_return": 0.0121
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x5323b92268b4e140ac2133c677e991cd9ad1b23c",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.523,
-      "total_samples": 72,
-      "w24h": {
-        "samples": 72,
-        "win_rate": 0.542,
-        "avg_return": -0.0051
       },
       "w72h": {
         "samples": 0,
@@ -7347,6 +7275,30 @@
       "tier": "MID"
     },
     {
+      "address": "0xc4241dc9bfeb5126c0766df35a87ed3fbd630c78",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.518,
+      "total_samples": 67,
+      "w24h": {
+        "samples": 67,
+        "win_rate": 0.522,
+        "avg_return": -0.0002
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0xcf3f419d08a5bdc2c6e5fbd9ad70904c5420f95f",
       "groups": [
         "smart_money"
@@ -7371,16 +7323,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x14f8e042905350cee7ae0cec27f092f10dd912bb",
+      "address": "0x258a4b8a8447c61aabf1bef9bb14ee4d69efff03",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
       "quality": 0.517,
-      "total_samples": 25,
+      "total_samples": 72,
       "w24h": {
-        "samples": 25,
-        "win_rate": 0.52,
-        "avg_return": 0.0003
+        "samples": 72,
+        "win_rate": 0.528,
+        "avg_return": -0.0024
       },
       "w72h": {
         "samples": 0,
@@ -7395,16 +7347,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xc4241dc9bfeb5126c0766df35a87ed3fbd630c78",
+      "address": "0x14f8e042905350cee7ae0cec27f092f10dd912bb",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.517,
-      "total_samples": 69,
+      "quality": 0.516,
+      "total_samples": 25,
       "w24h": {
-        "samples": 69,
-        "win_rate": 0.522,
-        "avg_return": -0.0
+        "samples": 25,
+        "win_rate": 0.52,
+        "avg_return": 0.0002
       },
       "w72h": {
         "samples": 0,
@@ -7539,16 +7491,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x08a49e7f7133577aa942f1c24119ff1c6797126d",
+      "address": "0x68d017f8c75d22af6a48aa6f2f697c658ec15599",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.511,
-      "total_samples": 103,
+      "quality": 0.509,
+      "total_samples": 68,
       "w24h": {
-        "samples": 103,
-        "win_rate": 0.505,
-        "avg_return": 0.0034
+        "samples": 68,
+        "win_rate": 0.5,
+        "avg_return": 0.0045
       },
       "w72h": {
         "samples": 0,
@@ -7707,6 +7659,30 @@
       "tier": "MID"
     },
     {
+      "address": "0x856c35038594767646266bc7fd68dc26480e910d",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.508,
+      "total_samples": 27,
+      "w24h": {
+        "samples": 27,
+        "win_rate": 0.519,
+        "avg_return": -0.0035
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x85b3c124a704ae638622a1e99310f22eee7279c6",
       "groups": [
         "smart_money"
@@ -7779,6 +7755,30 @@
       "tier": "MID"
     },
     {
+      "address": "0x08a49e7f7133577aa942f1c24119ff1c6797126d",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.507,
+      "total_samples": 102,
+      "w24h": {
+        "samples": 102,
+        "win_rate": 0.5,
+        "avg_return": 0.0033
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0xb2139bc97c2dc43f8825d033d08ecb9e2c8be00f",
       "groups": [
         "smart_money"
@@ -7812,7 +7812,7 @@
       "w24h": {
         "samples": 71,
         "win_rate": 0.507,
-        "avg_return": 0.0003
+        "avg_return": 0.0002
       },
       "w72h": {
         "samples": 0,
@@ -8629,6 +8629,30 @@
         "samples": 2,
         "win_rate": 0.5,
         "avg_return": 0.0012
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x469e9a7f624b04c24f0e64edf8d8a277e6bf58a5",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.501,
+      "total_samples": 10,
+      "w24h": {
+        "samples": 10,
+        "win_rate": 0.5,
+        "avg_return": 0.0003
       },
       "w72h": {
         "samples": 0,
@@ -11019,30 +11043,6 @@
       "tier": "MID"
     },
     {
-      "address": "0x469e9a7f624b04c24f0e64edf8d8a277e6bf58a5",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.5,
-      "total_samples": 10,
-      "w24h": {
-        "samples": 10,
-        "win_rate": 0.5,
-        "avg_return": 0.0002
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0x470a063ae0e2edb2b8029fd44b702ad7be6585c9",
       "groups": [
         "smart_money"
@@ -11605,6 +11605,30 @@
         "samples": 1,
         "win_rate": 0.0,
         "avg_return": -0.0457
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x5cb20485ede692b76ad1f12ee70d089437b99de8",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 1,
+        "win_rate": 1.0,
+        "avg_return": 0.0083
       },
       "w72h": {
         "samples": 0,
@@ -13907,9 +13931,9 @@
       "quality": 0.5,
       "total_samples": 0,
       "w24h": {
-        "samples": 1,
+        "samples": 0,
         "win_rate": 0.0,
-        "avg_return": -0.0147
+        "avg_return": 0.0
       },
       "w72h": {
         "samples": 0,
@@ -14339,9 +14363,9 @@
       "quality": 0.5,
       "total_samples": 0,
       "w24h": {
-        "samples": 1,
+        "samples": 0,
         "win_rate": 0.0,
-        "avg_return": -0.0147
+        "avg_return": 0.0
       },
       "w72h": {
         "samples": 0,
@@ -16331,9 +16355,9 @@
       "quality": 0.5,
       "total_samples": 0,
       "w24h": {
-        "samples": 1,
+        "samples": 0,
         "win_rate": 0.0,
-        "avg_return": -0.0147
+        "avg_return": 0.0
       },
       "w72h": {
         "samples": 0,
@@ -17390,6 +17414,30 @@
         "samples": 1,
         "win_rate": 1.0,
         "avg_return": 0.0083
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xfc27136e42af1732ddc9ce2605ea9bff1b959d9d",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.5,
+      "total_samples": 52,
+      "w24h": {
+        "samples": 52,
+        "win_rate": 0.5,
+        "avg_return": 0.0
       },
       "w72h": {
         "samples": 0,
@@ -18484,6 +18532,54 @@
       "tier": "MID"
     },
     {
+      "address": "0x1847dc422b9dea349e8af7d02cb3a136cd81f441",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x83b1385d8126ecf64bfb3b4254d67eb9db753bcc",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.5,
+      "total_samples": 0,
+      "w24h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x15c8a479139a2e195b37790ace4870d1f2be045f",
       "groups": [
         "smart_money"
@@ -18613,7 +18709,7 @@
       "w24h": {
         "samples": 4,
         "win_rate": 0.5,
-        "avg_return": -0.0003
+        "avg_return": -0.0004
       },
       "w72h": {
         "samples": 0,
@@ -18724,6 +18820,30 @@
       "tier": "MID"
     },
     {
+      "address": "0x55a8f87e59611f86a31a58b361038f36fbded9ea",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.498,
+      "total_samples": 4,
+      "w24h": {
+        "samples": 4,
+        "win_rate": 0.5,
+        "avg_return": -0.0012
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x610b8dd6b392d010c2b6ad8d121dfc09524cb613",
       "groups": [
         "smart_money"
@@ -18781,7 +18901,7 @@
       "w24h": {
         "samples": 65,
         "win_rate": 0.492,
-        "avg_return": 0.0019
+        "avg_return": 0.0018
       },
       "w72h": {
         "samples": 0,
@@ -18853,7 +18973,7 @@
       "w24h": {
         "samples": 26,
         "win_rate": 0.5,
-        "avg_return": -0.0011
+        "avg_return": -0.0012
       },
       "w72h": {
         "samples": 0,
@@ -18925,7 +19045,7 @@
       "w24h": {
         "samples": 26,
         "win_rate": 0.5,
-        "avg_return": -0.0014
+        "avg_return": -0.0015
       },
       "w72h": {
         "samples": 0,
@@ -18950,30 +19070,6 @@
         "samples": 2,
         "win_rate": 0.5,
         "avg_return": -0.0014
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x68d017f8c75d22af6a48aa6f2f697c658ec15599",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.497,
-      "total_samples": 68,
-      "w24h": {
-        "samples": 68,
-        "win_rate": 0.485,
-        "avg_return": 0.0045
       },
       "w72h": {
         "samples": 0,
@@ -19165,7 +19261,7 @@
       "w24h": {
         "samples": 24,
         "win_rate": 0.5,
-        "avg_return": -0.0022
+        "avg_return": -0.0021
       },
       "w72h": {
         "samples": 0,
@@ -19190,30 +19286,6 @@
         "samples": 2,
         "win_rate": 0.5,
         "avg_return": -0.0019
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x55a8f87e59611f86a31a58b361038f36fbded9ea",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.496,
-      "total_samples": 4,
-      "w24h": {
-        "samples": 4,
-        "win_rate": 0.5,
-        "avg_return": -0.0018
       },
       "w72h": {
         "samples": 0,
@@ -19444,40 +19516,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x76c2cd1b8a249f465f8445c455cb78e0eed36f1e",
+      "address": "0x7fdafde5cfb5465924316eced2d3715494c517d1",
       "groups": [
-        "smart_money"
-      ],
-      "quality": 0.495,
-      "total_samples": 33,
-      "w24h": {
-        "samples": 33,
-        "win_rate": 0.485,
-        "avg_return": 0.0037
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x5cb20485ede692b76ad1f12ee70d089437b99de8",
-      "groups": [
-        "smart_money"
+        "money_printer"
       ],
       "quality": 0.494,
-      "total_samples": 2,
+      "total_samples": 79,
       "w24h": {
-        "samples": 2,
-        "win_rate": 0.5,
-        "avg_return": -0.0032
+        "samples": 79,
+        "win_rate": 0.506,
+        "avg_return": -0.0056
       },
       "w72h": {
         "samples": 0,
@@ -19573,31 +19621,7 @@
       "w24h": {
         "samples": 76,
         "win_rate": 0.487,
-        "avg_return": 0.0015
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0xea6be4808a584fb1bcc0308403aacea3df94a67a",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.493,
-      "total_samples": 147,
-      "w24h": {
-        "samples": 147,
-        "win_rate": 0.497,
-        "avg_return": -0.002
+        "avg_return": 0.0016
       },
       "w72h": {
         "samples": 0,
@@ -19708,40 +19732,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x7fdafde5cfb5465924316eced2d3715494c517d1",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.489,
-      "total_samples": 80,
-      "w24h": {
-        "samples": 80,
-        "win_rate": 0.5,
-        "avg_return": -0.0057
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x0291639ea7178930475da17b579e1ac2de8faed8",
+      "address": "0xea6be4808a584fb1bcc0308403aacea3df94a67a",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.488,
-      "total_samples": 4,
+      "quality": 0.49,
+      "total_samples": 146,
       "w24h": {
-        "samples": 4,
-        "win_rate": 0.5,
-        "avg_return": -0.0058
+        "samples": 146,
+        "win_rate": 0.493,
+        "avg_return": -0.0022
       },
       "w72h": {
         "samples": 0,
@@ -19790,30 +19790,6 @@
         "samples": 4,
         "win_rate": 0.5,
         "avg_return": -0.006
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x3ca146d2692f61746a28fa926dc9d18086ce37c6",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.487,
-      "total_samples": 126,
-      "w24h": {
-        "samples": 126,
-        "win_rate": 0.476,
-        "avg_return": 0.0032
       },
       "w72h": {
         "samples": 0,
@@ -19910,6 +19886,30 @@
         "samples": 2,
         "win_rate": 0.5,
         "avg_return": -0.0073
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x3ca146d2692f61746a28fa926dc9d18086ce37c6",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.484,
+      "total_samples": 125,
+      "w24h": {
+        "samples": 125,
+        "win_rate": 0.472,
+        "avg_return": 0.0031
       },
       "w72h": {
         "samples": 0,
@@ -20044,30 +20044,6 @@
       "tier": "MID"
     },
     {
-      "address": "0x44c9c226cdfae773002b3f86d3966af3cd8f277c",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.482,
-      "total_samples": 38,
-      "w24h": {
-        "samples": 38,
-        "win_rate": 0.474,
-        "avg_return": 0.0013
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0xaf2ac71f62f341e5823d6985492409e92c940447",
       "groups": [
         "smart_money"
@@ -20078,30 +20054,6 @@
         "samples": 23,
         "win_rate": 0.478,
         "avg_return": -0.0019
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0xd071d6d6ea52f5aa34b79e47f908ee48c8215837",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.479,
-      "total_samples": 71,
-      "w24h": {
-        "samples": 71,
-        "win_rate": 0.479,
-        "avg_return": -0.0018
       },
       "w72h": {
         "samples": 0,
@@ -20408,12 +20360,12 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.46,
+      "quality": 0.461,
       "total_samples": 11,
       "w24h": {
         "samples": 11,
         "win_rate": 0.455,
-        "avg_return": -0.0016
+        "avg_return": -0.0015
       },
       "w72h": {
         "samples": 0,
@@ -20428,16 +20380,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xc1e42f862d202b4a0ed552c1145735ee088f6ccf",
+      "address": "0x44c9c226cdfae773002b3f86d3966af3cd8f277c",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
       "quality": 0.46,
-      "total_samples": 62,
+      "total_samples": 38,
       "w24h": {
-        "samples": 62,
-        "win_rate": 0.452,
-        "avg_return": -0.0006
+        "samples": 38,
+        "win_rate": 0.447,
+        "avg_return": 0.0011
       },
       "w72h": {
         "samples": 0,
@@ -20486,6 +20438,30 @@
         "samples": 29,
         "win_rate": 0.448,
         "avg_return": 0.0
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x2ff2944a3bbf6e79848facaeddb2d986773dfaed",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.458,
+      "total_samples": 100,
+      "w24h": {
+        "samples": 100,
+        "win_rate": 0.46,
+        "avg_return": -0.0052
       },
       "w72h": {
         "samples": 0,
@@ -20572,6 +20548,30 @@
       "tier": "MID"
     },
     {
+      "address": "0x13558be785661958932ceac35ba20de187275a42",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.455,
+      "total_samples": 29,
+      "w24h": {
+        "samples": 29,
+        "win_rate": 0.448,
+        "avg_return": -0.0021
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x7ab12f7a0925ef24927343d47199e75a91fc78aa",
       "groups": [
         "smart_money"
@@ -20582,54 +20582,6 @@
         "samples": 7,
         "win_rate": 0.429,
         "avg_return": 0.0059
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x13558be785661958932ceac35ba20de187275a42",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.454,
-      "total_samples": 29,
-      "w24h": {
-        "samples": 29,
-        "win_rate": 0.448,
-        "avg_return": -0.0023
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x2ff2944a3bbf6e79848facaeddb2d986773dfaed",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.454,
-      "total_samples": 101,
-      "w24h": {
-        "samples": 101,
-        "win_rate": 0.455,
-        "avg_return": -0.0053
       },
       "w72h": {
         "samples": 0,
@@ -20716,30 +20668,6 @@
       "tier": "MID"
     },
     {
-      "address": "0xaf9f722a676230cc44045efe26fe9a85801ca4fa",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.452,
-      "total_samples": 105,
-      "w24h": {
-        "samples": 105,
-        "win_rate": 0.457,
-        "avg_return": -0.007
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0xee162a5a60829bd346f0c1ac3514b21fe5f4b290",
       "groups": [
         "money_printer"
@@ -20788,16 +20716,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xa775d1bd91ee2cc4cae6113e5fd9c0c17b355277",
+      "address": "0xabcaea50f029aca1204a5ff64150279871dec56c",
       "groups": [
         "smart_money"
       ],
       "quality": 0.45,
-      "total_samples": 25,
+      "total_samples": 70,
       "w24h": {
-        "samples": 25,
-        "win_rate": 0.44,
-        "avg_return": -0.0012
+        "samples": 70,
+        "win_rate": 0.443,
+        "avg_return": -0.0022
       },
       "w72h": {
         "samples": 0,
@@ -20812,16 +20740,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xabcaea50f029aca1204a5ff64150279871dec56c",
+      "address": "0xa775d1bd91ee2cc4cae6113e5fd9c0c17b355277",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.45,
-      "total_samples": 70,
+      "quality": 0.449,
+      "total_samples": 25,
       "w24h": {
-        "samples": 70,
-        "win_rate": 0.443,
-        "avg_return": -0.0021
+        "samples": 25,
+        "win_rate": 0.44,
+        "avg_return": -0.0013
       },
       "w72h": {
         "samples": 0,
@@ -20845,7 +20773,55 @@
       "w24h": {
         "samples": 23,
         "win_rate": 0.435,
-        "avg_return": 0.0005
+        "avg_return": 0.0004
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xc0f06a313e20b7ad93a65dcdf0f208998d1a4596",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.448,
+      "total_samples": 2,
+      "w24h": {
+        "samples": 2,
+        "win_rate": 0.5,
+        "avg_return": -0.026
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x2ded914aa5fadadd7d32d678924188586d7c656b",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.447,
+      "total_samples": 87,
+      "w24h": {
+        "samples": 87,
+        "win_rate": 0.448,
+        "avg_return": -0.0056
       },
       "w72h": {
         "samples": 0,
@@ -20870,6 +20846,30 @@
         "samples": 23,
         "win_rate": 0.435,
         "avg_return": -0.0004
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xaf9f722a676230cc44045efe26fe9a85801ca4fa",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.447,
+      "total_samples": 104,
+      "w24h": {
+        "samples": 104,
+        "win_rate": 0.452,
+        "avg_return": -0.0074
       },
       "w72h": {
         "samples": 0,
@@ -21004,16 +21004,40 @@
       "tier": "MID"
     },
     {
-      "address": "0x2ded914aa5fadadd7d32d678924188586d7c656b",
+      "address": "0xa351db10472a07059ea099e0581444e568bff894",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.444,
+      "total_samples": 10,
+      "w24h": {
+        "samples": 10,
+        "win_rate": 0.4,
+        "avg_return": 0.012
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xd071d6d6ea52f5aa34b79e47f908ee48c8215837",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.443,
-      "total_samples": 88,
+      "quality": 0.444,
+      "total_samples": 57,
       "w24h": {
-        "samples": 88,
-        "win_rate": 0.443,
-        "avg_return": -0.0056
+        "samples": 57,
+        "win_rate": 0.439,
+        "avg_return": -0.0034
       },
       "w72h": {
         "samples": 0,
@@ -21052,54 +21076,6 @@
       "tier": "MID"
     },
     {
-      "address": "0xa351db10472a07059ea099e0581444e568bff894",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.443,
-      "total_samples": 10,
-      "w24h": {
-        "samples": 10,
-        "win_rate": 0.4,
-        "avg_return": 0.0115
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x18cde66120c9195fb6e50a4b1e13bce4c85d1300",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.442,
-      "total_samples": 130,
-      "w24h": {
-        "samples": 130,
-        "win_rate": 0.438,
-        "avg_return": -0.0044
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0x4ef1c5ae65ab5b37629b7aa523e7e95e7da528e3",
       "groups": [
         "smart_money"
@@ -21110,6 +21086,30 @@
         "samples": 51,
         "win_rate": 0.431,
         "avg_return": -0.0022
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xe1c08667421e480e63edda9b37b8405aa51ed19b",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.439,
+      "total_samples": 70,
+      "w24h": {
+        "samples": 70,
+        "win_rate": 0.429,
+        "avg_return": -0.002
       },
       "w72h": {
         "samples": 0,
@@ -21196,6 +21196,30 @@
       "tier": "MID"
     },
     {
+      "address": "0x18cde66120c9195fb6e50a4b1e13bce4c85d1300",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.435,
+      "total_samples": 128,
+      "w24h": {
+        "samples": 128,
+        "win_rate": 0.43,
+        "avg_return": -0.0043
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
       "address": "0x183c6497814803574c23866c7662dea4c044d0f9",
       "groups": [
         "smart_money"
@@ -21220,16 +21244,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xe06142615991dee64ca813085779fadcc70431eb",
+      "address": "0x621c5551678189b9a6c94d929924c225ff1d63ab",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.433,
-      "total_samples": 9,
+      "quality": 0.434,
+      "total_samples": 107,
       "w24h": {
-        "samples": 9,
-        "win_rate": 0.444,
-        "avg_return": -0.0112
+        "samples": 107,
+        "win_rate": 0.43,
+        "avg_return": -0.0049
       },
       "w72h": {
         "samples": 0,
@@ -21244,16 +21268,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x621c5551678189b9a6c94d929924c225ff1d63ab",
+      "address": "0xe06142615991dee64ca813085779fadcc70431eb",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
-      "quality": 0.432,
-      "total_samples": 110,
+      "quality": 0.433,
+      "total_samples": 9,
       "w24h": {
-        "samples": 110,
-        "win_rate": 0.427,
-        "avg_return": -0.0049
+        "samples": 9,
+        "win_rate": 0.444,
+        "avg_return": -0.0112
       },
       "w72h": {
         "samples": 0,
@@ -21302,54 +21326,6 @@
         "samples": 12,
         "win_rate": 0.417,
         "avg_return": -0.0018
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x856c35038594767646266bc7fd68dc26480e910d",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.43,
-      "total_samples": 33,
-      "w24h": {
-        "samples": 33,
-        "win_rate": 0.424,
-        "avg_return": -0.0046
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0xe1c08667421e480e63edda9b37b8405aa51ed19b",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.429,
-      "total_samples": 72,
-      "w24h": {
-        "samples": 72,
-        "win_rate": 0.417,
-        "avg_return": -0.0022
       },
       "w72h": {
         "samples": 0,
@@ -21416,11 +21392,11 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.427,
-      "total_samples": 153,
+      "quality": 0.426,
+      "total_samples": 151,
       "w24h": {
-        "samples": 153,
-        "win_rate": 0.418,
+        "samples": 151,
+        "win_rate": 0.417,
         "avg_return": -0.004
       },
       "w72h": {
@@ -21464,12 +21440,12 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.424,
+      "quality": 0.423,
       "total_samples": 100,
       "w24h": {
         "samples": 100,
         "win_rate": 0.43,
-        "avg_return": -0.0102
+        "avg_return": -0.0103
       },
       "w72h": {
         "samples": 0,
@@ -21494,6 +21470,30 @@
         "samples": 5,
         "win_rate": 0.4,
         "avg_return": 0.001
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0xc1e42f862d202b4a0ed552c1145735ee088f6ccf",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.422,
+      "total_samples": 59,
+      "w24h": {
+        "samples": 59,
+        "win_rate": 0.407,
+        "avg_return": -0.0016
       },
       "w72h": {
         "samples": 0,
@@ -21748,16 +21748,16 @@
       "tier": "MID"
     },
     {
-      "address": "0xd47587702a91731dc1089b5db0932cf820151a91",
+      "address": "0x8cc94dc843e1ea7a19805e0cca43001123512b6a",
       "groups": [
         "money_printer"
       ],
       "quality": 0.414,
-      "total_samples": 12,
+      "total_samples": 138,
       "w24h": {
-        "samples": 12,
-        "win_rate": 0.417,
-        "avg_return": -0.0095
+        "samples": 138,
+        "win_rate": 0.384,
+        "avg_return": 0.0035
       },
       "w72h": {
         "samples": 0,
@@ -21772,16 +21772,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x94dac1facdc4afd2614c3119447187b4143bc449",
+      "address": "0xd47587702a91731dc1089b5db0932cf820151a91",
       "groups": [
         "money_printer"
       ],
-      "quality": 0.411,
-      "total_samples": 43,
+      "quality": 0.414,
+      "total_samples": 12,
       "w24h": {
-        "samples": 43,
-        "win_rate": 0.395,
-        "avg_return": -0.0029
+        "samples": 12,
+        "win_rate": 0.417,
+        "avg_return": -0.0095
       },
       "w72h": {
         "samples": 0,
@@ -21820,30 +21820,6 @@
       "tier": "MID"
     },
     {
-      "address": "0xd9aecd4df04f0e8bd6320fd3fcb92d9c06dadf94",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.411,
-      "total_samples": 59,
-      "w24h": {
-        "samples": 59,
-        "win_rate": 0.407,
-        "avg_return": -0.007
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
       "address": "0x4829f3bbd5508707339547ebefface2b4c86d3b5",
       "groups": [
         "smart_money"
@@ -21868,16 +21844,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x8cc94dc843e1ea7a19805e0cca43001123512b6a",
+      "address": "0xd9aecd4df04f0e8bd6320fd3fcb92d9c06dadf94",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
       "quality": 0.409,
-      "total_samples": 140,
+      "total_samples": 57,
       "w24h": {
-        "samples": 140,
-        "win_rate": 0.379,
-        "avg_return": 0.003
+        "samples": 57,
+        "win_rate": 0.404,
+        "avg_return": -0.007
       },
       "w72h": {
         "samples": 0,
@@ -21916,16 +21892,40 @@
       "tier": "MID"
     },
     {
-      "address": "0xe86b057f5eb764c9738d6b0d38170befd0723664",
+      "address": "0x9d1792626cc8bfb29acc7e5e7a2f706bb6ada290",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
-      "quality": 0.405,
-      "total_samples": 30,
+      "quality": 0.407,
+      "total_samples": 53,
       "w24h": {
-        "samples": 30,
+        "samples": 53,
+        "win_rate": 0.415,
+        "avg_return": -0.0126
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "MID"
+    },
+    {
+      "address": "0x5323b92268b4e140ac2133c677e991cd9ad1b23c",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.402,
+      "total_samples": 55,
+      "w24h": {
+        "samples": 55,
         "win_rate": 0.4,
-        "avg_return": -0.0073
+        "avg_return": -0.0092
       },
       "w72h": {
         "samples": 0,
@@ -21949,7 +21949,7 @@
       "w24h": {
         "samples": 21,
         "win_rate": 0.381,
-        "avg_return": -0.0015
+        "avg_return": -0.0016
       },
       "w72h": {
         "samples": 0,
@@ -22060,40 +22060,16 @@
       "tier": "MID"
     },
     {
-      "address": "0x9d1792626cc8bfb29acc7e5e7a2f706bb6ada290",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.401,
-      "total_samples": 54,
-      "w24h": {
-        "samples": 54,
-        "win_rate": 0.407,
-        "avg_return": -0.0125
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "MID"
-    },
-    {
-      "address": "0x34fb5ec7d4e939161946340ea2a1f29254b893de",
+      "address": "0x185611e0343c14f53a4406891cb0fdc9e81808ae",
       "groups": [
         "money_printer"
       ],
       "quality": 0.399,
-      "total_samples": 148,
+      "total_samples": 13,
       "w24h": {
-        "samples": 148,
-        "win_rate": 0.392,
-        "avg_return": -0.0072
+        "samples": 13,
+        "win_rate": 0.385,
+        "avg_return": -0.0042
       },
       "w72h": {
         "samples": 0,
@@ -22132,16 +22108,40 @@
       "tier": "LOW"
     },
     {
+      "address": "0x94dac1facdc4afd2614c3119447187b4143bc449",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.398,
+      "total_samples": 42,
+      "w24h": {
+        "samples": 42,
+        "win_rate": 0.381,
+        "avg_return": -0.0033
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0xc6aa7b1f1dbe24ca2f12c193b60eb05230270e75",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.397,
+      "quality": 0.398,
       "total_samples": 73,
       "w24h": {
         "samples": 73,
         "win_rate": 0.397,
-        "avg_return": -0.0102
+        "avg_return": -0.0101
       },
       "w72h": {
         "samples": 0,
@@ -22165,7 +22165,7 @@
       "w24h": {
         "samples": 21,
         "win_rate": 0.381,
-        "avg_return": -0.0042
+        "avg_return": -0.0043
       },
       "w72h": {
         "samples": 0,
@@ -22276,6 +22276,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x4c56bfd325f350bd1af76bf691981fdd8740390a",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.39,
+      "total_samples": 83,
+      "w24h": {
+        "samples": 83,
+        "win_rate": 0.386,
+        "avg_return": -0.0091
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x71dfc07de32c2ebf1c4801f4b1c9e40b76d4a23d",
       "groups": [
         "money_printer"
@@ -22372,16 +22396,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x4c56bfd325f350bd1af76bf691981fdd8740390a",
+      "address": "0xec7c3257d80aa80d06d996517020744e40a70b05",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.386,
-      "total_samples": 84,
+      "quality": 0.387,
+      "total_samples": 128,
       "w24h": {
-        "samples": 84,
-        "win_rate": 0.381,
-        "avg_return": -0.0092
+        "samples": 128,
+        "win_rate": 0.398,
+        "avg_return": -0.0161
       },
       "w72h": {
         "samples": 0,
@@ -22468,16 +22492,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xec7c3257d80aa80d06d996517020744e40a70b05",
+      "address": "0xe86b057f5eb764c9738d6b0d38170befd0723664",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.384,
-      "total_samples": 129,
+      "quality": 0.385,
+      "total_samples": 26,
       "w24h": {
-        "samples": 129,
-        "win_rate": 0.395,
-        "avg_return": -0.0161
+        "samples": 26,
+        "win_rate": 0.385,
+        "avg_return": -0.0112
       },
       "w72h": {
         "samples": 0,
@@ -22492,16 +22516,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xfdba13d24cb423a393603d72ca80f31b251a3727",
+      "address": "0x4f67680ed589c995177481778d48a754703b5b79",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
       "quality": 0.384,
-      "total_samples": 76,
+      "total_samples": 97,
       "w24h": {
-        "samples": 76,
-        "win_rate": 0.368,
-        "avg_return": -0.0054
+        "samples": 97,
+        "win_rate": 0.381,
+        "avg_return": -0.0106
       },
       "w72h": {
         "samples": 0,
@@ -22588,16 +22612,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x5647249079e257329ecb6f46ed41821d3c69e7de",
+      "address": "0x34fb5ec7d4e939161946340ea2a1f29254b893de",
       "groups": [
         "money_printer"
       ],
       "quality": 0.382,
-      "total_samples": 60,
+      "total_samples": 144,
       "w24h": {
-        "samples": 60,
-        "win_rate": 0.367,
-        "avg_return": -0.0055
+        "samples": 144,
+        "win_rate": 0.375,
+        "avg_return": -0.0088
       },
       "w72h": {
         "samples": 0,
@@ -22612,16 +22636,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x39475d17bcd20adc540e647dae6781b153fbf3b1",
+      "address": "0x5647249079e257329ecb6f46ed41821d3c69e7de",
       "groups": [
         "money_printer"
       ],
-      "quality": 0.38,
-      "total_samples": 120,
+      "quality": 0.382,
+      "total_samples": 60,
       "w24h": {
-        "samples": 120,
+        "samples": 60,
         "win_rate": 0.367,
-        "avg_return": -0.0066
+        "avg_return": -0.0057
       },
       "w72h": {
         "samples": 0,
@@ -22645,7 +22669,7 @@
       "w24h": {
         "samples": 68,
         "win_rate": 0.368,
-        "avg_return": -0.007
+        "avg_return": -0.0071
       },
       "w72h": {
         "samples": 0,
@@ -22732,54 +22756,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x2a876325db0cdd43e0f250bc309d45f78e45dcf3",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.377,
-      "total_samples": 26,
-      "w24h": {
-        "samples": 26,
-        "win_rate": 0.423,
-        "avg_return": -0.0307
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x4f67680ed589c995177481778d48a754703b5b79",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.377,
-      "total_samples": 99,
-      "w24h": {
-        "samples": 99,
-        "win_rate": 0.374,
-        "avg_return": -0.0108
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x5b5d51203a0f9079f8aeb098a6523a13f298c060",
       "groups": [
         "money_printer"
@@ -22804,16 +22780,64 @@
       "tier": "LOW"
     },
     {
-      "address": "0x185611e0343c14f53a4406891cb0fdc9e81808ae",
+      "address": "0xfdba13d24cb423a393603d72ca80f31b251a3727",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.377,
+      "total_samples": 75,
+      "w24h": {
+        "samples": 75,
+        "win_rate": 0.36,
+        "avg_return": -0.0057
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x2a876325db0cdd43e0f250bc309d45f78e45dcf3",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.376,
+      "total_samples": 26,
+      "w24h": {
+        "samples": 26,
+        "win_rate": 0.423,
+        "avg_return": -0.0313
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x39475d17bcd20adc540e647dae6781b153fbf3b1",
       "groups": [
         "money_printer"
       ],
       "quality": 0.376,
-      "total_samples": 14,
+      "total_samples": 119,
       "w24h": {
-        "samples": 14,
-        "win_rate": 0.357,
-        "avg_return": -0.005
+        "samples": 119,
+        "win_rate": 0.361,
+        "avg_return": -0.0066
       },
       "w72h": {
         "samples": 0,
@@ -22862,6 +22886,54 @@
         "samples": 52,
         "win_rate": 0.365,
         "avg_return": -0.0094
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x936cf4fb95c30ce83f658b5bbb247e4bb381bb0f",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.371,
+      "total_samples": 117,
+      "w24h": {
+        "samples": 117,
+        "win_rate": 0.359,
+        "avg_return": -0.0082
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.371,
+      "total_samples": 48,
+      "w24h": {
+        "samples": 48,
+        "win_rate": 0.354,
+        "avg_return": -0.0062
       },
       "w72h": {
         "samples": 0,
@@ -22972,6 +23044,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x28233e5edddfc9f71f0cecf58ca98f6a2ca11f43",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.366,
+      "total_samples": 35,
+      "w24h": {
+        "samples": 35,
+        "win_rate": 0.371,
+        "avg_return": -0.0157
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0xb947763b6e64b4441b02562a63fda94f6b805162",
       "groups": [
         "smart_money"
@@ -23068,30 +23164,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x936cf4fb95c30ce83f658b5bbb247e4bb381bb0f",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.363,
-      "total_samples": 120,
-      "w24h": {
-        "samples": 120,
-        "win_rate": 0.35,
-        "avg_return": -0.0086
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x4fe53e953f1ff4454d144cb6f4fee3f2ca9363fe",
       "groups": [
         "smart_money"
@@ -23164,30 +23236,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0xa5fd942d4badbab4fe84a9e10f565dd40d5f15ff",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.36,
-      "total_samples": 23,
-      "w24h": {
-        "samples": 23,
-        "win_rate": 0.348,
-        "avg_return": -0.0089
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0xc5ba14d33b352090f699c82d0a1d0e8fe5a0679b",
       "groups": [
         "smart_money"
@@ -23236,16 +23284,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x28233e5edddfc9f71f0cecf58ca98f6a2ca11f43",
+      "address": "0x4a96036fb1529561fa3eeeb2781fad2d4f25500e",
       "groups": [
         "money_printer"
       ],
-      "quality": 0.358,
-      "total_samples": 36,
+      "quality": 0.359,
+      "total_samples": 23,
       "w24h": {
-        "samples": 36,
-        "win_rate": 0.361,
-        "avg_return": -0.0156
+        "samples": 23,
+        "win_rate": 0.348,
+        "avg_return": -0.0096
       },
       "w72h": {
         "samples": 0,
@@ -23332,6 +23380,54 @@
       "tier": "LOW"
     },
     {
+      "address": "0x9690bcfc1639abff887c8fb62b48ab787b2dba3f",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.356,
+      "total_samples": 68,
+      "w24h": {
+        "samples": 68,
+        "win_rate": 0.368,
+        "avg_return": -0.0192
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xa2a7c751da5c4add00d1c8cb9a0110fb2c233f51",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.355,
+      "total_samples": 135,
+      "w24h": {
+        "samples": 135,
+        "win_rate": 0.356,
+        "avg_return": -0.0146
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0xbe494a5e3a719a78a45a47ab453b7b0199b9d101",
       "groups": [
         "money_printer"
@@ -23356,30 +23452,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x483e1d004247248d516865b9b9e893d48359ce10",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.354,
-      "total_samples": 74,
-      "w24h": {
-        "samples": 74,
-        "win_rate": 0.365,
-        "avg_return": -0.0188
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x6f97d329b072e0f7b74575565d806a4351b8f824",
       "groups": [
         "money_printer"
@@ -23389,7 +23461,7 @@
       "w24h": {
         "samples": 30,
         "win_rate": 0.333,
-        "avg_return": -0.0065
+        "avg_return": -0.0063
       },
       "w72h": {
         "samples": 0,
@@ -23404,16 +23476,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xa2a7c751da5c4add00d1c8cb9a0110fb2c233f51",
+      "address": "0x61bf199fabf0d2ec9dc98b9bcf8084aca32bc0de",
       "groups": [
         "smart_money"
       ],
       "quality": 0.353,
-      "total_samples": 136,
+      "total_samples": 74,
       "w24h": {
-        "samples": 136,
-        "win_rate": 0.353,
-        "avg_return": -0.0146
+        "samples": 74,
+        "win_rate": 0.351,
+        "avg_return": -0.014
       },
       "w72h": {
         "samples": 0,
@@ -23485,7 +23557,7 @@
       "w24h": {
         "samples": 79,
         "win_rate": 0.329,
-        "avg_return": -0.0058
+        "avg_return": -0.0059
       },
       "w72h": {
         "samples": 0,
@@ -23524,16 +23596,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x61bf199fabf0d2ec9dc98b9bcf8084aca32bc0de",
+      "address": "0x483e1d004247248d516865b9b9e893d48359ce10",
       "groups": [
         "smart_money"
       ],
       "quality": 0.349,
-      "total_samples": 75,
+      "total_samples": 70,
       "w24h": {
-        "samples": 75,
-        "win_rate": 0.347,
-        "avg_return": -0.014
+        "samples": 70,
+        "win_rate": 0.357,
+        "avg_return": -0.0183
       },
       "w72h": {
         "samples": 0,
@@ -23572,6 +23644,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x5690fd2f011c86c2a6de8fcde2d7d1c5e314abd3",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.348,
+      "total_samples": 6,
+      "w24h": {
+        "samples": 6,
+        "win_rate": 0.333,
+        "avg_return": -0.0092
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x654ed1d8631de7feb6b4e5fd9965687504a80c4a",
       "groups": [
         "smart_money"
@@ -23596,88 +23692,40 @@
       "tier": "LOW"
     },
     {
-      "address": "0x9690bcfc1639abff887c8fb62b48ab787b2dba3f",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.348,
-      "total_samples": 72,
-      "w24h": {
-        "samples": 72,
-        "win_rate": 0.361,
-        "avg_return": -0.0205
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x4a96036fb1529561fa3eeeb2781fad2d4f25500e",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.347,
-      "total_samples": 24,
-      "w24h": {
-        "samples": 24,
-        "win_rate": 0.333,
-        "avg_return": -0.0098
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.346,
-      "total_samples": 52,
-      "w24h": {
-        "samples": 52,
-        "win_rate": 0.327,
-        "avg_return": -0.0078
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x50e8db5da4198e49197743f8006b318cb6a08b49",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.344,
-      "total_samples": 119,
+      "quality": 0.347,
+      "total_samples": 118,
       "w24h": {
-        "samples": 119,
-        "win_rate": 0.345,
-        "avg_return": -0.0156
+        "samples": 118,
+        "win_rate": 0.347,
+        "avg_return": -0.0157
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x984e16e759ac515784f90dd88443260e482c63c1",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.344,
+      "total_samples": 157,
+      "w24h": {
+        "samples": 157,
+        "win_rate": 0.338,
+        "avg_return": -0.0132
       },
       "w72h": {
         "samples": 0,
@@ -23716,14 +23764,14 @@
       "tier": "LOW"
     },
     {
-      "address": "0x77fee2df7bad4f1db93052fa82bf78eaab771a16",
+      "address": "0x0291639ea7178930475da17b579e1ac2de8faed8",
       "groups": [
         "smart_money"
       ],
       "quality": 0.341,
-      "total_samples": 6,
+      "total_samples": 3,
       "w24h": {
-        "samples": 6,
+        "samples": 3,
         "win_rate": 0.333,
         "avg_return": -0.0127
       },
@@ -23740,16 +23788,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x984e16e759ac515784f90dd88443260e482c63c1",
+      "address": "0x77fee2df7bad4f1db93052fa82bf78eaab771a16",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.339,
-      "total_samples": 160,
+      "quality": 0.341,
+      "total_samples": 6,
       "w24h": {
-        "samples": 160,
-        "win_rate": 0.331,
-        "avg_return": -0.0131
+        "samples": 6,
+        "win_rate": 0.333,
+        "avg_return": -0.0127
       },
       "w72h": {
         "samples": 0,
@@ -23788,6 +23836,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x034d4f0b00827e4ac77d910071377f707ddd23d3",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.337,
+      "total_samples": 141,
+      "w24h": {
+        "samples": 141,
+        "win_rate": 0.326,
+        "avg_return": -0.0119
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x520863bab865050e635207c4ed099eec568f3f47",
       "groups": [
         "smart_money"
@@ -23798,6 +23870,30 @@
         "samples": 3,
         "win_rate": 0.333,
         "avg_return": -0.0152
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xa5fd942d4badbab4fe84a9e10f565dd40d5f15ff",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.336,
+      "total_samples": 22,
+      "w24h": {
+        "samples": 22,
+        "win_rate": 0.318,
+        "avg_return": -0.0095
       },
       "w72h": {
         "samples": 0,
@@ -23869,31 +23965,7 @@
       "w24h": {
         "samples": 80,
         "win_rate": 0.325,
-        "avg_return": -0.0129
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x034d4f0b00827e4ac77d910071377f707ddd23d3",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.333,
-      "total_samples": 143,
-      "w24h": {
-        "samples": 143,
-        "win_rate": 0.322,
-        "avg_return": -0.012
+        "avg_return": -0.0128
       },
       "w72h": {
         "samples": 0,
@@ -23956,16 +24028,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x6ecbb68c07bd4be7adb7f0365e9263e382aeca2d",
+      "address": "0x2d55a75eef61cf781a278f0d81074c896bdb167c",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.33,
-      "total_samples": 100,
+      "quality": 0.329,
+      "total_samples": 14,
       "w24h": {
-        "samples": 100,
-        "win_rate": 0.32,
-        "avg_return": -0.0129
+        "samples": 14,
+        "win_rate": 0.357,
+        "avg_return": -0.0283
       },
       "w72h": {
         "samples": 0,
@@ -24004,6 +24076,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x6859da14835424957a1e6b397d8026b1d9ff7e1e",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.329,
+      "total_samples": 100,
+      "w24h": {
+        "samples": 100,
+        "win_rate": 0.32,
+        "avg_return": -0.0133
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0xa33a4a057334c7811ad5f45f3c4f0dfa3d081ff8",
       "groups": [
         "money_printer"
@@ -24013,7 +24109,79 @@
       "w24h": {
         "samples": 56,
         "win_rate": 0.304,
-        "avg_return": -0.0071
+        "avg_return": -0.0072
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x3c165893deaaf04ac79f4f959594747b6ef77e92",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.328,
+      "total_samples": 16,
+      "w24h": {
+        "samples": 16,
+        "win_rate": 0.312,
+        "avg_return": -0.0108
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x8fb5c6f3c336033deeedbb54ad95e96453c9eaa4",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.328,
+      "total_samples": 98,
+      "w24h": {
+        "samples": 98,
+        "win_rate": 0.327,
+        "avg_return": -0.0168
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.326,
+      "total_samples": 23,
+      "w24h": {
+        "samples": 23,
+        "win_rate": 0.304,
+        "avg_return": -0.0086
       },
       "w72h": {
         "samples": 0,
@@ -24038,30 +24206,6 @@
         "samples": 7,
         "win_rate": 0.286,
         "avg_return": -0.0019
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x8fb5c6f3c336033deeedbb54ad95e96453c9eaa4",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.325,
-      "total_samples": 99,
-      "w24h": {
-        "samples": 99,
-        "win_rate": 0.323,
-        "avg_return": -0.0166
       },
       "w72h": {
         "samples": 0,
@@ -24128,12 +24272,12 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.324,
+      "quality": 0.323,
       "total_samples": 33,
       "w24h": {
         "samples": 33,
         "win_rate": 0.303,
-        "avg_return": -0.0094
+        "avg_return": -0.0096
       },
       "w72h": {
         "samples": 0,
@@ -24196,16 +24340,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x6859da14835424957a1e6b397d8026b1d9ff7e1e",
+      "address": "0x667b8184fcb9e83bf3180bb42f5c67374cde679a",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
       "quality": 0.322,
-      "total_samples": 103,
+      "total_samples": 64,
       "w24h": {
-        "samples": 103,
-        "win_rate": 0.311,
-        "avg_return": -0.0132
+        "samples": 64,
+        "win_rate": 0.312,
+        "avg_return": -0.0141
       },
       "w72h": {
         "samples": 0,
@@ -24244,16 +24388,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x667b8184fcb9e83bf3180bb42f5c67374cde679a",
+      "address": "0xf55f10b83bdb21d5f6b7449d4ea3589a8ae30d3a",
       "groups": [
         "smart_money"
       ],
       "quality": 0.321,
-      "total_samples": 64,
+      "total_samples": 10,
       "w24h": {
-        "samples": 64,
-        "win_rate": 0.312,
-        "avg_return": -0.0143
+        "samples": 10,
+        "win_rate": 0.3,
+        "avg_return": -0.0093
       },
       "w72h": {
         "samples": 0,
@@ -24268,16 +24412,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xf55f10b83bdb21d5f6b7449d4ea3589a8ae30d3a",
+      "address": "0x6ecbb68c07bd4be7adb7f0365e9263e382aeca2d",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.321,
-      "total_samples": 10,
+      "quality": 0.32,
+      "total_samples": 97,
       "w24h": {
-        "samples": 10,
-        "win_rate": 0.3,
-        "avg_return": -0.0093
+        "samples": 97,
+        "win_rate": 0.309,
+        "avg_return": -0.0138
       },
       "w72h": {
         "samples": 0,
@@ -24340,16 +24484,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x5bc43f38c2ddcd85857f218674cd384f172c3b0c",
+      "address": "0xcb8436264dd4b0d9912b65dbe2893e71de7752cd",
       "groups": [
         "money_printer"
       ],
-      "quality": 0.316,
-      "total_samples": 24,
+      "quality": 0.318,
+      "total_samples": 70,
       "w24h": {
-        "samples": 24,
-        "win_rate": 0.292,
-        "avg_return": -0.0088
+        "samples": 70,
+        "win_rate": 0.3,
+        "avg_return": -0.0111
       },
       "w72h": {
         "samples": 0,
@@ -24364,16 +24508,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xcb8436264dd4b0d9912b65dbe2893e71de7752cd",
+      "address": "0xbda495ebf6fc94d61f9a7f22b9877273378ed82b",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
-      "quality": 0.314,
-      "total_samples": 71,
+      "quality": 0.315,
+      "total_samples": 128,
       "w24h": {
-        "samples": 71,
-        "win_rate": 0.296,
-        "avg_return": -0.0112
+        "samples": 128,
+        "win_rate": 0.312,
+        "avg_return": -0.0173
       },
       "w72h": {
         "samples": 0,
@@ -24436,30 +24580,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x3c165893deaaf04ac79f4f959594747b6ef77e92",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.313,
-      "total_samples": 17,
-      "w24h": {
-        "samples": 17,
-        "win_rate": 0.294,
-        "avg_return": -0.0111
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x6957d2139d29e7db7913ac21e813f2a561e47ac8",
       "groups": [
         "smart_money"
@@ -24508,16 +24628,40 @@
       "tier": "LOW"
     },
     {
+      "address": "0x47f5a6397b79deaaca5c456503e7c1a49357b942",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.312,
+      "total_samples": 51,
+      "w24h": {
+        "samples": 51,
+        "win_rate": 0.294,
+        "avg_return": -0.0118
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0xc06103cbd0ba469640d4139621977f65ca8e7041",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.313,
+      "quality": 0.312,
       "total_samples": 88,
       "w24h": {
         "samples": 88,
         "win_rate": 0.307,
-        "avg_return": -0.0164
+        "avg_return": -0.0165
       },
       "w72h": {
         "samples": 0,
@@ -24532,40 +24676,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x2d55a75eef61cf781a278f0d81074c896bdb167c",
+      "address": "0x31dea2516beee92135b96f464eeec3cf292a13f2",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.312,
-      "total_samples": 15,
+      "quality": 0.311,
+      "total_samples": 67,
       "w24h": {
-        "samples": 15,
-        "win_rate": 0.333,
-        "avg_return": -0.0274
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x9b883651182137f33efda174f831d9918182afe0",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.312,
-      "total_samples": 104,
-      "w24h": {
-        "samples": 104,
-        "win_rate": 0.317,
-        "avg_return": -0.021
+        "samples": 67,
+        "win_rate": 0.284,
+        "avg_return": -0.0079
       },
       "w72h": {
         "samples": 0,
@@ -24604,54 +24724,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0xbda495ebf6fc94d61f9a7f22b9877273378ed82b",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.31,
-      "total_samples": 131,
-      "w24h": {
-        "samples": 131,
-        "win_rate": 0.305,
-        "avg_return": -0.0171
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x5690fd2f011c86c2a6de8fcde2d7d1c5e314abd3",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.309,
-      "total_samples": 7,
-      "w24h": {
-        "samples": 7,
-        "win_rate": 0.286,
-        "avg_return": -0.01
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x95748e52b4a70542c99035d092adc8d53f5d11f8",
       "groups": [
         "smart_money"
@@ -24662,54 +24734,6 @@
         "samples": 10,
         "win_rate": 0.3,
         "avg_return": -0.0155
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x31dea2516beee92135b96f464eeec3cf292a13f2",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.308,
-      "total_samples": 68,
-      "w24h": {
-        "samples": 68,
-        "win_rate": 0.279,
-        "avg_return": -0.008
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x47f5a6397b79deaaca5c456503e7c1a49357b942",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.307,
-      "total_samples": 52,
-      "w24h": {
-        "samples": 52,
-        "win_rate": 0.288,
-        "avg_return": -0.0119
       },
       "w72h": {
         "samples": 0,
@@ -24796,6 +24820,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x404ca2035b37bf2e83505134ebcf8d03babb5f03",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.298,
+      "total_samples": 15,
+      "w24h": {
+        "samples": 15,
+        "win_rate": 0.267,
+        "avg_return": -0.0075
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x985f02b19dbc062e565c981aac5614baf2cf501f",
       "groups": [
         "money_printer"
@@ -24820,16 +24868,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xf97ad6704baec104d00b88e0c157e2b7b3a1ddd1",
+      "address": "0x75f3665323cce024368870bfd89db0c21e1ce76b",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
-      "quality": 0.298,
-      "total_samples": 4,
+      "quality": 0.297,
+      "total_samples": 100,
       "w24h": {
-        "samples": 4,
-        "win_rate": 0.25,
-        "avg_return": -0.0008
+        "samples": 100,
+        "win_rate": 0.29,
+        "avg_return": -0.0177
       },
       "w72h": {
         "samples": 0,
@@ -24892,30 +24940,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0xc28e23e7d7d6cc0c9c6f08146c71e7d168cae45a",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.296,
-      "total_samples": 4,
-      "w24h": {
-        "samples": 4,
-        "win_rate": 0.25,
-        "avg_return": -0.0021
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x6abc111bd22bb38e649f81be60dfbeb35648aac6",
       "groups": [
         "smart_money"
@@ -24940,16 +24964,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x75f3665323cce024368870bfd89db0c21e1ce76b",
+      "address": "0xf524d20408d9f426c74903924941efd1aae5e59d",
       "groups": [
         "smart_money"
       ],
       "quality": 0.294,
-      "total_samples": 101,
+      "total_samples": 4,
       "w24h": {
-        "samples": 101,
-        "win_rate": 0.287,
-        "avg_return": -0.0176
+        "samples": 4,
+        "win_rate": 0.25,
+        "avg_return": -0.0032
       },
       "w72h": {
         "samples": 0,
@@ -24974,6 +24998,30 @@
         "samples": 4,
         "win_rate": 0.25,
         "avg_return": -0.0037
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x7b8529dfd37b7483faae2bfd3051a52b32e9a23b",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.293,
+      "total_samples": 8,
+      "w24h": {
+        "samples": 8,
+        "win_rate": 0.25,
+        "avg_return": -0.0035
       },
       "w72h": {
         "samples": 0,
@@ -25060,16 +25108,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x40f6b6909659d3c76413e613fa8a2c5100bca864",
+      "address": "0x9b883651182137f33efda174f831d9918182afe0",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.29,
-      "total_samples": 4,
+      "quality": 0.291,
+      "total_samples": 98,
       "w24h": {
-        "samples": 4,
-        "win_rate": 0.25,
-        "avg_return": -0.005
+        "samples": 98,
+        "win_rate": 0.296,
+        "avg_return": -0.0226
       },
       "w72h": {
         "samples": 0,
@@ -25108,16 +25156,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x89b7815978abc23590616e9da57ddd78e53b1a77",
+      "address": "0x40f6b6909659d3c76413e613fa8a2c5100bca864",
       "groups": [
         "smart_money"
       ],
       "quality": 0.289,
-      "total_samples": 40,
+      "total_samples": 4,
       "w24h": {
-        "samples": 40,
-        "win_rate": 0.275,
-        "avg_return": -0.0157
+        "samples": 4,
+        "win_rate": 0.25,
+        "avg_return": -0.0053
       },
       "w72h": {
         "samples": 0,
@@ -25160,11 +25208,11 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.286,
-      "total_samples": 160,
+      "quality": 0.288,
+      "total_samples": 159,
       "w24h": {
-        "samples": 160,
-        "win_rate": 0.269,
+        "samples": 159,
+        "win_rate": 0.27,
         "avg_return": -0.0144
       },
       "w72h": {
@@ -25252,30 +25300,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x404ca2035b37bf2e83505134ebcf8d03babb5f03",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.284,
-      "total_samples": 16,
-      "w24h": {
-        "samples": 16,
-        "win_rate": 0.25,
-        "avg_return": -0.0079
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x603f6575750b2da949a84ff412b68e762bcd75a3",
       "groups": [
         "smart_money"
@@ -25300,6 +25324,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x0c1fd4fed8679488afb3b23b2b872971e0001d39",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.281,
+      "total_samples": 92,
+      "w24h": {
+        "samples": 92,
+        "win_rate": 0.261,
+        "avg_return": -0.014
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x844b6ab0079fb36e6a99cba877574acd8f1e7f42",
       "groups": [
         "money_printer"
@@ -25310,6 +25358,30 @@
         "samples": 8,
         "win_rate": 0.25,
         "avg_return": -0.0101
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xbfa317b7468a97e4e6a7a3c138b86ca0b7395477",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.28,
+      "total_samples": 67,
+      "w24h": {
+        "samples": 67,
+        "win_rate": 0.284,
+        "avg_return": -0.0232
       },
       "w72h": {
         "samples": 0,
@@ -25372,16 +25444,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x0c1fd4fed8679488afb3b23b2b872971e0001d39",
+      "address": "0xa243ecc646b1ce99c8c2810b6581cce76ec6f989",
       "groups": [
         "smart_money"
       ],
       "quality": 0.278,
-      "total_samples": 93,
+      "total_samples": 4,
       "w24h": {
-        "samples": 93,
-        "win_rate": 0.258,
-        "avg_return": -0.014
+        "samples": 4,
+        "win_rate": 0.25,
+        "avg_return": -0.0108
       },
       "w72h": {
         "samples": 0,
@@ -25396,16 +25468,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xa243ecc646b1ce99c8c2810b6581cce76ec6f989",
+      "address": "0xf21cd17b9db49fdb21bfdf714558cf8bde3221bd",
       "groups": [
         "smart_money"
       ],
       "quality": 0.278,
-      "total_samples": 4,
+      "total_samples": 152,
       "w24h": {
-        "samples": 4,
-        "win_rate": 0.25,
-        "avg_return": -0.0108
+        "samples": 152,
+        "win_rate": 0.263,
+        "avg_return": -0.0162
       },
       "w72h": {
         "samples": 0,
@@ -25468,6 +25540,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x2a767954b55264c1443b3fa634d4adb7d6059a53",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.275,
+      "total_samples": 93,
+      "w24h": {
+        "samples": 93,
+        "win_rate": 0.258,
+        "avg_return": -0.0156
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x5b1c220c5d481ae836a5457778f3175d62e48305",
       "groups": [
         "smart_money"
@@ -25516,16 +25612,64 @@
       "tier": "LOW"
     },
     {
-      "address": "0xf21cd17b9db49fdb21bfdf714558cf8bde3221bd",
+      "address": "0xb70c6d3e997e6cdc94a5598f458c7cb7e915fd4d",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.274,
-      "total_samples": 155,
+      "quality": 0.275,
+      "total_samples": 4,
       "w24h": {
-        "samples": 155,
-        "win_rate": 0.258,
+        "samples": 4,
+        "win_rate": 0.25,
+        "avg_return": -0.0125
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x89b7815978abc23590616e9da57ddd78e53b1a77",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.273,
+      "total_samples": 39,
+      "w24h": {
+        "samples": 39,
+        "win_rate": 0.256,
         "avg_return": -0.0163
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xcfea17596c15e0f4fe3ba9cab1fcbe804bbbdbbf",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.273,
+      "total_samples": 138,
+      "w24h": {
+        "samples": 138,
+        "win_rate": 0.254,
+        "avg_return": -0.015
       },
       "w72h": {
         "samples": 0,
@@ -25588,102 +25732,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0xcfea17596c15e0f4fe3ba9cab1fcbe804bbbdbbf",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.271,
-      "total_samples": 143,
-      "w24h": {
-        "samples": 143,
-        "win_rate": 0.252,
-        "avg_return": -0.0152
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x2a767954b55264c1443b3fa634d4adb7d6059a53",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.269,
-      "total_samples": 96,
-      "w24h": {
-        "samples": 96,
-        "win_rate": 0.25,
-        "avg_return": -0.0153
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x7b8529dfd37b7483faae2bfd3051a52b32e9a23b",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.268,
-      "total_samples": 9,
-      "w24h": {
-        "samples": 9,
-        "win_rate": 0.222,
-        "avg_return": -0.0047
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0xbfa317b7468a97e4e6a7a3c138b86ca0b7395477",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.267,
-      "total_samples": 72,
-      "w24h": {
-        "samples": 72,
-        "win_rate": 0.264,
-        "avg_return": -0.0218
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0xf17de447fdfa1778db06111e3cbdc878332adab2",
       "groups": [
         "money_printer"
@@ -25708,16 +25756,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x4b1c09fa8322548360a76a3747e32a60a864bc38",
+      "address": "0xb0fbfefc6c325964d0ffc3f909bdda80b8421326",
       "groups": [
         "money_printer"
       ],
       "quality": 0.265,
-      "total_samples": 31,
+      "total_samples": 17,
       "w24h": {
-        "samples": 31,
-        "win_rate": 0.226,
-        "avg_return": -0.0077
+        "samples": 17,
+        "win_rate": 0.235,
+        "avg_return": -0.0116
       },
       "w72h": {
         "samples": 0,
@@ -25741,7 +25789,31 @@
       "w24h": {
         "samples": 71,
         "win_rate": 0.225,
-        "avg_return": -0.0075
+        "avg_return": -0.0074
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x0ce048fe42c170e41740ee392e187f19515f339d",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.264,
+      "total_samples": 29,
+      "w24h": {
+        "samples": 29,
+        "win_rate": 0.241,
+        "avg_return": -0.0148
       },
       "w72h": {
         "samples": 0,
@@ -25766,6 +25838,30 @@
         "samples": 67,
         "win_rate": 0.254,
         "avg_return": -0.0193
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xdf52df044f1b150dfa79590909cdac6ad83d59fc",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.263,
+      "total_samples": 58,
+      "w24h": {
+        "samples": 58,
+        "win_rate": 0.259,
+        "avg_return": -0.022
       },
       "w72h": {
         "samples": 0,
@@ -25828,6 +25924,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x48d826da83e69844f2f84b2db50703a933d137a2",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.259,
+      "total_samples": 4,
+      "w24h": {
+        "samples": 4,
+        "win_rate": 0.25,
+        "avg_return": -0.0205
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x4926e8a30e82f0e34f723dc4c1394f9c668d21db",
       "groups": [
         "smart_money"
@@ -25876,30 +25996,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x0ce048fe42c170e41740ee392e187f19515f339d",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.258,
-      "total_samples": 30,
-      "w24h": {
-        "samples": 30,
-        "win_rate": 0.233,
-        "avg_return": -0.0141
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x7eaf2d4d87452f06bb6af45bf03c1913b415dfd6",
       "groups": [
         "smart_money"
@@ -25910,30 +26006,6 @@
         "samples": 5,
         "win_rate": 0.2,
         "avg_return": -0.003
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0xb0fbfefc6c325964d0ffc3f909bdda80b8421326",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.254,
-      "total_samples": 18,
-      "w24h": {
-        "samples": 18,
-        "win_rate": 0.222,
-        "avg_return": -0.0118
       },
       "w72h": {
         "samples": 0,
@@ -26044,30 +26116,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x8b9da005316ecfd7022ccca9b6231281e5c47b28",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.25,
-      "total_samples": 123,
-      "w24h": {
-        "samples": 123,
-        "win_rate": 0.236,
-        "avg_return": -0.0191
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x972b0f9cde1266e860e546ac92e783741769400f",
       "groups": [
         "money_printer"
@@ -26140,16 +26188,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0xf524d20408d9f426c74903924941efd1aae5e59d",
+      "address": "0x5ad96a3986b9d2cfab1d39c68002edd17263f5ef",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.249,
-      "total_samples": 5,
+      "quality": 0.248,
+      "total_samples": 101,
       "w24h": {
-        "samples": 5,
-        "win_rate": 0.2,
-        "avg_return": -0.0055
+        "samples": 101,
+        "win_rate": 0.218,
+        "avg_return": -0.0134
       },
       "w72h": {
         "samples": 0,
@@ -26212,16 +26260,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x1b798718722107a43f9603eb155dfc6944ac31cd",
+      "address": "0x27c9fa86c91b84ddfa15de58c482ff662498d65d",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.245,
-      "total_samples": 5,
+      "quality": 0.246,
+      "total_samples": 32,
       "w24h": {
-        "samples": 5,
-        "win_rate": 0.2,
-        "avg_return": -0.0076
+        "samples": 32,
+        "win_rate": 0.219,
+        "avg_return": -0.0143
       },
       "w72h": {
         "samples": 0,
@@ -26236,16 +26284,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x7044be555aea5bddb3b9808658500d4e0d0a6b6e",
+      "address": "0x1b798718722107a43f9603eb155dfc6944ac31cd",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
       "quality": 0.245,
-      "total_samples": 27,
+      "total_samples": 5,
       "w24h": {
-        "samples": 27,
-        "win_rate": 0.222,
-        "avg_return": -0.0166
+        "samples": 5,
+        "win_rate": 0.2,
+        "avg_return": -0.0076
       },
       "w72h": {
         "samples": 0,
@@ -26284,6 +26332,78 @@
       "tier": "LOW"
     },
     {
+      "address": "0x8b9da005316ecfd7022ccca9b6231281e5c47b28",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.245,
+      "total_samples": 122,
+      "w24h": {
+        "samples": 122,
+        "win_rate": 0.23,
+        "avg_return": -0.0194
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x4b1c09fa8322548360a76a3747e32a60a864bc38",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.243,
+      "total_samples": 30,
+      "w24h": {
+        "samples": 30,
+        "win_rate": 0.2,
+        "avg_return": -0.0084
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x562e68a7eb3d74262413030f9f8052306a3cad97",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.243,
+      "total_samples": 15,
+      "w24h": {
+        "samples": 15,
+        "win_rate": 0.2,
+        "avg_return": -0.0083
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x66701345620a1d2d81e37f9fd8c74491e8c7d525",
       "groups": [
         "smart_money"
@@ -26294,54 +26414,6 @@
         "samples": 67,
         "win_rate": 0.224,
         "avg_return": -0.0178
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x27c9fa86c91b84ddfa15de58c482ff662498d65d",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.242,
-      "total_samples": 42,
-      "w24h": {
-        "samples": 42,
-        "win_rate": 0.214,
-        "avg_return": -0.0145
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0xdf52df044f1b150dfa79590909cdac6ad83d59fc",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.241,
-      "total_samples": 63,
-      "w24h": {
-        "samples": 63,
-        "win_rate": 0.238,
-        "avg_return": -0.0247
       },
       "w72h": {
         "samples": 0,
@@ -26476,30 +26548,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0xb70c6d3e997e6cdc94a5598f458c7cb7e915fd4d",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.234,
-      "total_samples": 5,
-      "w24h": {
-        "samples": 5,
-        "win_rate": 0.2,
-        "avg_return": -0.0129
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x4f235c15474f984504b0f188755021ae45c2fa65",
       "groups": [
         "money_printer"
@@ -26510,78 +26558,6 @@
         "samples": 38,
         "win_rate": 0.211,
         "avg_return": -0.0177
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x5ad96a3986b9d2cfab1d39c68002edd17263f5ef",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.23,
-      "total_samples": 113,
-      "w24h": {
-        "samples": 113,
-        "win_rate": 0.195,
-        "avg_return": -0.013
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x63d417a577b50c96f4f09148d4e4d70950db0522",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.23,
-      "total_samples": 23,
-      "w24h": {
-        "samples": 23,
-        "win_rate": 0.217,
-        "avg_return": -0.0218
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x45d26f28196d226497130c4bac709d808fed4029",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.229,
-      "total_samples": 44,
-      "w24h": {
-        "samples": 44,
-        "win_rate": 0.205,
-        "avg_return": -0.0172
       },
       "w72h": {
         "samples": 0,
@@ -26668,14 +26644,14 @@
       "tier": "LOW"
     },
     {
-      "address": "0x48d826da83e69844f2f84b2db50703a933d137a2",
+      "address": "0x8482694d9bbf434bf2801f49be04dee5bc459d07",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
       "quality": 0.221,
-      "total_samples": 5,
+      "total_samples": 35,
       "w24h": {
-        "samples": 5,
+        "samples": 35,
         "win_rate": 0.2,
         "avg_return": -0.0193
       },
@@ -26692,16 +26668,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x8482694d9bbf434bf2801f49be04dee5bc459d07",
+      "address": "0x7044be555aea5bddb3b9808658500d4e0d0a6b6e",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.221,
-      "total_samples": 35,
+      "quality": 0.218,
+      "total_samples": 26,
       "w24h": {
-        "samples": 35,
-        "win_rate": 0.2,
-        "avg_return": -0.0193
+        "samples": 26,
+        "win_rate": 0.192,
+        "avg_return": -0.0178
       },
       "w72h": {
         "samples": 0,
@@ -26749,7 +26725,7 @@
       "w24h": {
         "samples": 66,
         "win_rate": 0.182,
-        "avg_return": -0.0138
+        "avg_return": -0.0139
       },
       "w72h": {
         "samples": 0,
@@ -26764,16 +26740,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x1c2c96e78a42958892e637bdc0d94ce259f109fe",
+      "address": "0x45d26f28196d226497130c4bac709d808fed4029",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.216,
-      "total_samples": 54,
+      "quality": 0.217,
+      "total_samples": 42,
       "w24h": {
-        "samples": 54,
-        "win_rate": 0.204,
-        "avg_return": -0.0237
+        "samples": 42,
+        "win_rate": 0.19,
+        "avg_return": -0.0178
       },
       "w72h": {
         "samples": 0,
@@ -26836,6 +26812,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x4101ce19ee81f24da894976e585f1e79119dbd93",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.213,
+      "total_samples": 12,
+      "w24h": {
+        "samples": 12,
+        "win_rate": 0.167,
+        "avg_return": -0.01
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x039cc0690200bfba3bacc6a9bcc5f865ed970ebd",
       "groups": [
         "smart_money"
@@ -26870,30 +26870,6 @@
         "samples": 6,
         "win_rate": 0.167,
         "avg_return": -0.0112
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x562e68a7eb3d74262413030f9f8052306a3cad97",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.209,
-      "total_samples": 19,
-      "w24h": {
-        "samples": 19,
-        "win_rate": 0.158,
-        "avg_return": -0.0088
       },
       "w72h": {
         "samples": 0,
@@ -27052,16 +27028,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x4101ce19ee81f24da894976e585f1e79119dbd93",
+      "address": "0x1c2c96e78a42958892e637bdc0d94ce259f109fe",
       "groups": [
         "smart_money"
       ],
       "quality": 0.202,
-      "total_samples": 13,
+      "total_samples": 53,
       "w24h": {
-        "samples": 13,
-        "win_rate": 0.154,
-        "avg_return": -0.0103
+        "samples": 53,
+        "win_rate": 0.189,
+        "avg_return": -0.0244
       },
       "w72h": {
         "samples": 0,
@@ -27086,6 +27062,30 @@
         "samples": 106,
         "win_rate": 0.179,
         "avg_return": -0.0214
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x39be8fad61f5fa0cdfa2fc97c30a59833f58705d",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.201,
+      "total_samples": 30,
+      "w24h": {
+        "samples": 30,
+        "win_rate": 0.167,
+        "avg_return": -0.0159
       },
       "w72h": {
         "samples": 0,
@@ -27172,16 +27172,40 @@
       "tier": "LOW"
     },
     {
-      "address": "0x39be8fad61f5fa0cdfa2fc97c30a59833f58705d",
+      "address": "0x63d417a577b50c96f4f09148d4e4d70950db0522",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
-      "quality": 0.197,
-      "total_samples": 31,
+      "quality": 0.199,
+      "total_samples": 22,
       "w24h": {
-        "samples": 31,
-        "win_rate": 0.161,
-        "avg_return": -0.0159
+        "samples": 22,
+        "win_rate": 0.182,
+        "avg_return": -0.023
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xd4c1f7e8d876c4749228d515473d36f919583d1d",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.196,
+      "total_samples": 49,
+      "w24h": {
+        "samples": 49,
+        "win_rate": 0.163,
+        "avg_return": -0.0175
       },
       "w72h": {
         "samples": 0,
@@ -27229,7 +27253,7 @@
       "w24h": {
         "samples": 60,
         "win_rate": 0.167,
-        "avg_return": -0.0197
+        "avg_return": -0.0198
       },
       "w72h": {
         "samples": 0,
@@ -27253,7 +27277,7 @@
       "w24h": {
         "samples": 21,
         "win_rate": 0.143,
-        "avg_return": -0.0108
+        "avg_return": -0.0106
       },
       "w72h": {
         "samples": 0,
@@ -27278,30 +27302,6 @@
         "samples": 6,
         "win_rate": 0.167,
         "avg_return": -0.0209
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0xd4c1f7e8d876c4749228d515473d36f919583d1d",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.191,
-      "total_samples": 56,
-      "w24h": {
-        "samples": 56,
-        "win_rate": 0.161,
-        "avg_return": -0.0188
       },
       "w72h": {
         "samples": 0,
@@ -27700,6 +27700,30 @@
       "tier": "LOW"
     },
     {
+      "address": "0x351126a070c9cadef8064ddd7b2d289fc33163aa",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.162,
+      "total_samples": 18,
+      "w24h": {
+        "samples": 18,
+        "win_rate": 0.111,
+        "avg_return": -0.0137
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
       "address": "0x4e7cfe8e3e20284ba246978abaf301c5fb0ccc9c",
       "groups": [
         "smart_money"
@@ -27710,6 +27734,30 @@
         "samples": 87,
         "win_rate": 0.126,
         "avg_return": -0.0198
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x7c930969fcf3e5a5c78bcf2e1cefda3f53e3c8fd",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.162,
+      "total_samples": 99,
+      "w24h": {
+        "samples": 99,
+        "win_rate": 0.121,
+        "avg_return": -0.0175
       },
       "w72h": {
         "samples": 0,
@@ -27748,40 +27796,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x351126a070c9cadef8064ddd7b2d289fc33163aa",
+      "address": "0x577586e7460f83ce4f30ded0ea2e44e7579de25d",
       "groups": [
         "smart_money"
       ],
-      "quality": 0.161,
-      "total_samples": 18,
+      "quality": 0.16,
+      "total_samples": 32,
       "w24h": {
-        "samples": 18,
-        "win_rate": 0.111,
-        "avg_return": -0.0138
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x7c930969fcf3e5a5c78bcf2e1cefda3f53e3c8fd",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.161,
-      "total_samples": 100,
-      "w24h": {
-        "samples": 100,
-        "win_rate": 0.12,
-        "avg_return": -0.0175
+        "samples": 32,
+        "win_rate": 0.125,
+        "avg_return": -0.02
       },
       "w72h": {
         "samples": 0,
@@ -27820,30 +27844,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x577586e7460f83ce4f30ded0ea2e44e7579de25d",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.157,
-      "total_samples": 33,
-      "w24h": {
-        "samples": 33,
-        "win_rate": 0.121,
-        "avg_return": -0.0199
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x89bdfd6caab017d28d9296c2513e687db99b3df2",
       "groups": [
         "smart_money"
@@ -27853,7 +27853,7 @@
       "w24h": {
         "samples": 47,
         "win_rate": 0.128,
-        "avg_return": -0.0231
+        "avg_return": -0.023
       },
       "w72h": {
         "samples": 0,
@@ -27896,12 +27896,36 @@
       "groups": [
         "money_printer"
       ],
-      "quality": 0.155,
+      "quality": 0.152,
       "total_samples": 17,
       "w24h": {
         "samples": 17,
         "win_rate": 0.118,
-        "avg_return": -0.0196
+        "avg_return": -0.0209
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x645b2eeaa0a46df3c4211bebda1b2c7703e287b8",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.15,
+      "total_samples": 12,
+      "w24h": {
+        "samples": 12,
+        "win_rate": 0.083,
+        "avg_return": -0.0083
       },
       "w72h": {
         "samples": 0,
@@ -27926,30 +27950,6 @@
         "samples": 6,
         "win_rate": 0.167,
         "avg_return": -0.0415
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x645b2eeaa0a46df3c4211bebda1b2c7703e287b8",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.144,
-      "total_samples": 13,
-      "w24h": {
-        "samples": 13,
-        "win_rate": 0.077,
-        "avg_return": -0.0087
       },
       "w72h": {
         "samples": 0,
@@ -28208,12 +28208,12 @@
       "groups": [
         "money_printer"
       ],
-      "quality": 0.104,
+      "quality": 0.105,
       "total_samples": 17,
       "w24h": {
         "samples": 17,
         "win_rate": 0.059,
-        "avg_return": -0.0213
+        "avg_return": -0.0212
       },
       "w72h": {
         "samples": 0,
@@ -28256,12 +28256,12 @@
       "groups": [
         "smart_money"
       ],
-      "quality": 0.095,
+      "quality": 0.096,
       "total_samples": 30,
       "w24h": {
         "samples": 30,
         "win_rate": 0.033,
-        "avg_return": -0.0156
+        "avg_return": -0.0155
       },
       "w72h": {
         "samples": 0,
@@ -28357,7 +28357,31 @@
       "w24h": {
         "samples": 5,
         "win_rate": 0.0,
-        "avg_return": -0.0044
+        "avg_return": -0.0046
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.089,
+      "total_samples": 2,
+      "w24h": {
+        "samples": 2,
+        "win_rate": 0.0,
+        "avg_return": -0.0054
       },
       "w72h": {
         "samples": 0,
@@ -28454,6 +28478,30 @@
         "samples": 2,
         "win_rate": 0.0,
         "avg_return": -0.0054
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xf97ad6704baec104d00b88e0c157e2b7b3a1ddd1",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.088,
+      "total_samples": 3,
+      "w24h": {
+        "samples": 3,
+        "win_rate": 0.0,
+        "avg_return": -0.006
       },
       "w72h": {
         "samples": 0,
@@ -28645,7 +28693,7 @@
       "w24h": {
         "samples": 21,
         "win_rate": 0.048,
-        "avg_return": -0.0263
+        "avg_return": -0.0266
       },
       "w72h": {
         "samples": 0,
@@ -28783,6 +28831,30 @@
       "address": "0xb798aef79972ce8f73d47b9ebbcda6bbb7ec4fbf",
       "groups": [
         "money_printer"
+      ],
+      "quality": 0.085,
+      "total_samples": 3,
+      "w24h": {
+        "samples": 3,
+        "win_rate": 0.0,
+        "avg_return": -0.0076
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xc28e23e7d7d6cc0c9c6f08146c71e7d168cae45a",
+      "groups": [
+        "smart_money"
       ],
       "quality": 0.085,
       "total_samples": 3,
@@ -28948,30 +29020,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0x203f4c410f3c35cead9f35b6de2f66e773d7f26e",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.083,
-      "total_samples": 3,
-      "w24h": {
-        "samples": 3,
-        "win_rate": 0.0,
-        "avg_return": -0.0085
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x27388d079cb5cf1ad50f60ab4c260356449bf92b",
       "groups": [
         "smart_money"
@@ -29078,6 +29126,30 @@
         "samples": 2,
         "win_rate": 0.0,
         "avg_return": -0.0084
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0x837686cfda8a79adfb8465d39240c54166bf9a1e",
+      "groups": [
+        "smart_money"
+      ],
+      "quality": 0.083,
+      "total_samples": 4,
+      "w24h": {
+        "samples": 4,
+        "win_rate": 0.0,
+        "avg_return": -0.0085
       },
       "w72h": {
         "samples": 0,
@@ -29534,30 +29606,6 @@
         "samples": 5,
         "win_rate": 0.0,
         "avg_return": -0.0095
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
-      "address": "0x837686cfda8a79adfb8465d39240c54166bf9a1e",
-      "groups": [
-        "smart_money"
-      ],
-      "quality": 0.081,
-      "total_samples": 5,
-      "w24h": {
-        "samples": 5,
-        "win_rate": 0.0,
-        "avg_return": -0.0097
       },
       "w72h": {
         "samples": 0,
@@ -30076,16 +30124,16 @@
       "tier": "LOW"
     },
     {
-      "address": "0x418aa6bf98a2b2bc93779f810330d88cde488888",
+      "address": "0x003a85c562730b196f7cba202a2515f2ff855736",
       "groups": [
-        "money_printer"
+        "smart_money"
       ],
-      "quality": 0.069,
-      "total_samples": 13,
+      "quality": 0.068,
+      "total_samples": 2,
       "w24h": {
-        "samples": 13,
+        "samples": 2,
         "win_rate": 0.0,
-        "avg_return": -0.0157
+        "avg_return": -0.0158
       },
       "w72h": {
         "samples": 0,
@@ -30100,14 +30148,14 @@
       "tier": "LOW"
     },
     {
-      "address": "0x003a85c562730b196f7cba202a2515f2ff855736",
+      "address": "0x418aa6bf98a2b2bc93779f810330d88cde488888",
       "groups": [
-        "smart_money"
+        "money_printer"
       ],
       "quality": 0.068,
-      "total_samples": 2,
+      "total_samples": 12,
       "w24h": {
-        "samples": 2,
+        "samples": 12,
         "win_rate": 0.0,
         "avg_return": -0.0158
       },
@@ -30628,30 +30676,6 @@
       "tier": "LOW"
     },
     {
-      "address": "0xbc433ba7c34752448c5361e5ed3038628a1753b0",
-      "groups": [
-        "money_printer"
-      ],
-      "quality": 0.062,
-      "total_samples": 7,
-      "w24h": {
-        "samples": 7,
-        "win_rate": 0.0,
-        "avg_return": -0.0189
-      },
-      "w72h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "w168h": {
-        "samples": 0,
-        "win_rate": 0.0,
-        "avg_return": 0.0
-      },
-      "tier": "LOW"
-    },
-    {
       "address": "0x0fd468a73084daa6ea77a9261e40fdec3e67e0c7",
       "groups": [
         "money_printer"
@@ -30734,6 +30758,30 @@
         "samples": 28,
         "win_rate": 0.0,
         "avg_return": -0.0195
+      },
+      "w72h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "w168h": {
+        "samples": 0,
+        "win_rate": 0.0,
+        "avg_return": 0.0
+      },
+      "tier": "LOW"
+    },
+    {
+      "address": "0xbc433ba7c34752448c5361e5ed3038628a1753b0",
+      "groups": [
+        "money_printer"
+      ],
+      "quality": 0.061,
+      "total_samples": 6,
+      "w24h": {
+        "samples": 6,
+        "win_rate": 0.0,
+        "avg_return": -0.0196
       },
       "w72h": {
         "samples": 0,
