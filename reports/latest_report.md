@@ -1,102 +1,115 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-12 06:12:40 CST
-扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 171
+运行时间(北京): 2026-07-12 07:14:04 CST
+扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 170
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
-- 调用: 4 缓存命中: 0 错误: 4
-- 输入信号数: 6 | fallback: True
-- 预算(北京 2026-07-12): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 2 次)
+- 调用: 0 缓存命中: 0 错误: 0
+- 输入信号数: 7 | fallback: True
+- 预算(北京 2026-07-12): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 7 次)
 
 ## 开多强候选
-### SOL OPEN_LONG
-- swing=78.19 bucket=GOOD horizon=10天
-- AI分=78.19 综合=78.19 conf=0.78
-- state=ACTIVE_REPEAT / 第34轮 / 持续73.0小时 / 冷却剩余0分 / 金额变化0.13x
-- 首次出现(北京): 2026-07-09 05:13:10 CST | 上次提醒: 2026-07-12 06:12:39 CST
-- flow: 2h=$1,317,682 6h=$6,424,532 24h=$8,363,791 72h=$47,638,724 168h=$49,470,762
-- wallets=20 delta=$1,317,682 max_single=$434,325 quality=0.478 groups=money_printer,smart_money
+### BTC OPEN_LONG
+- swing=78.47 bucket=GOOD horizon=10天
+- AI分=78.47 综合=78.47 conf=0.78
+- state=COOLDOWN_REPEAT / 第44轮 / 持续82.1小时 / 冷却剩余60.9分 / 金额变化0.57x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-07-12 04:14:58 CST
+- flow: 2h=$18,584,335 6h=$33,170,970 24h=$69,500,227 72h=$615,541,619 168h=$728,406,421
+- wallets=52 delta=$18,584,335 max_single=$7,790,856 quality=0.487 groups=money_printer,smart_money
 - AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=240h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=78.19 bucket=GOOD
+- AI评分理由: swing=78.47 bucket=GOOD
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### WLD OPEN_LONG
+- swing=68.48 bucket=GOOD horizon=7天
+- AI分=68.48 综合=68.48 conf=0.68
+- state=COOLDOWN_REPEAT / 第12轮 / 持续70.0小时 / 冷却剩余119.5分 / 金额变化0.48x
+- 首次出现(北京): 2026-07-09 09:15:21 CST | 上次提醒: 2026-07-12 05:13:32 CST
+- flow: 2h=$858,548 6h=$3,012,259 24h=$5,472,167 72h=$9,108,968 168h=$9,329,598
+- wallets=16 delta=$420,111 max_single=$385,453 quality=0.466 groups=money_printer,smart_money
+- AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=68.48 bucket=GOOD
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 ### ZEC OPEN_LONG
-- swing=77.47 bucket=GOOD horizon=10天
-- AI分=77.47 综合=77.47 conf=0.77
-- state=COOLDOWN_REPEAT / 第37轮 / 持续81.0小时 / 冷却剩余61.9分 / 金额变化0.21x
+- swing=65.71 bucket=GOOD horizon=7天
+- AI分=65.71 综合=65.71 conf=0.66
+- state=COOLDOWN_REPEAT / 第38轮 / 持续82.1小时 / 冷却剩余0.5分 / 金额变化0.15x
 - 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-07-12 03:14:31 CST
-- flow: 2h=$574,569 6h=$4,091,491 24h=$12,182,225 72h=$35,299,639 168h=$42,440,969
-- wallets=23 delta=$574,569 max_single=$194,926 quality=0.433 groups=money_printer,smart_money
-- AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=240h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=77.47 bucket=GOOD
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### ETH OPEN_LONG
-- swing=67.77 bucket=GOOD horizon=7天
-- AI分=67.77 综合=67.77 conf=0.68
-- state=COOLDOWN_REPEAT / 第36轮 / 持续80.0小时 / 冷却剩余61.9分 / 金额变化0.13x
-- 首次出现(北京): 2026-07-08 22:15:04 CST | 上次提醒: 2026-07-12 03:14:31 CST
-- flow: 2h=$2,673,735 6h=$9,984,446 24h=$63,914,674 72h=$251,974,622 168h=$288,934,340
-- wallets=34 delta=$2,673,735 max_single=$1,049,291 quality=0.511 groups=money_printer,smart_money
+- flow: 2h=$978,715 6h=$4,495,636 24h=$12,586,370 72h=$35,703,784 168h=$42,845,114
+- wallets=20 delta=$404,146 max_single=$128,249 quality=0.484 groups=money_printer,smart_money
 - AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=67.77 bucket=GOOD
+- AI评分理由: swing=65.71 bucket=GOOD
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
 ## 开空强候选
-### HYPE OPEN_SHORT
-- swing=75.9 bucket=GOOD horizon=10天
-- AI分=75.9 综合=75.9 conf=0.76
-- state=ACTIVE_REPEAT / 第42轮 / 持续83.9小时 / 冷却剩余0分 / 金额变化0.0x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-12 06:12:39 CST
-- flow: 2h=$2,229,951 6h=$8,372,004 24h=$27,382,676 72h=$106,955,888 168h=$587,729,990
-- wallets=43 delta=$2,229,951 max_single=$350,736 quality=0.485 groups=money_printer,smart_money
+### AAVE OPEN_SHORT
+- swing=78.13 bucket=GOOD horizon=10天
+- AI分=78.13 综合=78.13 conf=0.78
+- state=COOLDOWN_REPEAT / 第6轮 / 持续84.9小时 / 冷却剩余119.5分 / 金额变化0.02x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-12 05:13:32 CST
+- flow: 2h=$671,723 6h=$1,408,865 24h=$1,749,030 72h=$4,691,508 168h=$38,376,547
+- wallets=29 delta=$544,897 max_single=$145,336 quality=0.423 groups=money_printer,smart_money
 - AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=240h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=75.9 bucket=GOOD
+- AI评分理由: swing=78.13 bucket=GOOD
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### BTC OPEN_SHORT
-- swing=74.26 bucket=GOOD horizon=10天
-- AI分=74.26 综合=74.26 conf=0.74
-- state=COOLDOWN_REPEAT / 第40轮 / 持续83.9小时 / 冷却剩余61.9分 / 金额变化0.01x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-12 03:14:31 CST
-- flow: 2h=$16,269,534 6h=$42,325,679 24h=$148,844,895 72h=$480,352,715 168h=$1,260,228,692
-- wallets=42 delta=$6,860,481 max_single=$1,471,534 quality=0.414 groups=money_printer,smart_money
+### SOL OPEN_SHORT
+- swing=77.19 bucket=GOOD horizon=10天
+- AI分=77.19 综合=77.19 conf=0.77
+- state=COOLDOWN_REPEAT / 第47轮 / 持续84.9小时 / 冷却剩余119.5分 / 金额变化0.01x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-12 05:13:32 CST
+- flow: 2h=$2,013,270 6h=$2,799,091 24h=$19,839,600 72h=$70,725,206 168h=$248,007,708
+- wallets=24 delta=$2,013,270 max_single=$683,191 quality=0.458 groups=money_printer,smart_money
 - AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=240h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=74.26 bucket=GOOD
+- AI评分理由: swing=77.19 bucket=GOOD
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### HYPE OPEN_SHORT
+- swing=68.58 bucket=GOOD horizon=7天
+- AI分=68.58 综合=68.58 conf=0.69
+- state=COOLDOWN_REPEAT / 第43轮 / 持续84.9小时 / 冷却剩余178.6分 / 金额变化0.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-12 06:12:39 CST
+- flow: 2h=$3,805,259 6h=$7,575,289 24h=$28,957,983 72h=$108,531,196 168h=$589,305,297
+- wallets=21 delta=$1,575,308 max_single=$681,526 quality=0.418 groups=money_printer,smart_money
+- AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=68.58 bucket=GOOD
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ETH OPEN_SHORT
+- swing=66.83 bucket=GOOD horizon=7天
+- AI分=66.83 综合=66.83 conf=0.67
+- state=COOLDOWN_REPEAT / 第48轮 / 持续84.9小时 / 冷却剩余119.5分 / 金额变化0.01x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-12 05:13:32 CST
+- flow: 2h=$5,295,491 6h=$14,322,893 24h=$88,968,790 72h=$269,413,812 168h=$910,957,644
+- wallets=41 delta=$5,295,491 max_single=$1,814,200 quality=0.396 groups=money_printer,smart_money
+- AI动作=OPEN 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=66.83 bucket=GOOD
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
 ## 观察候选
-### WLD OPEN_LONG
-- swing=64.68 bucket=WATCH horizon=7天
-- AI分=64.68 综合=64.68 conf=0.65
-- state=COOLDOWN_REPEAT / 第11轮 / 持续69.0小时 / 冷却剩余180.9分 / 金额变化0.5x
-- 首次出现(北京): 2026-07-09 09:15:21 CST | 上次提醒: 2026-07-12 05:13:32 CST
-- flow: 2h=$1,310,808 6h=$3,025,241 24h=$5,189,854 72h=$8,688,857 168h=$8,909,487
-- wallets=11 delta=$438,437 max_single=$379,082 quality=0.459 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.68 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
+（无）
 
 ## 虚拟账户
 - 初始本金: $100,000
 - 当前本金: $97,852
 - 持仓数: 9
-  - SOL SHORT lev=3x margin=$5,000 notional=$15,000 entry=76.727 cur=78.238 pnl=-1.97% ROE=-5.91% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
-  - XRP SHORT lev=3x margin=$5,000 notional=$15,000 entry=1.0724 cur=1.1142 pnl=-3.9% ROE=-11.69% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
-  - HYPE SHORT lev=3x margin=$5,000 notional=$15,000 entry=67.412 cur=67.986 pnl=-0.85% ROE=-2.55% 开仓(北京)=2026-07-09 00:14:19 CST 准备平仓=-
-  - BTC SHORT lev=3x margin=$5,000 notional=$15,000 entry=62092.0 cur=64413.0 pnl=-3.74% ROE=-11.21% 开仓(北京)=2026-07-09 01:14:30 CST 准备平仓=-
-  - NEAR LONG lev=3x margin=$5,000 notional=$15,000 entry=1.8832 cur=1.9144 pnl=1.66% ROE=4.97% 开仓(北京)=2026-07-09 02:13:17 CST 准备平仓=-
-  - BTC LONG lev=3x margin=$5,000 notional=$15,000 entry=62260.0 cur=64413.0 pnl=3.46% ROE=10.37% 开仓(北京)=2026-07-09 02:13:17 CST 准备平仓=-
-  - ZEC LONG lev=3x margin=$4,989 notional=$14,966 entry=501.8 cur=527.75 pnl=5.17% ROE=15.51% 开仓(北京)=2026-07-10 16:13:11 CST 准备平仓=-
-  - WLD LONG lev=3x margin=$4,950 notional=$14,849 entry=0.40802 cur=0.40559 pnl=-0.6% ROE=-1.79% 开仓(北京)=2026-07-12 00:13:09 CST 准备平仓=-
-  - SOL LONG lev=3x margin=$4,893 notional=$14,678 entry=78.238 cur=78.238 pnl=0.0% ROE=0.0% 开仓(北京)=2026-07-12 06:12:40 CST 准备平仓=-
+  - SOL SHORT lev=3x margin=$5,000 notional=$15,000 entry=76.727 cur=77.487 pnl=-0.99% ROE=-2.97% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
+  - XRP SHORT lev=3x margin=$5,000 notional=$15,000 entry=1.0724 cur=1.1047 pnl=-3.01% ROE=-9.04% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
+  - HYPE SHORT lev=3x margin=$5,000 notional=$15,000 entry=67.412 cur=67.383 pnl=0.04% ROE=0.13% 开仓(北京)=2026-07-09 00:14:19 CST 准备平仓=-
+  - BTC SHORT lev=3x margin=$5,000 notional=$15,000 entry=62092.0 cur=64113.0 pnl=-3.25% ROE=-9.76% 开仓(北京)=2026-07-09 01:14:30 CST 准备平仓=-
+  - NEAR LONG lev=3x margin=$5,000 notional=$15,000 entry=1.8832 cur=1.8903 pnl=0.38% ROE=1.13% 开仓(北京)=2026-07-09 02:13:17 CST 准备平仓=-
+  - BTC LONG lev=3x margin=$5,000 notional=$15,000 entry=62260.0 cur=64113.0 pnl=2.98% ROE=8.93% 开仓(北京)=2026-07-09 02:13:17 CST 准备平仓=-
+  - ZEC LONG lev=3x margin=$4,989 notional=$14,966 entry=501.8 cur=519.55 pnl=3.54% ROE=10.61% 开仓(北京)=2026-07-10 16:13:11 CST 准备平仓=-
+  - WLD LONG lev=3x margin=$4,950 notional=$14,849 entry=0.40802 cur=0.40076 pnl=-1.78% ROE=-5.34% 开仓(北京)=2026-07-12 00:13:09 CST 准备平仓=-
+  - SOL LONG lev=3x margin=$4,893 notional=$14,678 entry=78.238 cur=77.487 pnl=-0.96% ROE=-2.88% 开仓(北京)=2026-07-12 06:12:40 CST 准备平仓=-
