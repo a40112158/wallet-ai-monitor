@@ -1,8 +1,13 @@
 {
-  "generated_bj": "2026-07-15 20:12:14 CST",
-  "samples": 7,
-  "suggestions": {},
-  "rationale": [],
+  "generated_bj": "2026-07-15 21:15:06 CST",
+  "samples": 8,
+  "suggestions": {
+    "ai_min_final_score_for_open": 70.0,
+    "min_wallet_count": 2
+  },
+  "rationale": [
+    "近8笔胜率38%偏低，收紧开仓门槛"
+  ],
   "hard_limits": {
     "AI_MAX_LEVERAGE": 10
   }
