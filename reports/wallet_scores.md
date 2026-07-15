@@ -1,5 +1,5 @@
 # 钱包表现评分
-生成时间(北京): 2026-07-15 19:14:30 CST
+生成时间(北京): 2026-07-15 20:12:14 CST
 
 | 地址 | 分组 | 质量 | 分级 | 24h胜率 | 72h胜率 | 168h胜率 | 样本 |
 |---|---|---|---|---|---|---|---|
@@ -49,6 +49,7 @@
 | 0xda744273f80b22412417f7cfe0503f3d721f987d | smart_money | 0.92 | HIGH | 90%(10) | 100%(6) | 50%(2) | 18 |
 | 0x051c2e6d49cf82ebc47f08f9b85800f94fc9693c | money_printer | 0.919 | HIGH | 100%(4) | 75%(4) | 100%(4) | 12 |
 | 0x3e41a8fa0032d635f02201053f1a5aa2a6967c81 | smart_money | 0.911 | HIGH | 83%(6) | 83%(6) | 100%(4) | 16 |
+| 0x36ac01de9bc76c0d744b38c3e13a0538d55c7568 | money_printer | 0.904 | HIGH | 100%(8) | 100%(8) | 50%(2) | 18 |
 | 0xe0ffc829349c88c159462942ad885f12130e7610 | money_printer | 0.899 | HIGH | 80%(5) | 0%(1) | 0%(1) | 5 |
 | 0xc846e513f1fb448e744d5c8e911e87bccc0dfb20 | smart_money | 0.898 | HIGH | 100%(3) | 67%(3) | 100%(1) | 6 |
 | 0x8434b7844fd17fad52f0aceae50a834cd4896577 | smart_money | 0.896 | HIGH | 76%(17) | 81%(16) | 0%(0) | 33 |
@@ -56,7 +57,6 @@
 | 0xf469697ae698e1459f02cdabc882c468fad5396d | smart_money | 0.895 | HIGH | 86%(7) | 86%(7) | 100%(6) | 20 |
 | 0x25554a80781ee62414c3747e81c3f50157c634b1 | smart_money | 0.891 | HIGH | 90%(31) | 90%(30) | 87%(30) | 91 |
 | 0x1aa5abfd850012297428b509fb84fcd9f9f995cb | smart_money | 0.89 | HIGH | 83%(6) | 83%(6) | 100%(3) | 15 |
-| 0x36ac01de9bc76c0d744b38c3e13a0538d55c7568 | money_printer | 0.888 | HIGH | 100%(8) | 100%(7) | 50%(2) | 17 |
 | 0x89132efe9fa560caf50d505273502c975e4805ab | smart_money | 0.886 | HIGH | 100%(6) | 83%(6) | 83%(6) | 18 |
 | 0x9b5b1931fa5838a891973f9877c7648c93ee80cc | smart_money | 0.884 | HIGH | 85%(20) | 95%(20) | 90%(19) | 59 |
 | 0x9a0825ca6c4c577a1202a8fae3b8f044c1d5711d | smart_money | 0.878 | HIGH | 62%(8) | 100%(3) | 100%(2) | 13 |
@@ -85,9 +85,9 @@
 | 0x112819b32d30680790d9caac04b656dd52da21a1 | smart_money | 0.814 | HIGH | 100%(2) | 100%(2) | 50%(2) | 6 |
 | 0x52e6c32f0eb44f707e9c159052fc5039fc7b7725 | smart_money | 0.814 | HIGH | 60%(5) | 75%(4) | 100%(3) | 12 |
 | 0xa559edb06548fb5d9b2066ec43320e5f9726ff95 | smart_money | 0.812 | HIGH | 100%(2) | 50%(2) | 100%(2) | 6 |
+| 0xd28e005c992b168d0b20fca312958e105bb260ab | money_printer | 0.812 | HIGH | 87%(15) | 57%(7) | 100%(2) | 24 |
 | 0xf28e1b06e00e8774c612e31ab3ac35d5a720085f | money_printer | 0.81 | HIGH | 100%(3) | 67%(3) | 0%(1) | 6 |
 | 0xbb34960afec64f3f1cc78b0c9c342c4657021696 | smart_money | 0.807 | HIGH | 75%(20) | 67%(12) | 100%(4) | 36 |
-| 0xd28e005c992b168d0b20fca312958e105bb260ab | money_printer | 0.807 | HIGH | 86%(14) | 57%(7) | 100%(2) | 23 |
 | 0x4a0aee02132a411cfcf79a486f0e2d7c5152e94a | money_printer | 0.805 | HIGH | 81%(32) | 81%(32) | 78%(32) | 96 |
 | 0x054a01da80ee37d5220af5471b1eedbdcd2cdb2f | smart_money | 0.804 | HIGH | 100%(2) | 100%(2) | 50%(2) | 6 |
 | 0x487033d8ed8c955098148e87fa66f54b046d5c41 | smart_money | 0.804 | HIGH | 100%(2) | 100%(2) | 50%(2) | 6 |
@@ -98,7 +98,6 @@
 | 0xe71cbf47fff309813bcea54f3ecf49a5f129264d | smart_money | 0.803 | HIGH | 100%(2) | 100%(2) | 50%(2) | 6 |
 | 0x30530d8c6f6aa5416609992bbe08aac518d8525a | smart_money | 0.8 | HIGH | 75%(4) | 100%(4) | 75%(4) | 12 |
 | 0x1e37a337ed460039d1b15bd3bc489de789768d5e | money_printer | 0.799 | HIGH | 68%(28) | 83%(24) | 90%(19) | 71 |
-| 0x843f31e5cd9a6572d235a05cb78ec5ac2ffcc24f | smart_money | 0.799 | HIGH | 71%(7) | 67%(6) | 100%(3) | 16 |
 | 0x5c5267a02593366f681365ec057e2c5099fa6f88 | smart_money | 0.797 | HIGH | 60%(5) | 80%(5) | 100%(5) | 15 |
 | 0xb854f7f40f0f3e1801fb6d8828b6f6dd97ebf33b | smart_money | 0.796 | HIGH | 67%(3) | 100%(2) | 0%(0) | 5 |
 | 0x413c7a0a3489563350219bc96965a7da02f0fffc | smart_money | 0.795 | HIGH | 75%(12) | 67%(9) | 100%(3) | 24 |
@@ -115,7 +114,6 @@
 | 0x31d6b5a70e8ef418311d7cd2c28c7e1c15e84f90 | smart_money | 0.784 | HIGH | 86%(7) | 71%(7) | 86%(7) | 21 |
 | 0xad227f63d34e7251c1d0ab65e64eeea07aee4e44 | money_printer | 0.783 | HIGH | 76%(25) | 73%(22) | 85%(20) | 67 |
 | 0xb3fe34bfb501665f4329915a7024ba5a6bec495f | smart_money | 0.783 | HIGH | 100%(3) | 100%(3) | 33%(3) | 9 |
-| 0x3bcae23e8c380dab4732e9a159c0456f12d866f3 | money_printer | 0.781 | HIGH | 64%(171) | 68%(131) | 100%(3) | 305 |
 | 0x69eb16da29deeac170613a1cacb34227fc15f956 | smart_money | 0.781 | HIGH | 100%(2) | 100%(2) | 50%(2) | 6 |
 | 0xb39766100347e1ffa1459492c85e8e3a2b25d3a0 | smart_money | 0.781 | HIGH | 88%(8) | 62%(8) | 88%(8) | 24 |
 | 0x39a04e90140793ec048323284425cd2ff53480d6 | smart_money | 0.777 | HIGH | 100%(3) | 67%(3) | 0%(1) | 6 |
@@ -128,12 +126,13 @@
 | 0x56498e5f90c14060499b62b6f459b3e3fb9280c5 | money_printer | 0.765 | HIGH | 81%(31) | 65%(23) | 0%(0) | 54 |
 | 0xfd97600ac44b3c4e20ac1a5f23e3b18d10fa5912 | money_printer | 0.763 | HIGH | 89%(9) | 67%(3) | 0%(0) | 12 |
 | 0xb2139bc97c2dc43f8825d033d08ecb9e2c8be00f | smart_money | 0.76 | HIGH | 67%(9) | 50%(2) | 100%(2) | 13 |
+| 0xca230e816bdb34a46960c2f978a30a563d1ae9e0 | money_printer | 0.756 | HIGH | 78%(54) | 48%(27) | 100%(2) | 83 |
 | 0xde8a6d588f8067e761bac811a102e0146c721e41 | smart_money | 0.752 | HIGH | 100%(3) | 100%(3) | 33%(3) | 9 |
 | 0xfdf891f2b214a4c9374d26595ec6d4080262e381 | money_printer | 0.75 | HIGH | 71%(7) | 71%(7) | 71%(7) | 21 |
 | 0x21ca98106c69bff036a194648ba30388ccbe811d | smart_money | 0.749 | HIGH | 80%(5) | 80%(5) | 67%(3) | 13 |
 | 0xdbcc96bcada067864902aad14e029fe7c422f147 | money_printer | 0.748 | HIGH | 61%(72) | 77%(44) | 80%(30) | 146 |
+| 0x843f31e5cd9a6572d235a05cb78ec5ac2ffcc24f | smart_money | 0.745 | HIGH | 71%(7) | 57%(7) | 100%(3) | 17 |
 | 0xbbe9e1588a359337c3235de3b808da991cfc2efe | smart_money | 0.745 | HIGH | 60%(5) | 60%(5) | 100%(2) | 12 |
-| 0xca230e816bdb34a46960c2f978a30a563d1ae9e0 | money_printer | 0.745 | HIGH | 78%(54) | 46%(26) | 100%(2) | 82 |
 | 0x0c4a3a7ac74d43732f9b5ea507f01ab72a381b19 | smart_money | 0.743 | HIGH | 67%(6) | 60%(5) | 100%(3) | 14 |
 | 0x42fd5648cf21c158d15e4f58785760755b3f6623 | smart_money | 0.743 | HIGH | 50%(8) | 57%(7) | 100%(2) | 17 |
 | 0x28473085ba4aa761eb541914f50a75dd685cd47b | smart_money | 0.734 | HIGH | 63%(46) | 54%(43) | 100%(8) | 97 |
@@ -148,7 +147,7 @@
 | 0x3da0af89bbb753754cc85af0658aab61cafefe82 | smart_money | 0.728 | HIGH | 67%(6) | 50%(6) | 100%(2) | 14 |
 | 0xac487c027ffe32021bbba77e30786f8c8f353201 | money_printer | 0.726 | HIGH | 75%(12) | 67%(12) | 75%(12) | 36 |
 | 0xf25df1972b89d3cdb051cf8b2bf385b5dcb9aa21 | smart_money | 0.726 | HIGH | 67%(9) | 71%(7) | 80%(5) | 21 |
-| 0x10495f72a1623ff2d836a2cbb25eaba7ff92e246 | smart_money | 0.725 | HIGH | 50%(24) | 100%(11) | 0%(1) | 35 |
+| 0x041836d6c0617c694b70b57680f45905811076db | smart_money | 0.725 | HIGH | 59%(135) | 85%(39) | 0%(0) | 174 |
 | 0x4d3980ac9d84fc34adcd025ee2337786846343c4 | smart_money | 0.725 | HIGH | 50%(10) | 100%(6) | 100%(1) | 16 |
 | 0xa4add8273d7f47318675bdfbcce3e9648cdb4509 | money_printer | 0.725 | HIGH | 71%(14) | 60%(5) | 100%(2) | 21 |
 | 0x3e051c89cd06e6867ce98c758fcc665d2148e1bb | smart_money | 0.724 | HIGH | 54%(67) | 62%(40) | 100%(4) | 111 |
@@ -165,17 +164,17 @@
 | 0xe3ea6e994993698a721f92491d1b0b4ce67ad5ff | smart_money | 0.707 | HIGH | 100%(4) | 50%(4) | 0%(0) | 8 |
 | 0xa864144d507da1f5a90aae0147b8cba6d93a21cb | smart_money | 0.706 | HIGH | 72%(51) | 71%(35) | 71%(7) | 93 |
 | 0xcac1f1c3e4599e044dc2a9d38a9b6ef1af1bdae8 | money_printer | 0.705 | HIGH | 67%(3) | 100%(2) | 50%(2) | 7 |
-| 0x041836d6c0617c694b70b57680f45905811076db | smart_money | 0.704 | HIGH | 58%(135) | 82%(39) | 0%(0) | 174 |
 | 0x248ee78390f5505d34f36ce2df87d79fbcdb6be2 | smart_money | 0.704 | HIGH | 50%(2) | 50%(2) | 100%(2) | 6 |
 | 0x8ecec0c9367490d2044aaff4030ad0becc33218b | smart_money | 0.703 | HIGH | 67%(6) | 50%(4) | 100%(4) | 14 |
 | 0x349bd094209d50280dfaca12779576c748395c15 | money_printer | 0.702 | HIGH | 83%(6) | 67%(6) | 67%(6) | 18 |
 | 0x6a2cec2bda4749f113676bd9a5f3e64277260efd | smart_money | 0.702 | HIGH | 59%(27) | 68%(22) | 69%(13) | 62 |
 | 0x05c47beed53eb8b3fc14538f881d0941cbbe05a1 | smart_money | 0.7 | HIGH | 67%(3) | 67%(3) | 67%(3) | 9 |
-| 0x18cde66120c9195fb6e50a4b1e13bce4c85d1300 | smart_money | 0.7 | HIGH | 64%(146) | 79%(42) | 0%(0) | 188 |
+| 0x18cde66120c9195fb6e50a4b1e13bce4c85d1300 | smart_money | 0.695 | HIGH | 63%(143) | 78%(37) | 0%(0) | 180 |
 | 0xe9cef9fd872a03cedf9d3e6e90309782b3724ea6 | smart_money | 0.695 | HIGH | 60%(15) | 50%(8) | 100%(3) | 26 |
 | 0x58a722b5f37435cab8957a17fc575bb136e0b48b | smart_money | 0.693 | HIGH | 64%(11) | 40%(5) | 100%(3) | 19 |
 | 0x9b864dde6ed1c21608b1665a0ac0faa4f7e36e6e | smart_money | 0.691 | HIGH | 55%(11) | 46%(11) | 100%(3) | 25 |
 | 0xc44ffe108058eceec48e6a13e2df17a90ec62142 | smart_money | 0.691 | HIGH | 37%(19) | 100%(16) | 0%(1) | 35 |
+| 0x10495f72a1623ff2d836a2cbb25eaba7ff92e246 | smart_money | 0.688 | HIGH | 50%(24) | 92%(12) | 0%(1) | 36 |
 | 0xb3e475368ed0fa0ad23c04de0423d48a0758806f | money_printer | 0.687 | HIGH | 78%(9) | 83%(6) | 50%(4) | 19 |
 | 0xbbf7d7a9d0eaeab4115f022a6863450296112422 | smart_money | 0.687 | HIGH | 64%(63) | 52%(59) | 90%(19) | 141 |
 | 0x5e0c78f6360514ac1d4ea4ab9a2a232284458e69 | smart_money | 0.686 | HIGH | 67%(6) | 50%(4) | 75%(4) | 14 |
@@ -190,16 +189,17 @@
 | 0xeeaf4055e581dae6a4eaea0a66181ecb207787f1 | smart_money | 0.673 | HIGH | 50%(4) | 75%(4) | 75%(4) | 12 |
 | 0x091159a8106b077c13e89bc09701117e8b5f129a | money_printer | 0.671 | HIGH | 64%(11) | 73%(11) | 64%(11) | 33 |
 | 0x3ee505ba316879d246a8fd2b3d7ee63b51b44fab | money_printer | 0.671 | HIGH | 57%(7) | 57%(7) | 71%(7) | 21 |
-| 0x0a06ec6754b628be489b2c40bba20c8580392a7b | money_printer | 0.67 | HIGH | 65%(149) | 71%(75) | 0%(0) | 224 |
-| 0x9d25fdd3e862b690759fae43e2db73bc75909b0e | smart_money | 0.67 | HIGH | 46%(24) | 92%(12) | 0%(1) | 36 |
-| 0xbba0681681815bd70f9075e0235e7997b7b519d9 | smart_money | 0.67 | HIGH | 37%(41) | 55%(29) | 100%(4) | 74 |
 | 0x0daf132c5554fd7d5eb422585426af557d8847e0 | money_printer | 0.669 | HIGH | 100%(3) | 67%(3) | 33%(3) | 9 |
+| 0xbba0681681815bd70f9075e0235e7997b7b519d9 | smart_money | 0.669 | HIGH | 35%(43) | 57%(30) | 100%(4) | 77 |
 | 0x0423b4b2acb4f219ae4a270abd5dde2360e455bb | smart_money | 0.666 | HIGH | 50%(2) | 50%(2) | 100%(2) | 6 |
 | 0xbadbb1de95b5f333623ebece7026932fa5039ee6 | money_printer | 0.666 | HIGH | 50%(2) | 50%(2) | 100%(2) | 6 |
 | 0xf00bb08f7d1d04a9415408c939c02410fc6791b1 | smart_money | 0.666 | HIGH | 50%(2) | 50%(2) | 100%(2) | 6 |
-| 0x7a5a42bd6b1fd13368732be8a7b63e06064e0394 | money_printer | 0.662 | HIGH | 62%(58) | 73%(37) | 0%(1) | 95 |
+| 0x3b883b85fd41b81ef23b6041248bc6ac0b1c04a7 | money_printer | 0.665 | HIGH | 57%(37) | 62%(24) | 75%(8) | 69 |
 | 0xcfda9610dd28e9ff74240a1d4136e87a77e6da82 | smart_money | 0.662 | HIGH | 67%(3) | 100%(1) | 100%(1) | 3 |
-| 0x3b883b85fd41b81ef23b6041248bc6ac0b1c04a7 | money_printer | 0.661 | HIGH | 56%(36) | 62%(24) | 75%(8) | 68 |
 | 0x8a5cd8bd74ab3f205ddcb3b73b2f66deadc6827f | money_printer | 0.661 | HIGH | 75%(4) | 75%(4) | 50%(4) | 12 |
+| 0x0a06ec6754b628be489b2c40bba20c8580392a7b | money_printer | 0.659 | HIGH | 65%(150) | 69%(74) | 0%(0) | 224 |
 | 0xeaf35054804ab7ed6b8cb070296dd6bb38abb4b1 | smart_money | 0.659 | HIGH | 82%(39) | 52%(21) | 100%(1) | 60 |
 | 0x40ebad3d5648f1e542376c0e7152bd4018c9ce35 | smart_money | 0.658 | HIGH | 100%(3) | 67%(3) | 33%(3) | 9 |
+| 0x7a5a42bd6b1fd13368732be8a7b63e06064e0394 | money_printer | 0.657 | HIGH | 61%(59) | 73%(37) | 0%(1) | 96 |
+| 0x12f147f08112ff4c32c66bad45118302d20d807c | smart_money | 0.656 | HIGH | 75%(16) | 60%(5) | 100%(1) | 21 |
+| 0x825f23921dcff36944d8b0b0ca23ac7d05fb86cb | smart_money | 0.656 | HIGH | 50%(2) | 100%(2) | 50%(2) | 6 |
