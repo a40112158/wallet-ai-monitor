@@ -1,12 +1,12 @@
 {
-  "generated_bj": "2026-07-17 09:14:34 CST",
-  "samples": 10,
+  "generated_bj": "2026-07-17 10:12:02 CST",
+  "samples": 12,
   "suggestions": {
     "ai_min_final_score_for_open": 90,
     "min_wallet_count": 10
   },
   "rationale": [
-    "近10笔胜率30%偏低，收紧开仓门槛"
+    "近12笔胜率33%偏低，收紧开仓门槛"
   ],
   "hard_limits": {
     "AI_MAX_LEVERAGE": 10
