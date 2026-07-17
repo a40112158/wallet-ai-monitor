@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-18 00:12:24 CST
-扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 171
+运行时间(北京): 2026-07-18 01:13:58 CST
+扫描钱包: 2421 | 信号数: 9 | 噪音过滤: 168
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
-- 调用: 6 缓存命中: 0 错误: 6
-- 输入信号数: 6 | fallback: True
-- 预算(北京 2026-07-18): 已用调用 6 估算点数 2400 | 预算封顶: False (被拦 0 次)
+- 调用: 7 缓存命中: 0 错误: 7
+- 输入信号数: 7 | fallback: True
+- 预算(北京 2026-07-18): 已用调用 13 估算点数 5200 | 预算封顶: False (被拦 0 次)
 
 ## 开多强候选
 （无）
@@ -16,17 +16,28 @@
 （无）
 
 ## 观察候选
-（无）
+### VVV OPEN_SHORT
+- swing=63.83 bucket=WATCH horizon=7天
+- AI分=63.83 综合=63.83 conf=0.64
+- state=ACTIVE_REPEAT / 第4轮 / 持续222.9小时 / 冷却剩余0分 / 金额变化0.04x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-18 01:13:54 CST
+- flow: 2h=$279,360 6h=$336,971 24h=$611,616 72h=$2,298,673 168h=$4,485,590
+- wallets=29 delta=$247,968 max_single=$89,165 quality=0.619 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=63.83 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
 
 ## 虚拟账户
 - 初始本金: $100,000
 - 当前本金: $99,504
 - 持仓数: 5
-  - SOL SHORT lev=3x margin=$5,000 notional=$15,000 entry=76.727 cur=74.798 pnl=2.51% ROE=7.54% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
-  - BTC LONG lev=3x margin=$5,000 notional=$15,000 entry=62260.0 cur=63514.0 pnl=2.01% ROE=6.04% 开仓(北京)=2026-07-09 02:13:17 CST 准备平仓=NEAR_MAX_HOLD
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=563.78 pnl=3.24% ROE=9.72% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
-  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.1772 pnl=4.79% ROE=14.36% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
-  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.002715 pnl=4.64% ROE=13.91% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
+  - SOL SHORT lev=3x margin=$5,000 notional=$15,000 entry=76.727 cur=75.329 pnl=1.82% ROE=5.47% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
+  - BTC LONG lev=3x margin=$5,000 notional=$15,000 entry=62260.0 cur=64006.0 pnl=2.8% ROE=8.41% 开仓(北京)=2026-07-09 02:13:17 CST 准备平仓=NEAR_MAX_HOLD
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=566.16 pnl=2.83% ROE=8.5% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
+  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.2621 pnl=3.8% ROE=11.39% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
+  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.002744 pnl=3.62% ROE=10.85% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
 
 ## 准备平仓提示
-- BTC LONG NEAR_MAX_HOLD pnl=2.01% 已持仓 214.0h / 上限 240h
+- BTC LONG NEAR_MAX_HOLD pnl=2.8% 已持仓 215.0h / 上限 240h
