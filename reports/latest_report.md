@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-19 14:12:23 CST
-扫描钱包: 2421 | 信号数: 4 | 噪音过滤: 171
+运行时间(北京): 2026-07-19 15:13:33 CST
+扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 170
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,16 +16,16 @@
 （无）
 
 ## 观察候选
-### ETH OPEN_SHORT
-- swing=57.97 bucket=WATCH horizon=3天
-- AI分=57.97 综合=57.97 conf=0.58
-- state=COOLDOWN_REPEAT / 第150轮 / 持续259.9小时 / 冷却剩余180.2分 / 金额变化0.0x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-19 13:12:34 CST
-- flow: 2h=$6,860,294 6h=$6,860,294 24h=$62,848,245 72h=$273,082,566 168h=$691,186,946
-- wallets=14 delta=$355,391 max_single=$225,171 quality=0.523 groups=money_printer,smart_money
+### ZEC OPEN_SHORT
+- swing=52.56 bucket=WATCH horizon=3天
+- AI分=52.56 综合=52.56 conf=0.53
+- state=COOLDOWN_REPEAT / 第114轮 / 持续260.9小时 / 冷却剩余0.8分 / 金额变化0.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-19 11:14:19 CST
+- flow: 2h=$591,440 6h=$1,842,317 24h=$8,527,971 72h=$34,778,975 168h=$97,307,534
+- wallets=13 delta=$224,785 max_single=$95,826 quality=0.515 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=57.97 bucket=WATCH
+- AI评分理由: swing=52.56 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
@@ -33,7 +33,7 @@
 - 初始本金: $100,000
 - 当前本金: $100,033
 - 持仓数: 4
-  - SOL SHORT lev=3x margin=$5,000 notional=$15,000 entry=76.727 cur=75.963 pnl=1.0% ROE=2.99% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=568.41 pnl=2.45% ROE=7.34% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
-  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.3421 pnl=2.87% ROE=8.6% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
-  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.002769 pnl=2.74% ROE=8.22% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
+  - SOL SHORT lev=3x margin=$5,000 notional=$15,000 entry=76.727 cur=76.0013 pnl=0.95% ROE=2.84% 开仓(北京)=2026-07-08 23:12:27 CST 准备平仓=-
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=568.79 pnl=2.38% ROE=7.14% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
+  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.3508 pnl=2.77% ROE=8.3% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
+  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.002791 pnl=1.97% ROE=5.9% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
