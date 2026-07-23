@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-23 14:15:13 CST
-扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 170
+运行时间(北京): 2026-07-23 15:14:53 CST
+扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 169
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,16 +16,16 @@
 （无）
 
 ## 观察候选
-### XRP OPEN_LONG
-- swing=64.15 bucket=WATCH horizon=7天
-- AI分=64.15 综合=64.15 conf=0.64
-- state=ACTIVE_REPEAT / 第63轮 / 持续352.0小时 / 冷却剩余0分 / 金额变化0.13x
-- 首次出现(北京): 2026-07-08 22:15:04 CST | 上次提醒: 2026-07-23 14:15:13 CST
-- flow: 2h=$364,296 6h=$785,077 24h=$2,705,909 72h=$30,816,132 168h=$41,761,181
-- wallets=11 delta=$364,296 max_single=$139,652 quality=0.491 groups=money_printer,smart_money
+### LTC OPEN_SHORT
+- swing=63.9 bucket=WATCH horizon=7天
+- AI分=63.9 综合=63.9 conf=0.64
+- state=ACTIVE_REPEAT / 第7轮 / 持续356.9小时 / 冷却剩余0分 / 金额变化0.08x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-23 15:14:53 CST
+- flow: 2h=$366,549 6h=$385,104 24h=$631,767 72h=$2,512,258 168h=$6,639,184
+- wallets=21 delta=$366,549 max_single=$117,158 quality=0.495 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.15 bucket=WATCH
+- AI评分理由: swing=63.9 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
@@ -33,6 +33,6 @@
 - 初始本金: $100,000
 - 当前本金: $99,745
 - 持仓数: 3
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=569.863 pnl=2.2% ROE=6.59% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
-  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.5751 pnl=0.15% ROE=0.46% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
-  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.002848 pnl=-0.04% ROE=-0.11% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=568.08 pnl=2.5% ROE=7.51% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
+  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.5283 pnl=0.7% ROE=2.1% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
+  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.002834 pnl=0.46% ROE=1.37% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=-
