@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-25 16:12:44 CST
-扫描钱包: 2421 | 信号数: 9 | 噪音过滤: 168
+运行时间(北京): 2026-07-25 17:14:45 CST
+扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 170
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -22,10 +22,10 @@
 - 初始本金: $100,000
 - 当前本金: $99,745
 - 持仓数: 3
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=564.46 pnl=3.12% ROE=9.37% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
-  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.2849 pnl=3.53% ROE=10.6% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=NEAR_MAX_HOLD
-  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.00267 pnl=6.22% ROE=18.65% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=NEAR_MAX_HOLD
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=564.55 pnl=3.11% ROE=9.32% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=-
+  - LINK SHORT lev=3x margin=$5,049 notional=$15,148 entry=8.5883 cur=8.2755 pnl=3.64% ROE=10.93% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=NEAR_MAX_HOLD
+  - kPEPE SHORT lev=3x margin=$5,049 notional=$15,148 entry=0.002847 cur=0.002675 pnl=6.04% ROE=18.12% 开仓(北京)=2026-07-15 21:15:06 CST 准备平仓=NEAR_MAX_HOLD
 
 ## 准备平仓提示
-- LINK SHORT NEAR_MAX_HOLD pnl=3.53% 已持仓 235.0h / 上限 240h
-- kPEPE SHORT NEAR_MAX_HOLD pnl=6.22% 已持仓 235.0h / 上限 240h
+- LINK SHORT NEAR_MAX_HOLD pnl=3.64% 已持仓 236.0h / 上限 240h
+- kPEPE SHORT NEAR_MAX_HOLD pnl=6.04% 已持仓 236.0h / 上限 240h
