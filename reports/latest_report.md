@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-26 19:12:16 CST
-扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 170
+运行时间(北京): 2026-07-26 20:13:30 CST
+扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 170
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
 - 调用: 0 缓存命中: 0 错误: 0
-- 输入信号数: 6 | fallback: True
-- 预算(北京 2026-07-26): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 6 次)
+- 输入信号数: 5 | fallback: True
+- 预算(北京 2026-07-26): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 5 次)
 
 ## 开多强候选
 （无）
@@ -16,16 +16,16 @@
 （无）
 
 ## 观察候选
-### SOL OPEN_LONG
-- swing=64.21 bucket=WATCH horizon=7天
-- AI分=64.21 综合=64.21 conf=0.64
-- state=COOLDOWN_REPEAT / 第194轮 / 持续422.0小时 / 冷却剩余62.1分 / 金额变化0.03x
-- 首次出现(北京): 2026-07-09 05:13:10 CST | 上次提醒: 2026-07-26 16:14:23 CST
-- flow: 2h=$9,537,999 6h=$10,675,372 24h=$23,033,336 72h=$67,158,437 168h=$132,930,639
-- wallets=11 delta=$326,974 max_single=$103,061 quality=0.555 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+### HYPE OPEN_LONG
+- swing=56.23 bucket=WATCH horizon=3天
+- AI分=56.23 综合=56.23 conf=0.56
+- state=COOLDOWN_REPEAT / 第198轮 / 持续430.0小时 / 冷却剩余178.8分 / 金额变化0.03x
+- 首次出现(北京): 2026-07-08 22:15:04 CST | 上次提醒: 2026-07-26 19:12:16 CST
+- flow: 2h=$869,101 6h=$1,155,814 24h=$19,335,139 72h=$79,919,892 168h=$190,927,851
+- wallets=15 delta=$253,417 max_single=$99,952 quality=0.482 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.21 bucket=WATCH
+- AI评分理由: swing=56.23 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
@@ -33,7 +33,7 @@
 - 初始本金: $100,000
 - 当前本金: $100,903
 - 持仓数: 1
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=570.79 pnl=2.04% ROE=6.11% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=571.24 pnl=1.96% ROE=5.88% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
 
 ## 准备平仓提示
-- BNB SHORT NEAR_MAX_HOLD pnl=2.04% 已持仓 275.0h / 上限 336h
+- BNB SHORT NEAR_MAX_HOLD pnl=1.96% 已持仓 276.0h / 上限 336h
