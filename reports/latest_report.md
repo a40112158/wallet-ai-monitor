@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-27 18:13:43 CST
-扫描钱包: 2421 | 信号数: 8 | 噪音过滤: 168
+运行时间(北京): 2026-07-27 19:14:46 CST
+扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 170
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,16 +16,16 @@
 （无）
 
 ## 观察候选
-### ZEC OPEN_LONG
-- swing=59.29 bucket=WATCH horizon=3天
-- AI分=59.29 综合=59.29 conf=0.59
-- state=ACTIVE_REPEAT / 第188轮 / 持续453.1小时 / 冷却剩余0分 / 金额变化0.06x
-- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-07-27 18:13:43 CST
-- flow: 2h=$718,075 6h=$1,126,481 24h=$13,426,859 72h=$22,670,253 168h=$73,201,709
-- wallets=14 delta=$350,855 max_single=$207,831 quality=0.442 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+### SOL OPEN_SHORT
+- swing=63.62 bucket=WATCH horizon=7天
+- AI分=63.62 综合=63.62 conf=0.64
+- state=ACTIVE_REPEAT / 第219轮 / 持续456.9小时 / 冷却剩余0分 / 金额变化0.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-27 19:14:46 CST
+- flow: 2h=$1,756,469 6h=$3,633,475 24h=$21,676,619 72h=$52,386,118 168h=$128,559,246
+- wallets=16 delta=$309,146 max_single=$129,664 quality=0.508 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=59.29 bucket=WATCH
+- AI评分理由: swing=63.62 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
@@ -33,7 +33,7 @@
 - 初始本金: $100,000
 - 当前本金: $100,903
 - 持仓数: 1
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=572.03 pnl=1.82% ROE=5.47% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=573.25 pnl=1.62% ROE=4.85% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
 
 ## 准备平仓提示
-- BNB SHORT NEAR_MAX_HOLD pnl=1.82% 已持仓 298.0h / 上限 336h
+- BNB SHORT NEAR_MAX_HOLD pnl=1.62% 已持仓 299.0h / 上限 336h
