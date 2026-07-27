@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-28 01:12:36 CST
-扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 170
+运行时间(北京): 2026-07-28 02:14:42 CST
+扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 170
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
-- 调用: 5 缓存命中: 0 错误: 5
-- 输入信号数: 5 | fallback: True
-- 预算(北京 2026-07-28): 已用调用 11 估算点数 4400 | 预算封顶: False (被拦 0 次)
+- 调用: 4 缓存命中: 0 错误: 4
+- 输入信号数: 4 | fallback: True
+- 预算(北京 2026-07-28): 已用调用 15 估算点数 6000 | 预算封顶: False (被拦 0 次)
 
 ## 开多强候选
 （无）
@@ -16,16 +16,16 @@
 （无）
 
 ## 观察候选
-### ETH OPEN_LONG
-- swing=64.86 bucket=WATCH horizon=7天
-- AI分=64.86 综合=64.86 conf=0.65
-- state=COOLDOWN_REPEAT / 第197轮 / 持续459.0小时 / 冷却剩余2.2分 / 金额变化0.32x
-- 首次出现(北京): 2026-07-08 22:15:04 CST | 上次提醒: 2026-07-27 21:14:46 CST
-- flow: 2h=$14,116,500 6h=$32,568,571 24h=$89,485,060 72h=$184,466,160 168h=$631,248,224
-- wallets=48 delta=$6,429,500 max_single=$3,995,782 quality=0.459 groups=money_printer,smart_money
+### ZEC OPEN_LONG
+- swing=61.4 bucket=WATCH horizon=7天
+- AI分=61.4 综合=61.4 conf=0.61
+- state=COOLDOWN_REPEAT / 第191轮 / 持续461.1小时 / 冷却剩余0.1分 / 金额变化0.05x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-07-27 22:14:49 CST
+- flow: 2h=$1,698,804 6h=$2,278,919 24h=$14,171,485 72h=$23,574,946 168h=$71,242,950
+- wallets=13 delta=$294,205 max_single=$135,005 quality=0.503 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.86 bucket=WATCH
+- AI评分理由: swing=61.4 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
@@ -33,7 +33,7 @@
 - 初始本金: $100,000
 - 当前本金: $100,903
 - 持仓数: 1
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=571.67 pnl=1.89% ROE=5.66% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=574.31 pnl=1.43% ROE=4.3% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
 
 ## 准备平仓提示
-- BNB SHORT NEAR_MAX_HOLD pnl=1.89% 已持仓 305.0h / 上限 336h
+- BNB SHORT NEAR_MAX_HOLD pnl=1.43% 已持仓 306.0h / 上限 336h
