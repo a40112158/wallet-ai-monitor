@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-28 03:13:02 CST
-扫描钱包: 2421 | 信号数: 8 | 噪音过滤: 169
+运行时间(北京): 2026-07-28 04:14:32 CST
+扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 171
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
-- 调用: 7 缓存命中: 0 错误: 7
-- 输入信号数: 7 | fallback: True
-- 预算(北京 2026-07-28): 已用调用 22 估算点数 8800 | 预算封顶: False (被拦 0 次)
+- 调用: 5 缓存命中: 0 错误: 5
+- 输入信号数: 5 | fallback: True
+- 预算(北京 2026-07-28): 已用调用 27 估算点数 10800 | 预算封顶: False (被拦 0 次)
 
 ## 开多强候选
 （无）
@@ -16,16 +16,28 @@
 （无）
 
 ## 观察候选
-### PUMP OPEN_SHORT
-- swing=64.12 bucket=WATCH horizon=7天
-- AI分=64.12 综合=64.12 conf=0.64
-- state=COOLDOWN_REPEAT / 第64轮 / 持续464.9小时 / 冷却剩余119.6分 / 金额变化0.02x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-28 01:12:36 CST
-- flow: 2h=$270,218 6h=$1,595,563 24h=$13,118,663 72h=$16,308,979 168h=$29,387,442
-- wallets=17 delta=$270,218 max_single=$109,465 quality=0.474 groups=money_printer,smart_money
+### XRP OPEN_LONG
+- swing=61.27 bucket=WATCH horizon=7天
+- AI分=61.27 综合=61.27 conf=0.61
+- state=ACTIVE_REPEAT / 第84轮 / 持续462.0小时 / 冷却剩余0分 / 金额变化0.12x
+- 首次出现(北京): 2026-07-08 22:15:04 CST | 上次提醒: 2026-07-28 04:14:31 CST
+- flow: 2h=$336,947 6h=$2,587,324 24h=$3,424,821 72h=$7,878,677 168h=$43,381,985
+- wallets=19 delta=$336,947 max_single=$110,316 quality=0.489 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.12 bucket=WATCH
+- AI评分理由: swing=61.27 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### kPEPE OPEN_SHORT
+- swing=56.78 bucket=WATCH horizon=3天
+- AI分=56.78 综合=56.78 conf=0.57
+- state=ACTIVE_REPEAT / 第28轮 / 持续465.9小时 / 冷却剩余0分 / 金额变化0.04x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-28 04:14:31 CST
+- flow: 2h=$230,615 6h=$678,792 24h=$3,027,405 72h=$8,851,010 168h=$11,510,669
+- wallets=10 delta=$230,615 max_single=$127,965 quality=0.481 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=56.78 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
@@ -33,7 +45,7 @@
 - 初始本金: $100,000
 - 当前本金: $100,903
 - 持仓数: 1
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=575.42 pnl=1.24% ROE=3.73% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=575.39 pnl=1.25% ROE=3.74% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
 
 ## 准备平仓提示
-- BNB SHORT NEAR_MAX_HOLD pnl=1.24% 已持仓 307.0h / 上限 336h
+- BNB SHORT NEAR_MAX_HOLD pnl=1.25% 已持仓 308.0h / 上限 336h
