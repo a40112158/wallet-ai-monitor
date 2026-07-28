@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-07-28 11:13:03 CST
-扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 170
+运行时间(北京): 2026-07-28 12:14:23 CST
+扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 170
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,16 +16,16 @@
 （无）
 
 ## 观察候选
-### KAITO OPEN_LONG
-- swing=50.31 bucket=WATCH horizon=3天
-- AI分=50.31 综合=50.31 conf=0.5
-- state=ACTIVE_REPEAT / 第5轮 / 持续472.9小时 / 冷却剩余0分 / 金额变化0.28x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-28 11:13:03 CST
-- flow: 2h=$220,747 6h=$283,475 24h=$1,190,774 72h=$3,693,085 168h=$5,074,469
-- wallets=10 delta=$220,747 max_single=$185,587 quality=0.552 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+### PUMP OPEN_SHORT
+- swing=64.92 bucket=WATCH horizon=7天
+- AI分=64.92 综合=64.92 conf=0.65
+- state=COOLDOWN_REPEAT / 第66轮 / 持续473.9小时 / 冷却剩余119.9分 / 金额变化0.02x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-07-28 10:14:19 CST
+- flow: 2h=$877,622 6h=$2,161,894 24h=$6,641,255 72h=$18,316,110 168h=$30,481,911
+- wallets=19 delta=$354,113 max_single=$194,078 quality=0.523 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=50.31 bucket=WATCH
+- AI评分理由: swing=64.92 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
@@ -33,7 +33,7 @@
 - 初始本金: $100,000
 - 当前本金: $100,903
 - 持仓数: 1
-  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=565.12 pnl=3.01% ROE=9.03% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
+  - BNB SHORT lev=3x margin=$4,974 notional=$14,923 entry=582.66 cur=565.91 pnl=2.87% ROE=8.62% 开仓(北京)=2026-07-15 08:12:46 CST 准备平仓=NEAR_MAX_HOLD
 
 ## 准备平仓提示
-- BNB SHORT NEAR_MAX_HOLD pnl=3.01% 已持仓 315.0h / 上限 336h
+- BNB SHORT NEAR_MAX_HOLD pnl=2.87% 已持仓 316.0h / 上限 336h
