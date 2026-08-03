@@ -1,5 +1,5 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-08-03 16:15:39 CST
+运行时间(北京): 2026-08-03 17:17:22 CST
 扫描钱包: 2421 | 信号数: 8 | 噪音过滤: 169
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
@@ -16,16 +16,28 @@
 （无）
 
 ## 观察候选
-### AAVE OPEN_SHORT
-- swing=64.49 bucket=WATCH horizon=7天
-- AI分=64.49 综合=64.49 conf=0.64
-- state=ACTIVE_REPEAT / 第18轮 / 持续621.9小时 / 冷却剩余0分 / 金额变化0.01x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-03 16:15:39 CST
-- flow: 2h=$316,609 6h=$486,363 24h=$948,881 72h=$6,394,277 168h=$14,150,671
-- wallets=21 delta=$215,937 max_single=$151,260 quality=0.538 groups=money_printer,smart_money
+### DOGE OPEN_LONG
+- swing=64.3 bucket=WATCH horizon=7天
+- AI分=64.3 综合=64.3 conf=0.64
+- state=ACTIVE_REPEAT / 第40轮 / 持续620.1小时 / 冷却剩余0分 / 金额变化0.19x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-08-03 17:17:22 CST
+- flow: 2h=$238,472 6h=$501,528 24h=$4,435,793 72h=$10,141,228 168h=$22,806,444
+- wallets=15 delta=$238,472 max_single=$81,316 quality=0.51 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.49 bucket=WATCH
+- AI评分理由: swing=64.3 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### KAITO OPEN_SHORT
+- swing=52.45 bucket=WATCH horizon=3天
+- AI分=52.45 综合=52.45 conf=0.52
+- state=ACTIVE_REPEAT / 第15轮 / 持续620.1小时 / 冷却剩余0分 / 金额变化0.59x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-08-03 17:17:22 CST
+- flow: 2h=$361,591 6h=$361,591 24h=$5,273,622 72h=$6,863,373 168h=$10,687,851
+- wallets=14 delta=$361,591 max_single=$231,148 quality=0.502 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=52.45 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
