@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-08-09 00:14:48 CST
+运行时间(北京): 2026-08-09 01:14:41 CST
 扫描钱包: 2421 | 信号数: 9 | 噪音过滤: 167
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
-- 调用: 8 缓存命中: 0 错误: 8
-- 输入信号数: 8 | fallback: True
-- 预算(北京 2026-08-09): 已用调用 8 估算点数 3200 | 预算封顶: False (被拦 0 次)
+- 调用: 7 缓存命中: 0 错误: 7
+- 输入信号数: 7 | fallback: True
+- 预算(北京 2026-08-09): 已用调用 15 估算点数 6000 | 预算封顶: False (被拦 0 次)
 
 ## 开多强候选
 （无）
@@ -16,16 +16,28 @@
 （无）
 
 ## 观察候选
-### KAITO OPEN_SHORT
-- swing=54.8 bucket=WATCH horizon=3天
-- AI分=54.8 综合=54.8 conf=0.55
-- state=COOLDOWN_REPEAT / 第17轮 / 持续747.1小时 / 冷却剩余61.1分 / 金额变化0.47x
-- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-08-08 21:15:50 CST
-- flow: 2h=$455,702 6h=$883,816 24h=$2,053,920 72h=$3,182,332 168h=$12,441,868
-- wallets=13 delta=$286,044 max_single=$139,020 quality=0.536 groups=money_printer,smart_money
+### PUMP OPEN_SHORT
+- swing=58.46 bucket=WATCH horizon=3天
+- AI分=58.46 综合=58.46 conf=0.58
+- state=COOLDOWN_REPEAT / 第120轮 / 持续750.9小时 / 冷却剩余117.9分 / 金额变化0.02x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-08 23:12:32 CST
+- flow: 2h=$1,549,611 6h=$1,935,532 24h=$3,909,623 72h=$9,768,068 168h=$30,055,781
+- wallets=19 delta=$290,927 max_single=$115,473 quality=0.5 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=54.8 bucket=WATCH
+- AI评分理由: swing=58.46 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ZEC OPEN_SHORT
+- swing=53.02 bucket=WATCH horizon=3天
+- AI分=53.02 综合=53.02 conf=0.53
+- state=ACTIVE_REPEAT / 第269轮 / 持续750.9小时 / 冷却剩余0分 / 金额变化0.0x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-09 01:14:40 CST
+- flow: 2h=$380,994 6h=$3,473,646 24h=$5,664,401 72h=$17,080,741 168h=$41,889,142
+- wallets=15 delta=$202,423 max_single=$123,419 quality=0.488 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=53.02 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
