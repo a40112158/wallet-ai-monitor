@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-08-11 19:12:41 CST
-扫描钱包: 2421 | 信号数: 8 | 噪音过滤: 168
+运行时间(北京): 2026-08-11 20:15:49 CST
+扫描钱包: 2421 | 信号数: 6 | 噪音过滤: 169
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,28 +16,16 @@
 （无）
 
 ## 观察候选
-### KAITO OPEN_LONG
-- swing=65.0 bucket=WATCH horizon=7天
-- AI分=65.0 综合=65.0 conf=0.65
-- state=COOLDOWN_REPEAT / 第31轮 / 持续816.9小时 / 冷却剩余183.0分 / 金额变化0.28x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-11 18:15:44 CST
-- flow: 2h=$688,151 6h=$897,268 24h=$3,679,366 72h=$12,972,144 168h=$15,789,492
-- wallets=15 delta=$221,042 max_single=$109,376 quality=0.592 groups=money_printer,smart_money
+### PUMP OPEN_LONG
+- swing=62.79 bucket=WATCH horizon=7天
+- AI分=62.79 综合=62.79 conf=0.63
+- state=ACTIVE_REPEAT / 第150轮 / 持续815.1小时 / 冷却剩余0分 / 金额变化0.1x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-08-11 20:15:49 CST
+- flow: 2h=$295,090 6h=$295,090 24h=$5,121,971 72h=$14,260,066 168h=$30,102,096
+- wallets=16 delta=$295,090 max_single=$164,770 quality=0.534 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=65.0 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### ZEC OPEN_LONG
-- swing=60.62 bucket=WATCH horizon=7天
-- AI分=60.62 综合=60.62 conf=0.61
-- state=ACTIVE_REPEAT / 第312轮 / 持续814.0小时 / 冷却剩余0分 / 金额变化0.04x
-- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-08-11 19:12:41 CST
-- flow: 2h=$747,150 6h=$1,632,325 24h=$12,169,375 72h=$22,468,496 168h=$52,307,090
-- wallets=13 delta=$232,720 max_single=$112,917 quality=0.472 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=60.62 bucket=WATCH
+- AI评分理由: swing=62.79 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
