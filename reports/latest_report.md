@@ -1,5 +1,5 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-08-12 22:13:55 CST
+运行时间(北京): 2026-08-12 23:14:56 CST
 扫描钱包: 2421 | 信号数: 8 | 噪音过滤: 169
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
@@ -17,27 +17,27 @@
 
 ## 观察候选
 ### KAITO OPEN_SHORT
-- swing=64.25 bucket=WATCH horizon=7天
-- AI分=64.25 综合=64.25 conf=0.64
-- state=COOLDOWN_REPEAT / 第26轮 / 持续841.1小时 / 冷却剩余121.1分 / 金额变化0.68x
+- swing=64.24 bucket=WATCH horizon=7天
+- AI分=64.24 综合=64.24 conf=0.64
+- state=COOLDOWN_REPEAT / 第27轮 / 持续842.1小时 / 冷却剩余60.0分 / 金额变化0.65x
 - 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-08-12 20:14:59 CST
-- flow: 2h=$500,418 6h=$1,684,030 24h=$2,459,261 72h=$4,276,087 168h=$11,025,422
-- wallets=24 delta=$419,982 max_single=$113,543 quality=0.496 groups=money_printer,smart_money
+- flow: 2h=$899,941 6h=$1,536,509 24h=$2,858,783 72h=$4,675,610 168h=$11,424,944
+- wallets=21 delta=$399,522 max_single=$119,298 quality=0.512 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.25 bucket=WATCH
+- AI评分理由: swing=64.24 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### LIT OPEN_LONG
-- swing=55.19 bucket=WATCH horizon=3天
-- AI分=55.19 综合=55.19 conf=0.55
-- state=COOLDOWN_REPEAT / 第139轮 / 持续841.1小时 / 冷却剩余1.0分 / 金额变化0.17x
-- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-08-12 18:14:56 CST
-- flow: 2h=$204,194 6h=$532,430 24h=$3,640,005 72h=$6,787,862 168h=$14,075,328
-- wallets=12 delta=$204,194 max_single=$81,083 quality=0.519 groups=money_printer,smart_money
+### XRP OPEN_SHORT
+- swing=54.0 bucket=WATCH horizon=3天
+- AI分=54.0 综合=54.0 conf=0.54
+- state=COOLDOWN_REPEAT / 第200轮 / 持续844.9小时 / 冷却剩余179.0分 / 金额变化0.01x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-12 22:13:55 CST
+- flow: 2h=$685,351 6h=$765,827 24h=$7,733,270 72h=$32,948,245 168h=$57,647,792
+- wallets=10 delta=$206,809 max_single=$106,408 quality=0.485 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=55.19 bucket=WATCH
+- AI评分理由: swing=54.0 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
