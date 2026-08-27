@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-08-27 22:16:41 CST
-扫描钱包: 2421 | 信号数: 17 | 噪音过滤: 159
+运行时间(北京): 2026-08-27 23:15:57 CST
+扫描钱包: 2421 | 信号数: 11 | 噪音过滤: 164
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,28 +16,16 @@
 （无）
 
 ## 观察候选
-### FARTCOIN OPEN_LONG
-- swing=61.59 bucket=WATCH horizon=7天
-- AI分=61.59 综合=61.59 conf=0.62
-- state=COOLDOWN_REPEAT / 第64轮 / 持续1142.0小时 / 冷却剩余117.0分 / 金额变化0.08x
-- 首次出现(北京): 2026-07-11 08:15:05 CST | 上次提醒: 2026-08-27 20:13:41 CST
-- flow: 2h=$707,156 6h=$952,625 24h=$3,532,151 72h=$12,148,594 168h=$34,527,341
-- wallets=17 delta=$348,074 max_single=$147,823 quality=0.541 groups=money_printer,smart_money
+### SUI OPEN_LONG
+- swing=61.16 bucket=WATCH horizon=7天
+- AI分=61.16 综合=61.16 conf=0.61
+- state=ACTIVE_REPEAT / 第74轮 / 持续1198.0小时 / 冷却剩余0分 / 金额变化0.13x
+- 首次出现(北京): 2026-07-09 01:14:29 CST | 上次提醒: 2026-08-27 23:15:57 CST
+- flow: 2h=$232,580 6h=$555,684 24h=$2,895,967 72h=$9,491,240 168h=$24,061,801
+- wallets=17 delta=$232,580 max_single=$92,406 quality=0.498 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=61.59 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### DOGE OPEN_SHORT
-- swing=59.0 bucket=WATCH horizon=3天
-- AI分=59.0 综合=59.0 conf=0.59
-- state=ACTIVE_REPEAT / 第123轮 / 持续1203.9小时 / 冷却剩余0分 / 金额变化0.02x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-27 22:16:41 CST
-- flow: 2h=$201,367 6h=$962,220 24h=$2,101,913 72h=$9,757,865 168h=$56,167,085
-- wallets=18 delta=$201,367 max_single=$85,737 quality=0.504 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=59.0 bucket=WATCH
+- AI评分理由: swing=61.16 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
