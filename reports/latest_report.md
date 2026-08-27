@@ -1,5 +1,5 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-08-27 07:15:39 CST
+运行时间(北京): 2026-08-27 08:15:29 CST
 扫描钱包: 2421 | 信号数: 15 | 噪音过滤: 160
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
@@ -16,28 +16,28 @@
 （无）
 
 ## 观察候选
-### AAVE OPEN_SHORT
-- swing=64.9 bucket=WATCH horizon=7天
-- AI分=64.9 综合=64.9 conf=0.65
-- state=COOLDOWN_REPEAT / 第70轮 / 持续1188.9小时 / 冷却剩余179.1分 / 金额变化0.01x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-27 06:14:48 CST
-- flow: 2h=$755,603 6h=$875,304 24h=$1,968,962 72h=$10,883,812 168h=$33,128,473
-- wallets=14 delta=$325,272 max_single=$277,162 quality=0.491 groups=money_printer,smart_money
+### CASHCAT OPEN_SHORT
+- swing=63.72 bucket=WATCH horizon=7天
+- AI分=63.72 综合=63.72 conf=0.64
+- state=COOLDOWN_REPEAT / 第22轮 / 持续1116.0小时 / 冷却剩余119.3分 / 金额变化0.68x
+- 首次出现(北京): 2026-07-11 20:14:48 CST | 上次提醒: 2026-08-27 06:14:48 CST
+- flow: 2h=$1,225,536 6h=$1,853,256 24h=$2,958,445 72h=$8,117,929 168h=$12,543,749
+- wallets=11 delta=$344,546 max_single=$127,321 quality=0.45 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.9 bucket=WATCH
+- AI评分理由: swing=63.72 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### DOT OPEN_SHORT
-- swing=55.59 bucket=WATCH horizon=3天
-- AI分=55.59 综合=55.59 conf=0.56
-- state=NEW_SIGNAL / 第1轮 / 持续0.0小时 / 冷却剩余240分 / 金额变化1.0x
-- 首次出现(北京): 2026-08-27 07:15:39 CST | 上次提醒: 2026-08-27 07:15:39 CST
-- flow: 2h=$256,910 6h=$281,472 24h=$387,076 72h=$769,601 168h=$2,733,871
-- wallets=14 delta=$246,747 max_single=$115,618 quality=0.5 groups=money_printer,smart_money
+### ONDO OPEN_SHORT
+- swing=56.58 bucket=WATCH horizon=3天
+- AI分=56.58 综合=56.58 conf=0.57
+- state=ACTIVE_REPEAT / 第42轮 / 持续1189.9小时 / 冷却剩余0分 / 金额变化0.09x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-08-27 08:15:29 CST
+- flow: 2h=$275,382 6h=$503,321 24h=$885,375 72h=$5,887,338 168h=$22,578,776
+- wallets=12 delta=$223,809 max_single=$117,431 quality=0.522 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=55.59 bucket=WATCH
+- AI评分理由: swing=56.58 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
