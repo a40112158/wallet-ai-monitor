@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-09-04 16:15:28 CST
-扫描钱包: 2421 | 信号数: 10 | 噪音过滤: 166
+运行时间(北京): 2026-09-04 17:13:53 CST
+扫描钱包: 2421 | 信号数: 18 | 噪音过滤: 159
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,16 +16,28 @@
 （无）
 
 ## 观察候选
-### ZEC OPEN_SHORT
-- swing=64.12 bucket=WATCH horizon=7天
-- AI分=64.12 综合=64.12 conf=0.64
-- state=COOLDOWN_REPEAT / 第542轮 / 持续1389.9小时 / 冷却剩余60.4分 / 金额变化0.06x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-04 13:15:51 CST
-- flow: 2h=$3,049,342 6h=$6,738,825 24h=$19,213,926 72h=$91,355,421 168h=$233,075,920
-- wallets=32 delta=$3,049,342 max_single=$2,200,625 quality=0.422 groups=money_printer,smart_money
+### UNI OPEN_LONG
+- swing=63.83 bucket=WATCH horizon=7天
+- AI分=63.83 综合=63.83 conf=0.64
+- state=ACTIVE_REPEAT / 第107轮 / 持续1387.0小时 / 冷却剩余0分 / 金额变化0.46x
+- 首次出现(北京): 2026-07-08 22:15:04 CST | 上次提醒: 2026-09-04 17:13:53 CST
+- flow: 2h=$949,468 6h=$1,236,678 24h=$8,916,855 72h=$15,056,365 168h=$23,855,502
+- wallets=26 delta=$583,850 max_single=$336,696 quality=0.4 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.12 bucket=WATCH
+- AI评分理由: swing=63.83 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ENA OPEN_SHORT
+- swing=58.6 bucket=WATCH horizon=3天
+- AI分=58.6 综合=58.6 conf=0.59
+- state=ACTIVE_REPEAT / 第103轮 / 持续1390.9小时 / 冷却剩余0分 / 金额变化0.03x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-04 17:13:53 CST
+- flow: 2h=$386,495 6h=$736,740 24h=$8,864,857 72h=$12,828,614 168h=$22,530,867
+- wallets=16 delta=$271,417 max_single=$115,013 quality=0.424 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=58.6 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
