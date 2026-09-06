@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-09-06 15:15:30 CST
-扫描钱包: 2421 | 信号数: 13 | 噪音过滤: 163
+运行时间(北京): 2026-09-06 16:16:02 CST
+扫描钱包: 2421 | 信号数: 14 | 噪音过滤: 162
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,28 +16,28 @@
 （无）
 
 ## 观察候选
-### ZEC OPEN_LONG
-- swing=62.86 bucket=WATCH horizon=7天
-- AI分=62.86 综合=62.86 conf=0.63
-- state=COOLDOWN_REPEAT / 第547轮 / 持续1434.1小时 / 冷却剩余0.2分 / 金额变化0.09x
-- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-09-06 11:15:43 CST
-- flow: 2h=$1,247,984 6h=$9,771,180 24h=$26,537,767 72h=$121,675,073 168h=$295,355,527
-- wallets=22 delta=$1,247,984 max_single=$557,929 quality=0.448 groups=money_printer,smart_money
+### ZEC OPEN_SHORT
+- swing=63.69 bucket=WATCH horizon=7天
+- AI分=63.69 综合=63.69 conf=0.64
+- state=COOLDOWN_REPEAT / 第565轮 / 持续1437.9小时 / 冷却剩余57.0分 / 金额变化0.08x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-06 13:13:00 CST
+- flow: 2h=$10,550,539 6h=$17,268,969 24h=$32,823,641 72h=$89,885,776 168h=$236,450,288
+- wallets=13 delta=$4,375,897 max_single=$4,096,003 quality=0.399 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=62.86 bucket=WATCH
+- AI评分理由: swing=63.69 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### ARB OPEN_SHORT
-- swing=60.08 bucket=WATCH horizon=7天
-- AI分=60.08 综合=60.08 conf=0.6
-- state=COOLDOWN_REPEAT / 第38轮 / 持续1436.9小时 / 冷却剩余117.5分 / 金额变化0.24x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-06 13:13:00 CST
-- flow: 2h=$1,002,461 6h=$1,990,344 24h=$7,022,955 72h=$10,055,708 168h=$20,319,852
-- wallets=11 delta=$306,228 max_single=$153,424 quality=0.394 groups=money_printer,smart_money
+### PUMP OPEN_LONG
+- swing=63.14 bucket=WATCH horizon=7天
+- AI分=63.14 综合=63.14 conf=0.63
+- state=COOLDOWN_REPEAT / 第367轮 / 持续1435.1小时 / 冷却剩余57.0分 / 金额变化0.11x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-09-06 13:13:00 CST
+- flow: 2h=$4,143,251 6h=$5,759,217 24h=$13,902,259 72h=$31,611,641 168h=$78,231,976
+- wallets=10 delta=$931,971 max_single=$882,552 quality=0.442 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=60.08 bucket=WATCH
+- AI评分理由: swing=63.14 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
