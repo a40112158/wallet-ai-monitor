@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-09-21 14:16:54 CST
-扫描钱包: 2421 | 信号数: 17 | 噪音过滤: 161
+运行时间(北京): 2026-09-21 15:14:55 CST
+扫描钱包: 2421 | 信号数: 15 | 噪音过滤: 163
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,28 +16,28 @@
 （无）
 
 ## 观察候选
-### VVV OPEN_LONG
-- swing=56.16 bucket=WATCH horizon=3天
-- AI分=56.16 综合=56.16 conf=0.56
-- state=ACTIVE_REPEAT / 第102轮 / 持续1787.1小时 / 冷却剩余0分 / 金额变化0.09x
-- 首次出现(北京): 2026-07-09 03:12:21 CST | 上次提醒: 2026-09-21 14:16:54 CST
-- flow: 2h=$406,545 6h=$756,474 24h=$4,083,548 72h=$11,393,438 168h=$20,674,586
-- wallets=17 delta=$265,594 max_single=$115,133 quality=0.527 groups=money_printer,smart_money
+### AVAX OPEN_SHORT
+- swing=59.7 bucket=WATCH horizon=3天
+- AI分=59.7 综合=59.7 conf=0.6
+- state=COOLDOWN_REPEAT / 第43轮 / 持续1796.9小时 / 冷却剩余1.1分 / 金额变化0.06x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-21 11:16:03 CST
+- flow: 2h=$226,182 6h=$2,252,826 24h=$6,266,739 72h=$12,387,876 168h=$14,925,776
+- wallets=13 delta=$226,182 max_single=$127,252 quality=0.504 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=56.16 bucket=WATCH
+- AI评分理由: swing=59.7 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### AVAX OPEN_LONG
-- swing=52.97 bucket=WATCH horizon=3天
-- AI分=52.97 综合=52.97 conf=0.53
-- state=ACTIVE_REPEAT / 第40轮 / 持续1671.0小时 / 冷却剩余0分 / 金额变化0.13x
-- 首次出现(北京): 2026-07-13 23:15:41 CST | 上次提醒: 2026-09-21 14:16:54 CST
-- flow: 2h=$434,891 6h=$1,074,103 24h=$4,670,986 72h=$7,960,657 168h=$10,112,975
-- wallets=13 delta=$204,885 max_single=$85,796 quality=0.522 groups=money_printer,smart_money
+### XMR OPEN_LONG
+- swing=59.69 bucket=WATCH horizon=3天
+- AI分=59.69 综合=59.69 conf=0.6
+- state=ACTIVE_REPEAT / 第182轮 / 持续1707.0小时 / 冷却剩余0分 / 金额变化0.28x
+- 首次出现(北京): 2026-07-12 12:14:30 CST | 上次提醒: 2026-09-21 15:14:55 CST
+- flow: 2h=$1,063,820 6h=$1,449,549 24h=$2,965,457 72h=$11,269,150 168h=$21,859,780
+- wallets=19 delta=$1,063,820 max_single=$394,363 quality=0.421 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=52.97 bucket=WATCH
+- AI评分理由: swing=59.69 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
