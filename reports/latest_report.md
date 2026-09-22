@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-09-23 04:17:56 CST
-扫描钱包: 2421 | 信号数: 16 | 噪音过滤: 162
+运行时间(北京): 2026-09-23 05:13:45 CST
+扫描钱包: 2421 | 信号数: 21 | 噪音过滤: 156
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
-- 调用: 10 缓存命中: 0 错误: 10
+- 调用: 2 缓存命中: 0 错误: 2
 - 输入信号数: 10 | fallback: True
-- 预算(北京 2026-09-23): 已用调用 48 估算点数 19200 | 预算封顶: False (被拦 0 次)
+- 预算(北京 2026-09-23): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 8 次)
 
 ## 开多强候选
 （无）
@@ -16,40 +16,52 @@
 （无）
 
 ## 观察候选
-### XRP OPEN_LONG
-- swing=63.51 bucket=WATCH horizon=7天
-- AI分=63.51 综合=63.51 conf=0.64
-- state=COOLDOWN_REPEAT / 第484轮 / 持续1830.0小时 / 冷却剩余58.9分 / 金额变化0.09x
-- 首次出现(北京): 2026-07-08 22:15:04 CST | 上次提醒: 2026-09-23 01:16:48 CST
-- flow: 2h=$934,672 6h=$5,176,548 24h=$23,891,734 72h=$58,757,777 168h=$110,738,215
-- wallets=24 delta=$934,672 max_single=$549,320 quality=0.371 groups=money_printer,smart_money
+### USELESS OPEN_SHORT
+- swing=64.23 bucket=WATCH horizon=7天
+- AI分=64.23 综合=64.23 conf=0.64
+- state=ACTIVE_REPEAT / 第15轮 / 持续340.0小时 / 冷却剩余0分 / 金额变化0.41x
+- 首次出现(北京): 2026-09-09 01:15:51 CST | 上次提醒: 2026-09-23 05:13:44 CST
+- flow: 2h=$376,136 6h=$834,631 24h=$1,946,417 72h=$6,087,092 168h=$10,888,536
+- wallets=13 delta=$285,158 max_single=$114,435 quality=0.531 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=63.51 bucket=WATCH
+- AI评分理由: swing=64.23 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### BCH OPEN_LONG
-- swing=63.13 bucket=WATCH horizon=7天
-- AI分=63.13 综合=63.13 conf=0.63
-- state=COOLDOWN_REPEAT / 第10轮 / 持续1807.0小时 / 冷却剩余176.5分 / 金额变化0.79x
-- 首次出现(北京): 2026-07-09 21:15:25 CST | 上次提醒: 2026-09-23 03:14:26 CST
-- flow: 2h=$994,395 6h=$994,395 24h=$2,774,636 72h=$3,801,217 168h=$5,581,623
-- wallets=16 delta=$524,922 max_single=$263,865 quality=0.489 groups=money_printer,smart_money
+### ENA OPEN_LONG
+- swing=63.19 bucket=WATCH horizon=7天
+- AI分=63.19 综合=63.19 conf=0.63
+- state=ACTIVE_REPEAT / 第166轮 / 持续1784.0小时 / 冷却剩余0分 / 金额变化0.09x
+- 首次出现(北京): 2026-07-10 21:15:56 CST | 上次提醒: 2026-09-23 05:13:44 CST
+- flow: 2h=$261,641 6h=$1,824,522 24h=$4,637,802 72h=$14,859,702 168h=$24,864,563
+- wallets=17 delta=$261,641 max_single=$147,529 quality=0.418 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=63.13 bucket=WATCH
+- AI评分理由: swing=63.19 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### SUI OPEN_LONG
-- swing=61.86 bucket=WATCH horizon=7天
-- AI分=61.86 综合=61.86 conf=0.62
-- state=ACTIVE_REPEAT / 第140轮 / 持续1827.1小时 / 冷却剩余0分 / 金额变化0.18x
-- 首次出现(北京): 2026-07-09 01:14:29 CST | 上次提醒: 2026-09-23 04:17:54 CST
-- flow: 2h=$522,983 6h=$1,798,274 24h=$4,147,074 72h=$12,422,225 168h=$16,811,336
-- wallets=19 delta=$313,466 max_single=$97,788 quality=0.427 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+### PENGU OPEN_LONG
+- swing=54.53 bucket=WATCH horizon=3天
+- AI分=54.53 综合=54.53 conf=0.55
+- state=ACTIVE_REPEAT / 第39轮 / 持续1745.0小时 / 冷却剩余0分 / 金额变化1.71x
+- 首次出现(北京): 2026-07-12 12:14:30 CST | 上次提醒: 2026-09-23 05:13:44 CST
+- flow: 2h=$1,169,382 6h=$1,655,790 24h=$3,263,342 72h=$5,605,727 168h=$6,951,288
+- wallets=16 delta=$1,169,382 max_single=$974,344 quality=0.542 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=61.86 bucket=WATCH
+- AI评分理由: swing=54.53 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### WLD OPEN_SHORT
+- swing=54.21 bucket=WATCH horizon=3天
+- AI分=54.21 综合=54.21 conf=0.54
+- state=COOLDOWN_REPEAT / 第133轮 / 持续1834.9小时 / 冷却剩余3.1分 / 金额变化0.02x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-23 01:16:48 CST
+- flow: 2h=$730,132 6h=$1,026,823 24h=$6,023,571 72h=$10,446,360 168h=$26,612,099
+- wallets=12 delta=$235,669 max_single=$113,299 quality=0.428 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=54.21 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
