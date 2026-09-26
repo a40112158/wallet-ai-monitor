@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-09-27 04:12:45 CST
-扫描钱包: 2421 | 信号数: 12 | 噪音过滤: 166
+运行时间(北京): 2026-09-27 05:12:48 CST
+扫描钱包: 2421 | 信号数: 26 | 噪音过滤: 152
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
-- 调用: 9 缓存命中: 0 错误: 9
-- 输入信号数: 9 | fallback: True
-- 预算(北京 2026-09-27): 已用调用 47 估算点数 18800 | 预算封顶: False (被拦 0 次)
+- 调用: 3 缓存命中: 0 错误: 3
+- 输入信号数: 10 | fallback: True
+- 预算(北京 2026-09-27): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 7 次)
 
 ## 开多强候选
 （无）
@@ -16,28 +16,28 @@
 （无）
 
 ## 观察候选
-### ENA OPEN_SHORT
-- swing=60.87 bucket=WATCH horizon=7天
-- AI分=60.87 综合=60.87 conf=0.61
-- state=ACTIVE_REPEAT / 第212轮 / 持续1929.9小时 / 冷却剩余0分 / 金额变化0.03x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-27 04:12:44 CST
-- flow: 2h=$243,388 6h=$243,388 24h=$7,603,466 72h=$31,325,575 168h=$56,509,695
-- wallets=10 delta=$243,388 max_single=$116,385 quality=0.5 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=60.87 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### ONDO OPEN_SHORT
-- swing=53.36 bucket=WATCH horizon=3天
-- AI分=53.36 综合=53.36 conf=0.53
-- state=COOLDOWN_REPEAT / 第106轮 / 持续1929.9小时 / 冷却剩余180.4分 / 金额变化0.1x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-27 03:13:06 CST
-- flow: 2h=$963,337 6h=$1,588,480 24h=$4,964,963 72h=$28,448,709 168h=$37,066,623
-- wallets=12 delta=$243,028 max_single=$116,435 quality=0.419 groups=money_printer,smart_money
+### ADA OPEN_LONG
+- swing=59.81 bucket=WATCH horizon=3天
+- AI分=59.81 综合=59.81 conf=0.6
+- state=ACTIVE_REPEAT / 第15轮 / 持续1926.0小时 / 冷却剩余0分 / 金额变化0.29x
+- 首次出现(北京): 2026-07-08 23:12:26 CST | 上次提醒: 2026-09-27 05:12:48 CST
+- flow: 2h=$387,672 6h=$387,672 24h=$671,389 72h=$3,855,110 168h=$8,015,919
+- wallets=10 delta=$249,487 max_single=$87,705 quality=0.473 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=53.36 bucket=WATCH
+- AI评分理由: swing=59.81 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### WLD OPEN_SHORT
+- swing=54.09 bucket=WATCH horizon=3天
+- AI分=54.09 综合=54.09 conf=0.54
+- state=ACTIVE_REPEAT / 第158轮 / 持续1930.9小时 / 冷却剩余0分 / 金额变化0.02x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-27 05:12:48 CST
+- flow: 2h=$274,603 6h=$1,537,963 24h=$9,768,544 72h=$16,925,407 168h=$28,979,635
+- wallets=21 delta=$274,603 max_single=$96,029 quality=0.426 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=54.09 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
