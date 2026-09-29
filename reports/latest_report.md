@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-09-29 17:14:55 CST
-扫描钱包: 2421 | 信号数: 17 | 噪音过滤: 161
+运行时间(北京): 2026-09-29 18:13:58 CST
+扫描钱包: 2421 | 信号数: 13 | 噪音过滤: 165
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,28 +16,16 @@
 （无）
 
 ## 观察候选
-### ETHFI OPEN_SHORT
-- swing=56.83 bucket=WATCH horizon=3天
-- AI分=56.83 综合=56.83 conf=0.57
-- state=ACTIVE_REPEAT / 第20轮 / 持续1990.9小时 / 冷却剩余0分 / 金额变化0.09x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-09-29 17:14:55 CST
-- flow: 2h=$372,677 6h=$499,993 24h=$814,570 72h=$1,463,257 168h=$3,998,941
-- wallets=17 delta=$200,620 max_single=$131,471 quality=0.522 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+### ENA OPEN_LONG
+- swing=63.2 bucket=WATCH horizon=7天
+- AI分=63.2 综合=63.2 conf=0.63
+- state=ACTIVE_REPEAT / 第224轮 / 持续1941.0小时 / 冷却剩余0分 / 金额变化0.08x
+- 首次出现(北京): 2026-07-10 21:15:56 CST | 上次提醒: 2026-09-29 18:13:58 CST
+- flow: 2h=$229,314 6h=$557,918 24h=$9,339,575 72h=$26,764,674 168h=$46,918,841
+- wallets=16 delta=$229,314 max_single=$100,720 quality=0.482 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=56.83 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### AVAX OPEN_LONG
-- swing=56.67 bucket=WATCH horizon=3天
-- AI分=56.67 综合=56.67 conf=0.57
-- state=ACTIVE_REPEAT / 第62轮 / 持续1866.0小时 / 冷却剩余0分 / 金额变化0.17x
-- 首次出现(北京): 2026-07-13 23:15:41 CST | 上次提醒: 2026-09-29 17:14:55 CST
-- flow: 2h=$270,127 6h=$451,753 24h=$5,577,958 72h=$9,835,778 168h=$18,815,508
-- wallets=17 delta=$270,127 max_single=$160,031 quality=0.493 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=56.67 bucket=WATCH
+- AI评分理由: swing=63.2 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
