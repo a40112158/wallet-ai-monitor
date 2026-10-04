@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-10-04 18:13:38 CST
-扫描钱包: 2421 | 信号数: 13 | 噪音过滤: 165
+运行时间(北京): 2026-10-04 19:15:34 CST
+扫描钱包: 2421 | 信号数: 12 | 噪音过滤: 166
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,28 +16,28 @@
 （无）
 
 ## 观察候选
-### LTC OPEN_SHORT
-- swing=59.26 bucket=WATCH horizon=3天
-- AI分=59.26 综合=59.26 conf=0.59
-- state=COOLDOWN_REPEAT / 第92轮 / 持续2111.9小时 / 冷却剩余2.5分 / 金额变化0.05x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-10-04 14:16:05 CST
-- flow: 2h=$356,626 6h=$1,067,879 24h=$2,160,279 72h=$7,149,656 168h=$16,789,041
-- wallets=13 delta=$231,219 max_single=$87,708 quality=0.494 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+### ZEC OPEN_LONG
+- swing=63.22 bucket=WATCH horizon=7天
+- AI分=63.22 综合=63.22 conf=0.63
+- state=COOLDOWN_REPEAT / 第861轮 / 持续2110.1小时 / 冷却剩余120.4分 / 金额变化0.4x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-10-04 17:15:57 CST
+- flow: 2h=$13,527,713 6h=$13,527,713 24h=$30,131,857 72h=$127,325,551 168h=$362,049,662
+- wallets=18 delta=$11,078,345 max_single=$10,289,728 quality=0.432 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=59.26 bucket=WATCH
+- AI评分理由: swing=63.22 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### PUMP OPEN_LONG
-- swing=56.61 bucket=WATCH horizon=3天
-- AI分=56.61 综合=56.61 conf=0.57
-- state=COOLDOWN_REPEAT / 第607轮 / 持续2109.0小时 / 冷却剩余182.3分 / 金额变化0.04x
-- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-10-04 17:15:57 CST
-- flow: 2h=$2,118,921 6h=$6,160,126 24h=$19,619,272 72h=$51,418,609 168h=$121,155,643
-- wallets=19 delta=$310,563 max_single=$183,933 quality=0.455 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+### DOGE OPEN_LONG
+- swing=62.82 bucket=WATCH horizon=7天
+- AI分=62.82 综合=62.82 conf=0.63
+- state=ACTIVE_REPEAT / 第272轮 / 持续2110.1小时 / 冷却剩余0分 / 金额变化0.33x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-10-04 19:15:34 CST
+- flow: 2h=$1,213,049 6h=$1,310,180 24h=$3,913,313 72h=$24,120,153 168h=$44,658,594
+- wallets=10 delta=$918,656 max_single=$868,103 quality=0.451 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=56.61 bucket=WATCH
+- AI评分理由: swing=62.82 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
