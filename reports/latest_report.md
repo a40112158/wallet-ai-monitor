@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-10-09 21:15:51 CST
-扫描钱包: 2421 | 信号数: 14 | 噪音过滤: 164
+运行时间(北京): 2026-10-09 22:16:43 CST
+扫描钱包: 2421 | 信号数: 16 | 噪音过滤: 162
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,16 +16,28 @@
 （无）
 
 ## 观察候选
-### STRK OPEN_SHORT
-- swing=63.15 bucket=WATCH horizon=7天
-- AI分=63.15 综合=63.15 conf=0.63
-- state=ACTIVE_REPEAT / 第24轮 / 持续2234.9小时 / 冷却剩余0分 / 金额变化0.36x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-10-09 21:15:51 CST
-- flow: 2h=$636,725 6h=$2,653,109 24h=$7,878,802 72h=$10,016,757 168h=$13,687,289
-- wallets=11 delta=$339,728 max_single=$217,220 quality=0.619 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+### GRAM OPEN_LONG
+- swing=59.03 bucket=WATCH horizon=3天
+- AI分=59.03 综合=59.03 conf=0.59
+- state=ACTIVE_REPEAT / 第57轮 / 持续2206.0小时 / 冷却剩余0分 / 金额变化0.13x
+- 首次出现(北京): 2026-07-10 00:15:20 CST | 上次提醒: 2026-10-09 22:16:43 CST
+- flow: 2h=$226,033 6h=$373,252 24h=$1,196,251 72h=$6,233,083 168h=$9,884,136
+- wallets=16 delta=$226,033 max_single=$91,479 quality=0.612 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=63.15 bucket=WATCH
+- AI评分理由: swing=59.03 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### ZRO OPEN_SHORT
+- swing=57.03 bucket=WATCH horizon=3天
+- AI分=57.03 综合=57.03 conf=0.57
+- state=COOLDOWN_REPEAT / 第80轮 / 持续2036.1小时 / 冷却剩余179.1分 / 金额变化0.13x
+- 首次出现(北京): 2026-07-17 02:13:07 CST | 上次提醒: 2026-10-09 21:15:51 CST
+- flow: 2h=$715,382 6h=$1,224,596 24h=$3,772,732 72h=$5,700,006 168h=$20,882,631
+- wallets=12 delta=$241,990 max_single=$195,169 quality=0.583 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=57.03 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
