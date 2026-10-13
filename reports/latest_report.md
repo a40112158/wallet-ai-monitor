@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-10-13 07:16:15 CST
-扫描钱包: 2421 | 信号数: 20 | 噪音过滤: 157
+运行时间(北京): 2026-10-13 08:14:03 CST
+扫描钱包: 2421 | 信号数: 26 | 噪音过滤: 152
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -17,15 +17,27 @@
 
 ## 观察候选
 ### TAO OPEN_SHORT
-- swing=58.63 bucket=WATCH horizon=3天
-- AI分=58.63 综合=58.63 conf=0.59
-- state=ACTIVE_REPEAT / 第167轮 / 持续2316.9小时 / 冷却剩余0分 / 金额变化0.04x
+- swing=61.0 bucket=WATCH horizon=7天
+- AI分=61.0 综合=61.0 conf=0.61
+- state=COOLDOWN_REPEAT / 第168轮 / 持续2317.9小时 / 冷却剩余182.2分 / 金额变化0.06x
 - 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-10-13 07:16:15 CST
-- flow: 2h=$387,974 6h=$515,118 24h=$2,041,805 72h=$4,534,381 168h=$10,818,414
-- wallets=10 delta=$351,662 max_single=$247,997 quality=0.48 groups=money_printer,smart_money
+- flow: 2h=$853,681 6h=$889,993 24h=$2,319,316 72h=$5,036,400 168h=$11,320,433
+- wallets=11 delta=$502,019 max_single=$390,645 quality=0.436 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=61.0 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### DOGE OPEN_LONG
+- swing=56.71 bucket=WATCH horizon=3天
+- AI分=56.71 综合=56.71 conf=0.57
+- state=COOLDOWN_REPEAT / 第306轮 / 持续2315.1小时 / 冷却剩余182.2分 / 金额变化0.11x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-10-13 07:16:15 CST
+- flow: 2h=$936,458 6h=$1,187,699 24h=$2,136,588 72h=$4,166,652 168h=$26,470,421
+- wallets=18 delta=$296,002 max_single=$107,562 quality=0.529 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=58.63 bucket=WATCH
+- AI评分理由: swing=56.71 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
