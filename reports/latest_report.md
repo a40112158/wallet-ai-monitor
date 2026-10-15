@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-10-15 18:13:39 CST
+运行时间(北京): 2026-10-15 19:15:42 CST
 扫描钱包: 2421 | 信号数: 12 | 噪音过滤: 165
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
 - 调用: 0 缓存命中: 0 错误: 0
-- 输入信号数: 10 | fallback: True
-- 预算(北京 2026-10-15): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 10 次)
+- 输入信号数: 9 | fallback: True
+- 预算(北京 2026-10-15): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 9 次)
 
 ## 开多强候选
 （无）
@@ -16,28 +16,16 @@
 （无）
 
 ## 观察候选
-### ZRO OPEN_SHORT
-- swing=63.11 bucket=WATCH horizon=7天
-- AI分=63.11 综合=63.11 conf=0.63
-- state=COOLDOWN_REPEAT / 第107轮 / 持续2176.0小时 / 冷却剩余122.2分 / 金额变化0.15x
-- 首次出现(北京): 2026-07-17 02:13:07 CST | 上次提醒: 2026-10-15 16:15:53 CST
-- flow: 2h=$276,063 6h=$746,257 24h=$2,863,486 72h=$8,355,187 168h=$21,698,029
-- wallets=12 delta=$276,063 max_single=$204,812 quality=0.45 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=63.11 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### XMR OPEN_LONG
-- swing=55.15 bucket=WATCH horizon=3天
-- AI分=55.15 综合=55.15 conf=0.55
-- state=COOLDOWN_REPEAT / 第252轮 / 持续2286.0小时 / 冷却剩余182.2分 / 金额变化0.06x
-- 首次出现(北京): 2026-07-12 12:14:30 CST | 上次提醒: 2026-10-15 17:15:53 CST
-- flow: 2h=$480,298 6h=$775,667 24h=$3,427,818 72h=$8,583,513 168h=$18,315,335
-- wallets=10 delta=$210,836 max_single=$189,575 quality=0.609 groups=money_printer,smart_money
+### BLUR OPEN_SHORT
+- swing=57.83 bucket=WATCH horizon=3天
+- AI分=57.83 综合=57.83 conf=0.58
+- state=ACTIVE_REPEAT / 第2轮 / 持续616.0小时 / 冷却剩余0分 / 金额变化1.03x
+- 首次出现(北京): 2026-09-20 03:16:04 CST | 上次提醒: 2026-10-15 19:15:42 CST
+- flow: 2h=$407,965 6h=$439,128 24h=$516,863 72h=$1,479,308 168h=$1,599,552
+- wallets=18 delta=$223,795 max_single=$80,306 quality=0.618 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=55.15 bucket=WATCH
+- AI评分理由: swing=57.83 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
