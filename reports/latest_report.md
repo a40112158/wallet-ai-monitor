@@ -1,5 +1,5 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-10-23 20:13:03 CST
+运行时间(北京): 2026-10-23 21:15:59 CST
 扫描钱包: 2421 | 信号数: 10 | 噪音过滤: 168
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
@@ -16,28 +16,16 @@
 （无）
 
 ## 观察候选
-### kPEPE OPEN_LONG
-- swing=58.98 bucket=WATCH horizon=3天
-- AI分=58.98 综合=58.98 conf=0.59
-- state=ACTIVE_REPEAT / 第237轮 / 持续2549.9小时 / 冷却剩余0分 / 金额变化0.12x
-- 首次出现(北京): 2026-07-09 14:16:06 CST | 上次提醒: 2026-10-23 20:13:03 CST
-- flow: 2h=$372,689 6h=$854,410 24h=$3,053,988 72h=$9,564,338 168h=$18,797,075
-- wallets=18 delta=$372,689 max_single=$151,922 quality=0.576 groups=money_printer,smart_money
+### XRP OPEN_SHORT
+- swing=58.28 bucket=WATCH horizon=3天
+- AI分=58.28 综合=58.28 conf=0.58
+- state=COOLDOWN_REPEAT / 第884轮 / 持续2570.9小时 / 冷却剩余177.1分 / 金额变化0.01x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-10-23 20:13:03 CST
+- flow: 2h=$592,901 6h=$872,864 24h=$10,251,587 72h=$40,376,848 168h=$88,538,331
+- wallets=13 delta=$214,980 max_single=$97,812 quality=0.493 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=58.98 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### STRK OPEN_LONG
-- swing=55.15 bucket=WATCH horizon=3天
-- AI分=55.15 综合=55.15 conf=0.55
-- state=ACTIVE_REPEAT / 第65轮 / 持续833.0小时 / 冷却剩余0分 / 金额变化0.08x
-- 首次出现(北京): 2026-09-19 03:15:51 CST | 上次提醒: 2026-10-23 20:13:03 CST
-- flow: 2h=$265,965 6h=$593,031 24h=$1,224,429 72h=$3,008,885 168h=$12,176,460
-- wallets=10 delta=$265,965 max_single=$260,563 quality=0.526 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=55.15 bucket=WATCH
+- AI评分理由: swing=58.28 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
