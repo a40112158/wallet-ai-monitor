@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-11-09 10:21:38 CST
-扫描钱包: 2421 | 信号数: 11 | 噪音过滤: 167
+运行时间(北京): 2026-11-09 11:12:43 CST
+扫描钱包: 2421 | 信号数: 8 | 噪音过滤: 171
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
 - 调用: 0 缓存命中: 0 错误: 0
-- 输入信号数: 10 | fallback: True
-- 预算(北京 2026-11-09): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 10 次)
+- 输入信号数: 7 | fallback: True
+- 预算(北京 2026-11-09): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 7 次)
 
 ## 开多强候选
 （无）
@@ -16,28 +16,28 @@
 （无）
 
 ## 观察候选
-### kPEPE OPEN_SHORT
-- swing=64.19 bucket=WATCH horizon=7天
-- AI分=64.19 综合=64.19 conf=0.64
-- state=COOLDOWN_REPEAT / 第305轮 / 持续2968.0小时 / 冷却剩余53.9分 / 金额变化0.06x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-11-09 07:15:34 CST
-- flow: 2h=$1,019,767 6h=$3,812,482 24h=$4,953,953 72h=$9,312,803 168h=$27,643,987
-- wallets=19 delta=$325,166 max_single=$103,506 quality=0.565 groups=money_printer,smart_money
+### XRP OPEN_SHORT
+- swing=62.03 bucket=WATCH horizon=7天
+- AI分=62.03 综合=62.03 conf=0.62
+- state=COOLDOWN_REPEAT / 第1032轮 / 持续2968.9小时 / 冷却剩余122.7分 / 金额变化0.01x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-11-09 09:15:27 CST
+- flow: 2h=$1,953,248 6h=$4,011,933 24h=$9,194,008 72h=$21,111,518 168h=$78,657,441
+- wallets=13 delta=$280,629 max_single=$161,748 quality=0.495 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.19 bucket=WATCH
+- AI评分理由: swing=62.03 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
-### XMR OPEN_LONG
-- swing=54.95 bucket=WATCH horizon=3天
-- AI分=54.95 综合=54.95 conf=0.55
-- state=COOLDOWN_REPEAT / 第427轮 / 持续2878.1小时 / 冷却剩余114.1分 / 金额变化0.08x
-- 首次出现(北京): 2026-07-12 12:14:30 CST | 上次提醒: 2026-11-09 08:15:47 CST
-- flow: 2h=$674,703 6h=$1,045,944 24h=$4,767,707 72h=$18,545,917 168h=$46,124,548
-- wallets=12 delta=$312,321 max_single=$273,795 quality=0.527 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+### LIT OPEN_SHORT
+- swing=61.65 bucket=WATCH horizon=7天
+- AI分=61.65 综合=61.65 conf=0.62
+- state=ACTIVE_REPEAT / 第658轮 / 持续2968.9小时 / 冷却剩余0分 / 金额变化0.01x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-11-09 11:12:43 CST
+- flow: 2h=$500,094 6h=$1,150,070 24h=$1,624,777 72h=$6,965,679 168h=$26,224,265
+- wallets=13 delta=$377,173 max_single=$262,309 quality=0.578 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=54.95 bucket=WATCH
+- AI评分理由: swing=61.65 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
