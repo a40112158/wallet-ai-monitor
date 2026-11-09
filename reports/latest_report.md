@@ -1,5 +1,5 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-11-09 09:15:27 CST
+运行时间(北京): 2026-11-09 10:21:38 CST
 扫描钱包: 2421 | 信号数: 11 | 噪音过滤: 167
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
@@ -16,16 +16,28 @@
 （无）
 
 ## 观察候选
-### ZEC OPEN_LONG
-- swing=63.55 bucket=WATCH horizon=7天
-- AI分=63.55 综合=63.55 conf=0.64
-- state=COOLDOWN_REPEAT / 第1259轮 / 持续2964.1小时 / 冷却剩余60.1分 / 金额变化0.28x
-- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-11-09 06:15:35 CST
-- flow: 2h=$24,119,011 6h=$46,675,114 24h=$63,295,115 72h=$211,331,399 168h=$507,039,298
-- wallets=15 delta=$7,707,005 max_single=$6,126,500 quality=0.468 groups=money_printer,smart_money
+### kPEPE OPEN_SHORT
+- swing=64.19 bucket=WATCH horizon=7天
+- AI分=64.19 综合=64.19 conf=0.64
+- state=COOLDOWN_REPEAT / 第305轮 / 持续2968.0小时 / 冷却剩余53.9分 / 金额变化0.06x
+- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-11-09 07:15:34 CST
+- flow: 2h=$1,019,767 6h=$3,812,482 24h=$4,953,953 72h=$9,312,803 168h=$27,643,987
+- wallets=19 delta=$325,166 max_single=$103,506 quality=0.565 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=63.55 bucket=WATCH
+- AI评分理由: swing=64.19 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### XMR OPEN_LONG
+- swing=54.95 bucket=WATCH horizon=3天
+- AI分=54.95 综合=54.95 conf=0.55
+- state=COOLDOWN_REPEAT / 第427轮 / 持续2878.1小时 / 冷却剩余114.1分 / 金额变化0.08x
+- 首次出现(北京): 2026-07-12 12:14:30 CST | 上次提醒: 2026-11-09 08:15:47 CST
+- flow: 2h=$674,703 6h=$1,045,944 24h=$4,767,707 72h=$18,545,917 168h=$46,124,548
+- wallets=12 delta=$312,321 max_single=$273,795 quality=0.527 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=54.95 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
