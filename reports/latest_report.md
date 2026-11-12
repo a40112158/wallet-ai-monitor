@@ -1,6 +1,6 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-11-12 20:12:42 CST
-扫描钱包: 2421 | 信号数: 16 | 噪音过滤: 162
+运行时间(北京): 2026-11-12 21:14:57 CST
+扫描钱包: 2421 | 信号数: 18 | 噪音过滤: 161
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
@@ -16,28 +16,16 @@
 （无）
 
 ## 观察候选
-### SUI OPEN_LONG
-- swing=61.16 bucket=WATCH horizon=7天
-- AI分=61.16 综合=61.16 conf=0.61
-- state=ACTIVE_REPEAT / 第353轮 / 持续3043.0小时 / 冷却剩余0分 / 金额变化0.1x
-- 首次出现(北京): 2026-07-09 01:14:29 CST | 上次提醒: 2026-11-12 20:12:42 CST
-- flow: 2h=$462,333 6h=$658,585 24h=$1,547,853 72h=$7,317,803 168h=$18,252,986
-- wallets=11 delta=$334,630 max_single=$259,620 quality=0.563 groups=money_printer,smart_money
-- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
-- AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=61.16 bucket=WATCH
-- 风险: ['AI 未参与，仅规则判断']
-- 失效条件: 资金流反转或跌破关键位
-### AVAX OPEN_SHORT
-- swing=59.56 bucket=WATCH horizon=3天
-- AI分=59.56 综合=59.56 conf=0.6
-- state=COOLDOWN_REPEAT / 第118轮 / 持续3049.9小时 / 冷却剩余119.5分 / 金额变化0.07x
-- 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-11-12 18:12:14 CST
-- flow: 2h=$804,373 6h=$1,495,204 24h=$4,152,763 72h=$12,975,091 168h=$15,261,043
-- wallets=10 delta=$274,705 max_single=$244,648 quality=0.536 groups=money_printer,smart_money
+### AAVE OPEN_LONG
+- swing=59.37 bucket=WATCH horizon=3天
+- AI分=59.37 综合=59.37 conf=0.59
+- state=COOLDOWN_REPEAT / 第187轮 / 持续3023.0小时 / 冷却剩余177.8分 / 金额变化0.12x
+- 首次出现(北京): 2026-07-09 22:15:49 CST | 上次提醒: 2026-11-12 20:12:42 CST
+- flow: 2h=$494,867 6h=$509,814 24h=$1,296,773 72h=$3,122,487 168h=$10,000,879
+- wallets=15 delta=$267,063 max_single=$218,577 quality=0.452 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=72h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=59.56 bucket=WATCH
+- AI评分理由: swing=59.37 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
