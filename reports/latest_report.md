@@ -1,13 +1,13 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-11-20 19:15:04 CST
-扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 171
+运行时间(北京): 2026-11-20 20:15:58 CST
+扫描钱包: 2421 | 信号数: 11 | 噪音过滤: 166
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
 ## AI 状态
 - 启用: True / 评分启用: True
 - 调用: 0 缓存命中: 0 错误: 0
-- 输入信号数: 7 | fallback: True
-- 预算(北京 2026-11-20): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 7 次)
+- 输入信号数: 9 | fallback: True
+- 预算(北京 2026-11-20): 已用调用 50 估算点数 20000 | 预算封顶: True (被拦 9 次)
 
 ## 开多强候选
 （无）
@@ -16,16 +16,28 @@
 （无）
 
 ## 观察候选
-### SOL OPEN_SHORT
-- swing=64.15 bucket=WATCH horizon=7天
-- AI分=64.15 综合=64.15 conf=0.64
-- state=ACTIVE_REPEAT / 第1593轮 / 持续3240.9小时 / 冷却剩余0分 / 金额变化0.0x
+### ZEC OPEN_SHORT
+- swing=64.94 bucket=WATCH horizon=7天
+- AI分=64.94 综合=64.94 conf=0.65
+- state=COOLDOWN_REPEAT / 第1474轮 / 持续3241.9小时 / 冷却剩余179.1分 / 金额变化0.04x
 - 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-11-20 19:15:04 CST
-- flow: 2h=$1,504,508 6h=$4,651,056 24h=$12,958,243 72h=$46,697,405 168h=$194,428,350
-- wallets=14 delta=$372,666 max_single=$161,078 quality=0.61 groups=money_printer,smart_money
+- flow: 2h=$3,118,444 6h=$5,597,520 24h=$30,268,122 72h=$60,336,551 168h=$228,689,314
+- wallets=37 delta=$2,193,017 max_single=$571,559 quality=0.573 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.15 bucket=WATCH
+- AI评分理由: swing=64.94 bucket=WATCH
+- 风险: ['AI 未参与，仅规则判断']
+- 失效条件: 资金流反转或跌破关键位
+### PUMP OPEN_LONG
+- swing=63.73 bucket=WATCH horizon=7天
+- AI分=63.73 综合=63.73 conf=0.64
+- state=ACTIVE_REPEAT / 第980轮 / 持续3239.1小时 / 冷却剩余0分 / 金额变化0.03x
+- 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-11-20 20:15:58 CST
+- flow: 2h=$458,092 6h=$647,234 24h=$3,675,788 72h=$8,638,805 168h=$32,718,439
+- wallets=18 delta=$254,051 max_single=$98,816 quality=0.557 groups=money_printer,smart_money
+- AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
+- AI理由: AI 不可用，使用规则回退评分
+- AI评分理由: swing=63.73 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
