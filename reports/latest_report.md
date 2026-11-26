@@ -1,5 +1,5 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-11-26 21:12:59 CST
+运行时间(北京): 2026-11-26 22:15:00 CST
 扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 171
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
@@ -17,15 +17,15 @@
 
 ## 观察候选
 ### PUMP OPEN_LONG
-- swing=64.07 bucket=WATCH horizon=7天
-- AI分=64.07 综合=64.07 conf=0.64
-- state=ACTIVE_REPEAT / 第1015轮 / 持续3384.0小时 / 冷却剩余0分 / 金额变化0.03x
+- swing=61.59 bucket=WATCH horizon=7天
+- AI分=61.59 综合=61.59 conf=0.62
+- state=COOLDOWN_REPEAT / 第1016轮 / 持续3385.1小时 / 冷却剩余178.0分 / 金额变化0.03x
 - 首次出现(北京): 2026-07-08 21:10:43 CST | 上次提醒: 2026-11-26 21:12:59 CST
-- flow: 2h=$257,344 6h=$566,792 24h=$1,574,176 72h=$9,957,544 168h=$24,904,217
-- wallets=17 delta=$257,344 max_single=$93,383 quality=0.56 groups=money_printer,smart_money
+- flow: 2h=$515,854 6h=$726,411 24h=$1,696,579 72h=$9,736,470 168h=$24,882,510
+- wallets=18 delta=$258,510 max_single=$112,448 quality=0.504 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=64.07 bucket=WATCH
+- AI评分理由: swing=61.59 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
