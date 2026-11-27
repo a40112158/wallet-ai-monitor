@@ -1,5 +1,5 @@
 # 巨鲸中长期信号报告
-运行时间(北京): 2026-11-27 09:11:56 CST
+运行时间(北京): 2026-11-27 10:14:53 CST
 扫描钱包: 2421 | 信号数: 7 | 噪音过滤: 172
 扫描成功: 2421 | 失败: 0 | 成功率: 100.00%
 
@@ -17,15 +17,15 @@
 
 ## 观察候选
 ### XMR OPEN_SHORT
-- swing=61.75 bucket=WATCH horizon=7天
-- AI分=61.75 综合=61.75 conf=0.62
-- state=ACTIVE_REPEAT / 第506轮 / 持续3398.8小时 / 冷却剩余0分 / 金额变化0.02x
+- swing=60.62 bucket=WATCH horizon=7天
+- AI分=60.62 综合=60.62 conf=0.61
+- state=COOLDOWN_REPEAT / 第507轮 / 持续3399.9小时 / 冷却剩余177.1分 / 金额变化0.02x
 - 首次出现(北京): 2026-07-08 18:21:04 CST | 上次提醒: 2026-11-27 09:11:56 CST
-- flow: 2h=$889,033 6h=$5,584,905 24h=$15,166,361 72h=$19,333,431 168h=$31,610,006
-- wallets=22 delta=$362,858 max_single=$174,814 quality=0.474 groups=money_printer,smart_money
+- flow: 2h=$1,266,970 6h=$5,219,473 24h=$15,544,297 72h=$19,711,368 168h=$31,987,942
+- wallets=12 delta=$377,937 max_single=$208,796 quality=0.484 groups=money_printer,smart_money
 - AI动作=WATCH 建议杠杆=3x 保证金=5% 止盈=30% 止损=15% 最大持仓=168h
 - AI理由: AI 不可用，使用规则回退评分
-- AI评分理由: swing=61.75 bucket=WATCH
+- AI评分理由: swing=60.62 bucket=WATCH
 - 风险: ['AI 未参与，仅规则判断']
 - 失效条件: 资金流反转或跌破关键位
 
